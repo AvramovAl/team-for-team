@@ -1,0 +1,9 @@
+.room-title {
+  color: brown;
+}
+
+@media screen and (min-width: 1000px) {
+  .room-title {
+    color: chocolate;
+  }
+}

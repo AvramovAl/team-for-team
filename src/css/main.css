@@ -4,22 +4,21 @@
   | default @import url()
   |============================
 */
+/* Static style */
+@import url('./utils/varibles.css');
+@import url('./base/common.css');
 @import url('./base/reset.css');
-@import url('./utils/vh.css');
+@import url('./base/fonts.css');
+@import url('./base/vh.css');
 @import url('./components/container.css');
-
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
+/* Header style */
+@import url('./header.css');
+/* Main style */
+@import url('./pages/main/main-style.css');
+@import url('./pages/hotel/main-hotel.css');
+@import url('./pages/restaurant/main-restaurant.css');
+@import url('./pages/room/main-room.css');
+/* Footer style */
+@import url('./footer.css');
+/* Modal */
+@import url('./pages/modal/main-modal.css');

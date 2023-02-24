@@ -1,0 +1,9 @@
+.hero-title {
+  font-family: 'Geometria', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.18em;
+
+  background-color: yellow;
+}
