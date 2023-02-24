@@ -1,0 +1,9 @@
+.hotel-title {
+  background-color: blue;
+}
+
+@media screen and (min-width: 600px) {
+  .hotel-title {
+    background-color: aqua;
+  }
+}
