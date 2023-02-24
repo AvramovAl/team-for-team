@@ -1,58 +1,60 @@
 @font-face {
-  font-family: 'DM Sans';
+  font-family: 'DM Sans r';
   font-weight: 400;
   font-style: normal;
-  src: url('/src/fonts/DMSans-Regular.woff2') format('woff2'),
+  src: local('DM Sans'), url('/src/fonts/DMSans-Regular.woff2') format('woff2'),
     url('/src/fonts/DMSans-Regular.woff') format('woff'),
     url('/src/fonts/DMSans-Regular.eot') format('eot');
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'DM Sans';
+  font-family: 'DM Sans r-italic';
   font-weight: 400;
   font-style: italic;
-  src: url('/src/fonts/DMSans-Italic.woff2') format('woff2'),
+  src: local('DM Sans'), url('/src/fonts/DMSans-Italic.woff2') format('woff2'),
     url('/src/fonts/DMSans-Italic.woff') format('woff'),
     url('/src/fonts/DMSans-Italic.eot') format('eot');
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'DM Sans';
+  font-family: 'DM Sans m';
   font-weight: 500;
   font-style: normal;
-  src: url('/src/fonts/DMSans-Medium.woff2') format('woff2'),
+  src: local('DM Sans'), url('/src/fonts/DMSans-Medium.woff2') format('woff2'),
     url('/src/fonts/DMSans-Medium.woff') format('woff'),
     url('/src/fonts/DMSans-Medium.eot') format('eot');
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'DM Sans';
+  font-family: 'DM Sans m-italic';
   font-weight: 500;
   font-style: italic;
-  src: url('/src/fonts/DMSans-MediumItalic.woff2') format('woff2'),
+  src: local('DM Sans'),
+    url('/src/fonts/DMSans-MediumItalic.woff2') format('woff2'),
     url('/src/fonts/DMSans-MediumItalic.woff') format('woff'),
     url('/src/fonts/DMSans-MediumItalic.eot') format('eot');
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'DM Sans';
+  font-family: 'DM Sans b';
   font-weight: 700;
   font-style: normal;
-  src: url('/src/fonts/DMSans-Bold.woff2') format('woff2'),
+  src: local('DM Sans'), url('/src/fonts/DMSans-Bold.woff2') format('woff2'),
     url('/src/fonts/DMSans-Bold.woff') format('woff'),
     url('/src/fonts/DMSans-Bold.eot') format('eot');
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'DM Sans';
+  font-family: 'DM Sans b-italic';
   font-weight: 700;
   font-style: italic;
-  src: url('/src/fonts/DMSans-BoldItalic.woff2') format('woff2'),
+  src: local('DM Sans'),
+    url('/src/fonts/DMSans-BoldItalic.woff2') format('woff2'),
     url('/src/fonts/DMSans-BoldItalic.woff') format('woff'),
     url('/src/fonts/DMSans-BoldItalic.eot') format('eot');
   font-display: swap;
@@ -62,7 +64,8 @@
   font-family: 'Geometria';
   font-weight: 400;
   font-style: normal;
-  src: url('/src/fonts/Geometria-Regular.woff2') format('woff2'),
+  src: local('Geometria'),
+    url('/src/fonts/Geometria-Regular.woff2') format('woff2'),
     url('/src/fonts/Geometria-Regular.woff') format('woff'),
     url('/src/fonts/Geometria-Regular.eot') format('eot');
   font-display: swap;
