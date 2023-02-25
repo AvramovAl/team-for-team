@@ -7,7 +7,7 @@ $('.room-hero-slider').slick({
   slidesToScroll: 4,
   responsive: [
     {
-      breakpoint: 1400,
+      breakpoint: 1440,
       settings: {
         slidesToShow: 3,
         slidesToScroll: 3,
