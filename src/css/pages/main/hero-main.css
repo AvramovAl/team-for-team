@@ -1,9 +1,105 @@
+/* === MOBILE === */
+.hero-main {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #121212;
+}
+/* .container{
+} */
+
 .hero-title {
-  font-family: 'Geometria', sans-serif;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 70%;
+  /* margin-top: 389px;*/ /*tab 478 */
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 80px; /*tab 150*/
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #F7F7F7;
+
+  /* font-family: 'Geometria', sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
-  letter-spacing: 0.18em;
+  letter-spacing: 0.18em; */
+}
 
-  background-color: yellow;
+.hero-main-img {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+.hero-main-btn{
+  display: flex;
+  justify-content: center;
+  column-gap: 14px; /*не можу визначити ширину*/
+}
+
+.book-room-btn, .book-table-btn {
+  padding: 8px 18px; /*tab 8px 24px*/
+  margin-bottom: 66px; /*tab 86*/
+
+  background: #121212;
+  border: 0.8px solid #F7F7F7;
+  border-radius: 32px;
+
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29; /*tab 1.71*/
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #F7F7F7;
+}
+
+.hero-main-desc{ 
+  margin-left: auto;
+  margin-right: auto;
+
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #F7F7F7;
+}
+
+.desc-first{
+  width: 338px;
+  margin-bottom: 32px;
+}
+
+ .desc-second{
+  width: 338px;
+  /* margin-bottom: 40px; */
+ } 
+
+/* === TABLET === */
+@media screen and (min-width: 768px) {
+  .hero-title{
+    font-size: 150px;
+  }
+
+  .hero-main-img {
+    width: 542px;
+    height: 710px;
+  }
+
+  .book-room-btn, .book-table-btn {
+    padding: 8px 24px;
+    margin-bottom: 86px;
+    line-height: 1.71;
+  }
+
+  .desc-wrap{ 
+    display: flex;
+  }
 }
