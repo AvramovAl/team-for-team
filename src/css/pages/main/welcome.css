@@ -18,7 +18,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 3;
+  line-height: 1.3;
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: #000000;
@@ -31,14 +31,40 @@
 }
 
 @media screen and (max-width: 767px) {
-  .container {
-    width: 375px;
-  }
-  .text-welcome {
+  /* .text-welcome {
     margin-bottom: 32px;
   }
 
   .title-welcome {
     margin-bottom: 32px;
+  } */
+
+  .br-none {
+    display: none;
+  }
+
+  .cont-welcome {
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* tablet styles */
+
+@media screen and (min-width: 768px) {
+  .wrapper-text-welcome {
+    display: flex;
+  }
+
+  .text-welcome {
+    width: calc((100% - 32px) / 2);
+  }
+  .wrapper-text-welcome {
+    margin-bottom: 40px;
+  }
+
+  .title-welcome {
+    margin-bottom: 50px;
   }
 }
