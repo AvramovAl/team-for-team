@@ -1,18 +1,44 @@
-.welcome{
-   padding: 57px 0 ;
+.welcome {
+  padding: 57px 0;
 }
 
-.title-welcome{
-    font-family: 'DM Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 32px;
-line-height: 1.1;
-letter-spacing: -0.02em;
-text-transform: uppercase;
-color: #000000;
+.title-welcome {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #000000;
 }
 
-.text-title{
-    6asxnek3
+.text-welcome {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 3;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.img-welcome {
+  max-width: 335px;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 375px;
+  }
+  .text-welcome {
+    margin-bottom: 32px;
+  }
+
+  .title-welcome {
+    margin-bottom: 32px;
+  }
 }
