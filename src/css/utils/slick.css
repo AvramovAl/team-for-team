@@ -1,0 +1,11 @@
+.slick-slider {
+  min-width: 0;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slider__item img {
+  max-width: 100%;
+}
