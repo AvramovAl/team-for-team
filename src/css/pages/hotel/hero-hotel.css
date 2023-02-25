@@ -1,4 +1,4 @@
-.hotel-title {
+/* .hotel-title {
   background-color: blue;
 }
 
@@ -6,4 +6,83 @@
   .hotel-title {
     background-color: aqua;
   }
+} */
+/* -------------------HERO---------------------- */
+.hotel-hero {
+  padding-top: 40px;
+  padding-bottom: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .hotel-hero {
+   padding-top: 40px;
+   padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hotel-hero {
+   padding-top: 48px;
+   padding-bottom: 48px;
+  }
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 365px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 734px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1406px;
+  }
+}
+
+.hotel-hero-btn-wrap {
+  display: flex;
+  gap: 12px;
+}
+
+@media screen and (min-width: 375px) {
+  .hotel-hero-btn-wrap {
+    gap: 12px;
+  }
+}
+
+
+.hotel-hero-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1,29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #121212;
+  padding: 8px 18px;
+  border: 0.8px solid #121212;
+  border-radius: 32px;
+  background-color: var(--studio-btn-background-color);
+  cursor: pointer;
+  transition: var(--transition-background-color);
+}
+
+.hotel-hero-btn:is(:hover, :focus) {
+  
 }
