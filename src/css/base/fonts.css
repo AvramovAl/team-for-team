@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'DM Sans r';
+  font-family: 'DM Sans';
   font-weight: 400;
   font-style: normal;
   src: local('DM Sans'), url('/src/fonts/DMSans-Regular.woff2') format('woff2'),
@@ -9,7 +9,7 @@
 }
 
 @font-face {
-  font-family: 'DM Sans r-italic';
+  font-family: 'DM Sans';
   font-weight: 400;
   font-style: italic;
   src: local('DM Sans'), url('/src/fonts/DMSans-Italic.woff2') format('woff2'),
@@ -19,7 +19,7 @@
 }
 
 @font-face {
-  font-family: 'DM Sans m';
+  font-family: 'DM Sans';
   font-weight: 500;
   font-style: normal;
   src: local('DM Sans'), url('/src/fonts/DMSans-Medium.woff2') format('woff2'),
@@ -29,7 +29,7 @@
 }
 
 @font-face {
-  font-family: 'DM Sans m-italic';
+  font-family: 'DM Sans';
   font-weight: 500;
   font-style: italic;
   src: local('DM Sans'),
@@ -40,7 +40,7 @@
 }
 
 @font-face {
-  font-family: 'DM Sans b';
+  font-family: 'DM Sans';
   font-weight: 700;
   font-style: normal;
   src: local('DM Sans'), url('/src/fonts/DMSans-Bold.woff2') format('woff2'),
@@ -50,7 +50,7 @@
 }
 
 @font-face {
-  font-family: 'DM Sans b-italic';
+  font-family: 'DM Sans';
   font-weight: 700;
   font-style: italic;
   src: local('DM Sans'),
