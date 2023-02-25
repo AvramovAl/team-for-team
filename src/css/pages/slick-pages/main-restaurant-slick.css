@@ -1,0 +1,50 @@
+.main-restaurant-title {
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1;
+  /* identical to box height, or 100% */
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #121212;
+  margin-bottom: 24px;
+}
+
+.main-restaurant-description {
+  width: 237px;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  /* or 129% */
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #121212;
+  margin-bottom: 32px;
+}
+
+.button__rest_main {
+  padding: 8px 18px;
+  margin-bottom: 66px;
+  background: transparent;
+  border: 0.8px solid #121212;
+  border-radius: 32px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #121212;
+}
+
+.button__rest_position {
+  gap: 12px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
