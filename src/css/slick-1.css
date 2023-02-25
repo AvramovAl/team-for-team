@@ -11,16 +11,6 @@
   padding: 0px 15px;
 }
 
-.w {
-  display: block;
-  width: 30px;
-  background-color: tomato;
-}
-
-.slider__item img {
-  max-width: 100%;
-}
-
 .container-slick {
   margin-top: 50px;
   padding-left: 15px;
