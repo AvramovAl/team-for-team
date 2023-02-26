@@ -1,5 +1,5 @@
 <section class="welcome">
-  <div class="container cont-welcome">
+  <div class="container cont-welcome display-grid">
     <div class="wtapper-welcome cont-welcome">
       <h2 class="title-welcome">
         Welcome to the <br />
@@ -21,32 +21,34 @@
         </p>
       </div>
     </div>
-    <picture>
-      <source
-        srcset="
-          ../../img/main/desk/welcome-complex-1x.jpg 1x,
-          ../../img/main/mob/welcome-complex-2x.jpg  2x
-        "
-        type="image/jpeg"
-        media="(min-width:1440px)"
-      />
-      <source
-        srcset="
-          ../../img/main/tab/welcome-complex-1x.jpg 1x,
-          ../../img/main/mob/welcome-complex-2x.jpg 2x
-        "
-        type="image/jpeg"
-        media="(min-width:768px)"
-      />
-      <source
-        srcset="
-          ../../img/main/mob/welcome-complex-1x.jpg 1x,
-          ../../img/main/mob/welcome-complex-2x.jpg 2x
-        "
-        type="image/jpeg"
-        media="(max-width:767px)"
-      />
-      <img src="../../img/main/desk/welcome-complex-1x.jpg" alt="restroom" />
-    </picture>
+    <div class="wrapper-img">
+      <picture>
+        <source
+          srcset="
+            ../../img/main/desk/welcome-complex-1x.jpg 1x,
+            ../../img/main/mob/welcome-complex-2x.jpg  2x
+          "
+          type="image/jpeg"
+          media="(min-width:1440px)"
+        />
+        <source
+          srcset="
+            ../../img/main/tab/welcome-complex-1x.jpg 1x,
+            ../../img/main/mob/welcome-complex-2x.jpg 2x
+          "
+          type="image/jpeg"
+          media="(min-width:768px)"
+        />
+        <source
+          srcset="
+            ../../img/main/mob/welcome-complex-1x.jpg 1x,
+            ../../img/main/mob/welcome-complex-2x.jpg 2x
+          "
+          type="image/jpeg"
+          media="(max-width:767px)"
+        />
+        <img src="../../img/main/desk/welcome-complex-1x.jpg" alt="restroom" />
+      </picture>
+    </div>
   </div>
 </section>
