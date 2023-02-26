@@ -9,10 +9,11 @@ $('.main-restaurant-slider').slick({
     {
       breakpoint: 1440,
       settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        infinite: false,
+        dots: false,
+        variablewidth: true,
       },
     },
     {

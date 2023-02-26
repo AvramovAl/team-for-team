@@ -1,4 +1,10 @@
-.main-restaurant-title {
+@media screen and (min-width: 768px) {
+  .main__container_rest {
+    display: flex;
+  }
+}
+
+.main__restaurant_title {
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -10,6 +16,21 @@
 
   color: #121212;
   margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .main__restaurant_title {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 1;
+    /* identical to box height, or 100% */
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: #121212;
+  }
 }
 
 .main-restaurant-description {
@@ -27,8 +48,32 @@
   margin-bottom: 32px;
 }
 
+@media screen and (min-width: 768px) {
+  .main-restaurant-description {
+    margin-left: 32px;
+  }
+}
+
 .main-restaurant-slider {
   margin-bottom: 82px;
+}
+
+@media screen and (min-width: 768px) {
+  .main-restaurant-slider {
+    margin-bottom: 106px;
+  }
+}
+
+.button__main_resttab {
+  display: hidden;
+}
+
+@media screen and (min-width: 1440px) {
+  .button__main_resttab {
+    display: flex;
+    margin-left: auto;
+    gap: 14px;
+  }
 }
 
 .button__rest_main {
@@ -46,11 +91,30 @@
   color: #121212;
 }
 
+@media screen and (min-width: 768px) {
+  .button__rest_main {
+    padding: 8px 24px;
+    line-height: 1.71;
+  }
+}
+
 .button__rest_position {
   gap: 12px;
   display: flex;
   justify-content: center;
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .button__rest_position {
+    gap: 14px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .button__rest_position {
+    display: none;
+  }
 }
 
 .slick-next {
@@ -73,6 +137,13 @@
   transform: rotate(45deg);
 }
 
+@media screen and (min-width: 768px) {
+  .slick-next::before {
+    top: 140px;
+    right: 670px;
+  }
+}
+
 .slick-prev {
   z-index: 1;
   outline: none;
@@ -91,4 +162,17 @@
   border: solid #121212;
   border-width: 2px 2px 0 0;
   transform: rotate(-135deg);
+}
+
+@media screen and (min-width: 768px) {
+  .slick-prev::before {
+    top: 140px;
+    left: 38px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .slick-prev::before {
+    left: 700px;
+  }
 }
