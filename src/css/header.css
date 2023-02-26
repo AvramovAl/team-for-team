@@ -10,10 +10,8 @@
 }
 
 .header-index {
-  background-color: transparent;
+  background-color: var(--background-header-index);
   border-bottom: var(--header-border-index);
-  position: absolute;
-  z-index: 1;
 }
 
 .header-other {
@@ -283,9 +281,11 @@
 @media screen and (min-width: 1440px) {
   /* Header style */
 
-  /* .header-index {
+  .header-index {
     background-color: transparent;
-  } */
+    position: absolute;
+    z-index: 1;
+  }
 
   /* Header Mobile buttons style */
 
