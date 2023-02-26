@@ -1,6 +1,7 @@
 .hotel-hero {
   padding-top: 40px;
   padding-bottom: 64px;
+  position: relative;
 }
 
 @media screen and (min-width: 768px) {
@@ -68,9 +69,9 @@
   padding: 8px 18px;
   border: 0.8px solid #121212;
   border-radius: 32px;
-  background-color: var(--studio-btn-background-color);
+  background-color: #F7F7F7;;
   cursor: pointer;
-  transition: var(--transition-background-color);
+  transition: ;
 }
 
 .hotel-hero-btn:is(:hover, :focus) {
