@@ -1,7 +1,6 @@
 .hotel-hero {
   padding-top: 40px;
   padding-bottom: 64px;
-  position: relative;
 }
 
 @media screen and (min-width: 768px) {
@@ -19,47 +18,64 @@
 }
 
 .container {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
 
+.hotel-hero-container {
+  position: relative;
+}
+
 @media screen and (min-width: 375px) {
   .container {
-    width: 365px;
+    width: 375px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 734px;
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .container {
-    width: 1406px;
+    width: 1440px;
   }
+}
+
+.hero-hotel-title {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin-bottom: 24px;
 }
 
 .hotel-hero-btn-wrap {
   display: flex;
   gap: 12px;
+  margin-bottom: 569px;
 }
 
-@media screen and (min-width: 375px) {
+/* @media screen and (min-width: 375px) {
   .hotel-hero-btn-wrap {
     gap: 12px;
+    margin-bottom: 569px;
   }
-}
+} */
 
 
 .hotel-hero-btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'DM Sans';
+  font-family: 'DM Sans', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1,29;
@@ -69,11 +85,44 @@
   padding: 8px 18px;
   border: 0.8px solid #121212;
   border-radius: 32px;
-  background-color: #F7F7F7;;
+  background-color: transparent;
   cursor: pointer;
   transition: ;
 }
 
 .hotel-hero-btn:is(:hover, :focus) {
   
+}
+
+.hotel-hero-slider-wrap {
+  position: absolute;
+  top: 178px;
+  left: 20px;
+}
+
+@media screen and (max-width: 374px) {
+  .hotel-hero-slider-wrap {
+    max-width: 100vw;
+  }
+}
+
+.hotel-hero-slider {
+  position: relative;
+}
+
+.hotel-hero-arrow-wrap {
+  position: absolute;
+}
+
+.hotel-hero-content {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 374px) {
+  .hotel-hero-content {
+    max-width: 85vw;
+  }
 }
