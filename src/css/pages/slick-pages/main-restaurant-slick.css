@@ -27,6 +27,39 @@
   margin-bottom: 32px;
 }
 
+.main-restaurant-slider {
+  margin-bottom: 82px;
+}
+
+.slider_arrow {
+  position: absolute;
+  top: 150px;
+  margin: -10px;
+  z-index: 1;
+  outline: none;
+}
+
+.slider_arrow::before {
+  position: absolute;
+  top: 50px;
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: solid greenyellow;
+  border-width: 2px 2px 0 0;
+}
+
+.slider_arrow_left {
+  left: 50px;
+  transform: rotate(-135deg);
+}
+
+.slider_arrow_right {
+  right: 50px;
+  transform: rotate(45deg);
+}
+
 .button__rest_main {
   padding: 8px 18px;
   margin-bottom: 66px;
@@ -47,4 +80,38 @@
   display: flex;
   justify-content: center;
   text-align: center;
+}
+
+.slick-next {
+  color: red;
+}
+
+.slick-next::before {
+  position: absolute;
+  top: 130px;
+  right: 300px;
+  color: transparent;
+
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: solid #121212;
+  border-width: 2px 2px 0 0;
+  transform: rotate(45deg);
+}
+
+.slick-prev::before {
+  position: absolute;
+  top: 130px;
+  left: 27px;
+  color: transparent;
+
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: solid #121212;
+  border-width: 2px 2px 0 0;
+  transform: rotate(-135deg);
 }
