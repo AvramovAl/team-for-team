@@ -8,24 +8,26 @@
     <title>Hotel</title>
     
     <script type="module" crossorigin src="/team-for-team/assets/slick-f0db4d2e.js"></script>
-    <link rel="stylesheet" href="/team-for-team/assets/main-480cea01.css">
+    <link rel="stylesheet" href="/team-for-team/assets/main-e9dc29e6.css">
   </head>
   <body>
-    <header class="header mob-background-other mob-border-other">
-  <div class="container header-container">
-    <nav class="nav">
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a href="./index.html" class="nav-link">Home</a>
-        </li>
-        <li class="nav-item">
-          <a href="./hotel.html" class="nav-link">Hotel</a>
-        </li>
-        <li class="nav-item">
-          <a href="./restaurant.html" class="nav-link">Restaurant</a>
-        </li>
-      </ul>
-    </nav>
+    <header class="header header-other">
+  <div class="container header-container header-desktop">
+    <div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="./hotel.html" class="nav-link">Hotel</a>
+          </li>
+          <li class="nav-item">
+            <a href="./restaurant.html" class="nav-link">Restaurant</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <button
       class="mob-menu-btn-open js-open-menu"
       aria-expanded="false"
@@ -47,21 +49,33 @@
         <ul class="header-soc-list">
           <li class="header-soc-item">
             <a href="#" class="header-soc-link">
-              <svg class="header-soc-icon" width="24" height="24">
+              <svg
+                class="header-soc-icon mob-icon-other"
+                width="24"
+                height="24"
+              >
                 <use href="/team-for-team/assets/icons-64639ab5.svg#icon-instagram"></use>
               </svg>
             </a>
           </li>
           <li class="header-soc-item">
             <a href="#" class="header-soc-link">
-              <svg class="header-soc-icon" width="24" height="24">
+              <svg
+                class="header-soc-icon mob-icon-other"
+                width="24"
+                height="24"
+              >
                 <use href="/team-for-team/assets/icons-64639ab5.svg#icon-facebook"></use>
               </svg>
             </a>
           </li>
           <li class="header-soc-item">
             <a href="#" class="header-soc-link">
-              <svg class="header-soc-icon" width="24" height="24">
+              <svg
+                class="header-soc-icon mob-icon-other"
+                width="24"
+                height="24"
+              >
                 <use href="/team-for-team/assets/icons-64639ab5.svg#icon-twitter"></use>
               </svg>
             </a>
@@ -74,7 +88,7 @@
   <!-- Mobile navigation menu -->
 
   <div class="mob-menu js-menu-container mob-background-other" id="mobile-menu">
-    <div class="header mob-background-other mob-border-other">
+    <div class="header mob-border-other mob-background-other">
       <div class="container header-container">
         <button class="mob-menu-btn-close js-close-menu" type="button">
           <svg
@@ -85,11 +99,50 @@
             <use href="/team-for-team/assets/icons-64639ab5.svg#icon-header-menu-close"></use>
           </svg>
         </button>
-        <div class="logo">
-          <a href="./index.html" class="logo-link link mob-color-other">
-            <p class="logo-top">mimino</p>
-            <p class="logo-bottom">restaurant-hotel complex</p>
-          </a>
+        <div class="header-content">
+          <div class="logo">
+            <a href="./index.html" class="logo-link link mob-color-other">
+              <p class="logo-top">mimino</p>
+              <p class="logo-bottom">restaurant-hotel complex</p>
+            </a>
+          </div>
+          <div>
+            <ul class="header-soc-list">
+              <li class="header-soc-item">
+                <a href="#" class="header-soc-link">
+                  <svg
+                    class="header-soc-icon mob-icon-other"
+                    width="24"
+                    height="24"
+                  >
+                    <use href="/team-for-team/assets/icons-64639ab5.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="header-soc-item">
+                <a href="#" class="header-soc-link">
+                  <svg
+                    class="header-soc-icon mob-icon-other"
+                    width="24"
+                    height="24"
+                  >
+                    <use href="/team-for-team/assets/icons-64639ab5.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="header-soc-item">
+                <a href="#" class="header-soc-link">
+                  <svg
+                    class="header-soc-icon mob-icon-other"
+                    width="24"
+                    height="24"
+                  >
+                    <use href="/team-for-team/assets/icons-64639ab5.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -158,75 +211,303 @@
 
 
     <main>
-      <section>
-  <div class="container">
-    <h2 class="hotel-title">Section Hero hotel</h2>
+      <section class="hotel-hero">
+  <div class="container hotel-hero-container">
+    <div class="hotel-hero-wrap">
+      <h1 class="hero-hotel-title">hotel</h1>
+      <div class="hotel-hero-btn-wrap">
+        <button type="button" class="hotel-hero-btn">book a room</button>
+        <button type="button" class="hotel-hero-btn">view prices</button>
+      </div>
+    </div>
+    <p class="hotel-hero-content">
+      Whether you're in the mood for a hearty breakfast, a light lunch, or a
+      romantic dinner, our menu has something for everyone.
+    </p>
+    <div class="hotel-hero-slider-wrap">
+      <div class="hotel-hero-slider">
+        <ul class="hotel-hero-list">
+          <li class="hotel-hero-item">
+            <picture>
+              <source
+                srcset="/team-for-team/assets/hero-pic1-1x-4efcaae6.jpg 1x, /team-for-team/assets/hero-pic1-2x-15dc5f8c.jpg 2x"
+                media="(min-width: 1440px)"
+              />
+
+              <source
+                srcset="/team-for-team/assets/hero-pic1-1x-1add51a6.jpg 1x, /team-for-team/assets/hero-pic1-2x-21a3beb0.jpg 2x"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="/team-for-team/assets/hero-pic1-1x-b46add87.jpg 1x, /team-for-team/assets/hero-pic1-2x-d654dd1f.jpg 2x"
+                media="(min-width: 375px)"
+              />
+              <img
+                src="/team-for-team/assets/hero-pic1-1x-b46add87.jpg"
+                alt="hotel"
+                width="250"
+                height="429"
+              />
+            </picture>
+          </li>
+          <li class="hotel-hero-item">
+            <picture>
+              <source
+                srcset="/team-for-team/assets/hero-pic2-1x-bdce99f5.jpg 1x, /team-for-team/assets/hero-pic2-2x-54c7cbaa.jpg 2x"
+                media="(min-width: 1440px)"
+              />
+              <source
+                srcset="/team-for-team/assets/hero-pic2-1x-18484cd3.jpg 1x, /team-for-team/assets/hero-pic2-2x-a942ebd2.jpg 2x"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="/team-for-team/assets/hero-pic2-1x-d3937468.jpg 1x, /team-for-team/assets/hero-pic2-2x-5e3089da.jpg 2x"
+                media="(min-width: 375px)"
+              />
+              <img
+                src="/team-for-team/assets/hero-pic2-1x-d3937468.jpg"
+                alt="hotel"
+                width="250"
+                height="429"
+              />
+            </picture>
+          </li>
+          <li class="hotel-hero-item">
+            <picture>
+              <source
+                srcset="/team-for-team/assets/hero-pic3-1x-543696c5.jpg 1x, /team-for-team/assets/hero-pic3-2x-54d87906.jpg 2x"
+                media="(min-width: 1440px)"
+              />
+              <source
+                srcset="/team-for-team/assets/hero-pic3-1x-6c360f4e.jpg 1x, /team-for-team/assets/hero-pic3-2x-c089a11f.jpg 2x"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="/team-for-team/assets/hero-pic3-1x-27799261.jpg 1x, /team-for-team/assets/hero-pic3-2x-01ec5a0e.jpg 2x"
+                media="(min-width: 375px)"
+              />
+              <img
+                src="/team-for-team/assets/hero-pic3-1x-27799261.jpg"
+                alt="hotel"
+                width="250"
+                height="429"
+              />
+            </picture>
+          </li>
+        </ul>
+      </div>
+      <div class="hotel-hero-arrow-wrap">
+        <div class="hotel-hero-arrow-left">
+          <svg>
+            <use></use>
+          </svg>
+        </div>
+        <div class="hotel-hero-arrow-right">
+          <svg>
+            <use></use>
+          </svg>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
-      <section>
+      <section class="double-luxury-room">
   <div class="container">
-    <h2>Section Luxury</h2>
+    <ul class="hotel-luxury-list">
+      <li class="hotel-luxury-item">
+        <picture>
+          <source
+            srcset="/team-for-team/assets/double-room-pic1-1x-ef35e23a.jpg 1x, /team-for-team/assets/double-room-pic1-2x-9a500bcd.jpg 2x"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="/team-for-team/assets/double-room-pic1-1x-8f7c45bf.jpg 1x, /team-for-team/assets/double-room-pic1-2x-d6788b1e.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/team-for-team/assets/double-room-pic1-1x-195eb4f8.jpg 1x, /team-for-team/assets/double-room-pic1-2x-cfd3a093.jpg 2x"
+            media="(min-width: 375px)"
+          />
+          <img
+            src="/team-for-team/assets/double-room-pic1-1x-195eb4f8.jpg"
+            alt="double luxury room"
+            width="250"
+            height="429"
+          />
+        </picture>
+      </li>
+      <li class="hotel-luxury-item">
+        <picture>
+          <source
+            srcset="/team-for-team/assets/double-room-pic2-1x-042b9486.jpg 1x, /team-for-team/assets/double-room-pic2-2x-78dad1a8.jpg 2x"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="/team-for-team/assets/double-room-pic2-1x-e72c6220.jpg 1x, /team-for-team/assets/double-room-pic2-2x-6d95332f.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="data:image/jpeg;base64,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 1x, /team-for-team/assets/double-room-pic2-2x-0cc9b8ba.jpg 2x"
+            media="(min-width: 375px)"
+          />
+          <img
+            src="data:image/jpeg;base64,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"
+            alt="double luxury room"
+            width="250"
+            height="429"
+          />
+        </picture>
+      </li>
+      <li class="hotel-luxury-item">
+        <picture>
+          <source
+            srcset="/team-for-team/assets/double-room-pic3-1x-69c5e024.jpg 1x, /team-for-team/assets/double-room-pic3-2x-31002ed4.jpg 2x"
+            media="(min-width: 1440px)"
+          />
+
+          <source
+            srcset="/team-for-team/assets/double-room-pic3-1x-c07055c4.jpg 1x, /team-for-team/assets/double-room-pic3-2x-7a20276d.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="data:image/jpeg;base64,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 1x, /team-for-team/assets/double-room-pic3-2x-d9ada0c0.jpg 2x"
+            media="(min-width: 375px)"
+          />
+          <img
+            src="data:image/jpeg;base64,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"
+            alt="double luxury room"
+            width="250"
+            height="429"
+          />
+        </picture>
+      </li>
+    </ul>
+    <div class="hotel-luxery-wrap">
+      <h2>double luxury room</h2>
+      <div class="hotel-luxery-content-wrap">
+        <p>
+          experience luxury in our Double Luxury Room at Mimino Hotel. This
+          spacious room features a comfortable bed, private bathroom,
+          flat-screen TV, and high-speed Wi-Fi. Climate control, blackout
+          curtains, and soundproofing ensure a peaceful night's sleep.
+        </p>
+        <p>
+          relax after a busy day at the writing desk or armchair. Book now for a
+          convenient and comfortable stay.
+        </p>
+      </div>
+    </div>
+    <div class="hotel-luxery-btn-wrap">
+      <button type="button" class="hotel-luxury-btn"></button>
+      <button type="button" class="hotel-luxury-btn"></button>
+    </div>
   </div>
 </section>
 
       <section>
   <div class="container triple-room-container">
     <div class="triple-room-photo">
-      <ul class="triple-room-list">
-        <li class="triple-room-item">
-          <img
-          src="../../img/hotel/mob/triple-room-pic1-1x.jpg"
-            srcset="
-              ../../img/hotel/mob/triple-room-pic1-1x.jpg,
-              ../../img/hotel/mob/triple-room-pic1-2x.jpg
-            "
-            alt="room"
-            width="335"
-            height="468"
-          >
-        </li>
-        <li class="triple-room-item">
-          <img
-          src="../../img/hotel/mob/triple-room-pic2-1x.jpg"
-            srcset="
-              ../../img/hotel/mob/triple-room-pic2-1x.jpg,
-              ../../img/hotel/mob/triple-room-pic2-2x.jpg
-            "
-            alt="bathroom"
-            width="158"
-            height="149"
-          >
-        </li>
-        <li class="triple-room-item">
-          <img
-          src="../../img/hotel/mob/triple-room-pic3-1x.jpg"
-            srcset="
-              ../../img/hotel/mob/triple-room-pic3-1x.jpg,
-              ../../img/hotel/mob/triple-room-pic3-1x.jpg
-            "
-            alt="kitchen"
-            width="157"
-            height="149"
-          >
-        </li>
-      </ul>
+      <div class="triple-room-location">
+        <ul class="triple-room-list">
+          <li class="triple-room-item">
+            <picture>
+              <source
+                srcset="/team-for-team/assets/triple-room-pic1-1x-fd566f0a.jpg 1x, /team-for-team/assets/triple-room-pic1-2x-dd2cfefd.jpg 2x"
+                media="(min-width: 1440px)"
+                width="539"
+                height="762"
+              />
+              <source
+                srcset="/team-for-team/assets/triple-room-pic1-1x-f0c218a0.jpg 1x, /team-for-team/assets/triple-room-pic1-2x-aa4279c4.jpg 2x"
+                media="(min-width: 768px)"
+                width="331"
+                height="468"
+              />
+              <source
+                srcset="/team-for-team/assets/triple-room-pic1-1x-930df350.jpg 1x, /team-for-team/assets/triple-room-pic1-2x-1155ca23.jpg 2x"
+                media="(max-width: 767px)"
+                width="335"
+                height="468"
+              />
+              <img src="/team-for-team/assets/triple-room-pic1-1x-930df350.jpg" alt="room" />
+            </picture>
+          </li>
+          <li class="triple-room-item">
+            <picture>
+              <source
+                srcset="/team-for-team/assets/triple-room-pic2-1x-7a3db15b.jpg 1x, /team-for-team/assets/triple-room-pic2-2x-eb61d39f.jpg 2x"
+                media="(min-width: 1440px)"
+                width="387"
+                height="510"
+              />
+              <source
+                srcset="/team-for-team/assets/triple-room-pic2-1x-1b2d9097.jpg 1x, /team-for-team/assets/triple-room-pic2-2x-8e3c0ef5.jpg 2x"
+                media="(min-width: 768px)"
+                width="223"
+                height="261"
+              />
+              <source
+                srcset="data:image/jpeg;base64,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 1x, /team-for-team/assets/triple-room-pic2-2x-1f9939b7.jpg 2x"
+                media="(min-width: 375px)"
+                width="158"
+                height="149"
+              />
+              <img
+                src="data:image/jpeg;base64,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"
+                alt="bathroom"
+              />
+            </picture>
+          </li>
+          <li class="triple-room-item third-photo">
+            <picture>
+              <source
+                srcset="/team-for-team/assets/triple-room-pic3-1x-c0c72708.jpg 1x, /team-for-team/assets/triple-room-pic3-2x-4a818c62.jpg 2x"
+                media="(min-width: 1440px)"
+                width="386"
+                height="395"
+              />
+              <source
+                srcset="/team-for-team/assets/triple-room-pic3-1x-8ed761b3.jpg 1x, /team-for-team/assets/triple-room-pic3-2x-5c3c53b2.jpg 2x"
+                media="(min-width: 768px)"
+                width="341"
+                height="175"
+              />
+              <source
+                srcset="/team-for-team/assets/triple-room-pic3-1x-b638f4b8.jpg 1x, /team-for-team/assets/triple-room-pic3-2x-aac29b22.jpg 2x"
+                media="(max-width: 767px)"
+                width="157"
+                height="149"
+              />
+              <img src="/team-for-team/assets/triple-room-pic3-1x-b638f4b8.jpg" alt="kitchen" />
+            </picture>
+          </li>
+        </ul>
+      </div>
     </div>
-    <h2 class="triple-room-title">Triple Room</h2>
-    <div class="triple-room-description">
-      <p class="triple-room-suptitle">
-        Escape to our spacious Triple Room, perfect for families or groups.
-        Enjoy comfort with three beds, seating area, stunning views, flat-screen
-        TVs, Wi-Fi, and mini-fridge.
-      </p>
-      <p class="triple-room-suptitle">
-        Rejuvenate in the en-suite bathroom with plush towels and toiletries.
-        Book now for a memorable stay.
-      </p>
-    </div>
-    <div class="triple-room-button">
-      <form action="../room/"><button class="triple-room-btn" type="button">More details</button></form>
-      <button class="triple-room-btn" type="button">View prices</button>
+    <div class="triple-room-content">
+      <div>
+        <h2 class="triple-room-title">Triple Room</h2>
+        <div class="triple-room-description">
+          <p class="triple-room-suptitle">
+            Escape to our spacious Triple Room, perfect for families or groups.
+            Enjoy comfort with three beds, seating area, stunning views,
+            flat-screen TVs, Wi-Fi, and mini-fridge.
+          </p>
+          <p class="triple-room-suptitle">
+            Rejuvenate in the en-suite bathroom with plush towels and
+            toiletries. Book now for a memorable stay.
+          </p>
+        </div>
+      </div>
+      <div class="triple-room-button">
+        <form action="/src/room.html">
+          <button class="triple-room-btn" type="button">More details</button>
+        </form>
+        <form action="/src/index.html">
+          <button class="triple-room-btn" type="button">View prices</button>
+        </form>
+      </div>
     </div>
   </div>
 </section>
@@ -236,53 +517,98 @@
     <div class="four-seater-room-photo">
       <ul class="four-seater-room-list">
         <li class="four-seater-room-item">
-          <img
-            src="../../img/hotel/mob/four-room-pic1-1x.jpg"
-            alt="room"
-            srcset="
-              ../../img/hotel/mob/four-room-pic1-1x.jpg,
-              ../../img/hotel/mob/four-room-pic1-2x.jpg
-            "
-            width="335"
-            height="468"
-          >
+          <picture>
+            <source
+              srcset="/team-for-team/assets/four-room-pic1-1x-5de57bc6.jpg 1x, /team-for-team/assets/four-room-pic1-2x-1450bcee.jpg 2x"
+              media="(min-width: 1440px)"
+              width="539"
+              height="762"
+            />
+            <source
+              srcset="/team-for-team/assets/four-room-pic1-1x-bdd6cab9.jpg 1x, /team-for-team/assets/four-room-pic1-2x-ef8b8e74.jpg 2x"
+              media="(min-width: 768px)"
+              width="331"
+              height="468"
+            />
+            <source
+              srcset="/team-for-team/assets/four-room-pic1-1x-2c746f9f.jpg 1x, /team-for-team/assets/four-room-pic1-2x-1cb0e008.jpg 2x"
+              media="(max-width: 767px)"
+              width="335"
+              height="468"
+            />
+            <img src="/team-for-team/assets/four-room-pic1-1x-2c746f9f.jpg" alt="room" />
+          </picture>
         </li>
         <li class="four-seater-room-item">
-          <img
-            src="../../img/hotel/mob/four-room-pic2-1x.jpg"
-            alt="bathroom"
-            srcset="
-              ../../img/hotel/mob/four-room-pic2-1x.jpg,
-              ../../img/hotel/mob/four-room-pic2-2x.jpg
-            "
-            width="157"
-            height="158"
-          >
+          <picture>
+            <source
+              srcset="/team-for-team/assets/four-room-pic2-1x-c49aab08.jpg 1x, /team-for-team/assets/four-room-pic2-2x-a118fbb7.jpg 2x"
+              media="(min-width: 1440px)"
+              width="387"
+              height="510"
+            />
+            <source
+              srcset="/team-for-team/assets/four-room-pic2-1x-4fab7c6c.jpg 1x, /team-for-team/assets/four-room-pic2-2x-fbdfacf5.jpg 2x"
+              media="(min-width: 768px)"
+              width="223"
+              height="261"
+            />
+            <source
+              srcset="data:image/jpeg;base64,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 1x, /team-for-team/assets/four-room-pic2-2x-0d49c49b.jpg 2x"
+              media="(max-width: 767px)"
+              width="156"
+              height="158"
+            />
+            <img src="data:image/jpeg;base64,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" alt="bathroom" />
+          </picture>
         </li>
-        <li class="four-seater-room-item">
-          <img
-            src="../../img/hotel/mob/four-room-pic3-1x.jpg"
-            alt="kitchen"
-            srcset="
-              ../../img/hotel/mob/four-room-pic3-1x.jpg,
-              ../../img/hotel/mob/four-room-pic3-2x.jpg
-            "
-            width="158"
-            height="158"
-          >
+        <li class="four-seater-room-item third-photo">
+          <picture>
+            <source
+              srcset="/team-for-team/assets/four-room-pic3-1x-a3f4372f.jpg 1x, /team-for-team/assets/four-room-pic3-2x-d5f33455.jpg 2x"
+              media="(min-width: 1440px)"
+              width="386"
+              height="395"
+            />
+            <source
+              srcset="/team-for-team/assets/four-room-pic3-1x-517efe4d.jpg 1x, /team-for-team/assets/four-room-pic3-2x-896d095a.jpg 2x"
+              media="(min-width: 768px)"
+              width="341"
+              height="175"
+            />
+            <source
+              srcset="data:image/jpeg;base64,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 1x, /team-for-team/assets/four-room-pic3-2x-09743a66.jpg 2x"
+              media="(max-width: 767px)"
+              width="156"
+              height="158"
+            />
+            <img src="data:image/jpeg;base64,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" alt="kitchen" />
+          </picture>
         </li>
       </ul>
     </div>
-    <h2 class="four-seater-room-title">Four-seater Room</h2>
-    <p class="four-seater-room-suptitle">
-      Our 4-person room is perfect for small groups, offering comfort and
-      convenience with 4 comfortable beds, ample storage, flat-screen TV,
-      mini-fridge, coffee maker, desk and chair, air-conditioning, heating, and
-      soundproof walls. Book now for a memorable stay.
-    </p>
-    <div class="four-seater-room-button">
-      <form action="../room/"><button class="four-seater-room-btn" type="button">More details</button></form>
-      <button class="four-seater-room-btn" type="button">View prices</button>
+    <div class="four-seater-room-content">
+      <div class="four-seater-room-description">
+        <h2 class="four-seater-room-title">Four-seater Room</h2>
+        <p class="four-seater-room-suptitle">
+          Our 4-person room is perfect for small groups, offering comfort and
+          convenience with 4 comfortable beds, ample storage, flat-screen TV,
+          mini-fridge, coffee maker, desk and chair, air-conditioning, heating,
+          and soundproof walls. Book now for a memorable stay.
+        </p>
+      </div>
+      <div class="four-seater-room-button">
+        <form action="/src/room.html">
+          <button class="four-seater-room-btn" type="button">
+            More details
+          </button>
+        </form>
+        <form action="/src/index.html">
+          <button class="four-seater-room-btn" type="button">
+            View prices
+          </button>
+        </form>
+      </div>
     </div>
   </div>
 </section>
