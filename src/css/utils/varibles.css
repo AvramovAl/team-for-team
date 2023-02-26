@@ -18,9 +18,10 @@
   /* Header color */
 
   --header-color: #121212;
-  --header-color-main: #f7f7f7;
+  --header-color-index: #f7f7f7;
   --background-header: #ffffff;
-  --background-header-main: #121212;
+  --background-header-index: #121212;
   --header-border: 0.5px solid rgba(18, 18, 18, 0.3);
-  --header-border-main: 0.5px solid rgba(247, 247, 247, 0.2);
+  --header-border-index: 0.5px solid rgba(247, 247, 247, 0.2);
+  --header-tra: 250ms cubic-bezier(.17,.67,.83,.67);
 }
