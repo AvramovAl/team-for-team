@@ -34,6 +34,9 @@
   .title-welcome {
     margin-bottom: 32px;
   } */
+  .one-text-welcome {
+    width: 306px;
+  }
 
   .welcome {
     padding-top: 71px;
@@ -57,12 +60,20 @@
   .wrapper-text-welcome {
     display: flex;
   }
-
-  .text-welcome {
-    width: calc((100% - 32px) / 2);
+  .one-text-welcome {
+    width: 306px;
   }
+
+  .two-text-welcome {
+    width: 366px;
+  }
+
+  /* .text-welcome {
+    width: calc((100% - 32px) / 2);
+  } */
   .wrapper-text-welcome {
     margin-bottom: 40px;
+    gap: 32px;
   }
 
   .title-welcome {
@@ -106,5 +117,8 @@
 
   .wrapper-text-welcome {
     display: block;
+  }
+  .br-mob-and-tab {
+    display: none;
   }
 }
