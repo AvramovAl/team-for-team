@@ -46,10 +46,6 @@
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-.menu-list-item:last-child {
-    margin-bottom: 45px;
-}
-
 .menu-item {
     margin-bottom: 8px;
     font-weight: 500;
@@ -105,8 +101,9 @@
     background-color: transparent;
 }
 
-.menu-btn:is(:hover, :focus) {
-    border-color: var(--menu-grams-color);
+.menu-parts {
+    display: none;
+    max-width: 515px;
 }
 
 /* tablet */
@@ -126,10 +123,6 @@
     .menu-title {
         font-size: 24px;
         line-height: 1;
-    }
-
-    .menu-list-item:last-child {
-        margin-bottom: 49px;
     }
 
     .menu {
@@ -162,4 +155,39 @@
         margin-top: 51px;
         margin-left: 0;
     }
+}
+
+/* desctop */
+@media screen and (min-width: 1440px) {
+.restaurant-section {
+    padding: 100px 136px;
+}
+.restaurant-title {
+    text-align: center;
+font-size: 40px;
+line-height: 1.1px;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 74px;
+}
+
+.menu {
+    margin: 0;
+}
+
+.menu-btn {
+    display: none;
+}
+
+.menu-parts {
+    display: block;
+
+}
+
+.item-description {
+    max-width: 345px;
+}
 }
