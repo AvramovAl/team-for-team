@@ -15,6 +15,10 @@
   color: var(--header-color-index);
 }
 
+.mob-color-second-index {
+  color: var(--header-second-logo-color);
+}
+
 .mob-color-other {
   color: var(--header-color);
 }
@@ -36,7 +40,7 @@
 }
 
 .mob-icon-index {
-  stroke: var(--header-color-index);
+  stroke: var(--header-icon-color-index);
 }
 
 .mob-icon-other {
@@ -186,16 +190,30 @@
     display: none;
   }
 
+.mob-menu-btn-open,
+.mob-menu-btn-close {
+  left: 36px;
+}
+
+
+
   /* Header Social Section */
 
-  /* .header-soc-list {
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header-soc-list {
+    display: flex;
   }
   .header-soc-item {
   }
   .header-soc-link {
   }
   .header-soc-icon {
-  } */
+  }
 }
 
 /* Header Navigation style */
