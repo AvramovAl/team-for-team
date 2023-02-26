@@ -18,7 +18,9 @@
   /* Header color */
 
   --header-color: #121212;
+  --header-second-logo-color: #d8d7d7;
   --header-color-index: #f7f7f7;
+  --header-icon-color-index: #f6f6f6;
   --background-header: #ffffff;
   --background-header-index: #121212;
   --header-border: 0.5px solid rgba(18, 18, 18, 0.3);
