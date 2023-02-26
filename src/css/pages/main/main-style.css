@@ -1,6 +1,7 @@
 @import url('./hero-main.css');
 @import url('./about-a-complex.css');
 @import url('./restaurant-details.css');
+@import url('../slick-pages/main-restaurant-slick.css');
 @import url('./welcome.css');
 @import url('./hotel-details.css');
 @import url('./location-contacts.css');
