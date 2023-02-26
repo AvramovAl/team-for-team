@@ -1,0 +1,76 @@
+.room-amenities-section {
+    background-color: var(--black-color);
+    padding-top: 40px;
+    padding-bottom: 64px;
+}
+
+.amenities {
+    color: var(--room-amenities-text-color);
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    gap: 40px;
+}
+
+.room-amenities-list {
+    list-style: disc;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+.room-amenities-title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    margin-bottom: 28px;
+}
+
+.room-amenities-list-position {
+    padding-left: 20px;
+}
+
+.room-amenities-pic {
+    margin-top: 64px;
+    margin-bottom: 32px;
+    /* display: block; */
+    position: relative;
+    margin-right: 0;
+    left: 80px;
+}
+
+/* .room-amenities-pic-bathroom{
+    margin-left: auto;
+    float: right;
+} */
+
+.room-amenities-pic-accessories {
+    position: absolute;
+    top: 144px;
+    left: -76px;
+}
+
+.room-amenities-btn {
+    min-width: 175px;
+    display: block;
+    margin: 0 auto;
+
+    padding: 8px 18px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    background-color: transparent;
+    color: var(--room-amenities-text-color);
+    border: 0.8px solid var(--room-amenities-text-color);
+    border-radius: 32px;
+}
