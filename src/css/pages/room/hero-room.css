@@ -62,7 +62,7 @@
   letter-spacing: 0.05em;
   text-transform: uppercase;
   
-  min-width: 289px;
+  max-width: 289px;
 
   margin-top: 51px;
 }
@@ -87,4 +87,12 @@
 
     margin-bottom: 28px;
   }
+
+.room-hero-btn-text {
+  padding: 24px 8px;
+}
+
+/* .room-hero-text {
+  margin-top: 40px;
+} */
 }
