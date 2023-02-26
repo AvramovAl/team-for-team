@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hotel</title>
     
-    <link rel="stylesheet" href="/team-for-team/assets/main-2bf5dc13.css">
+    <script type="module" crossorigin src="/team-for-team/assets/slick-0ce5f0c6.js"></script>
+    <link rel="stylesheet" href="/team-for-team/assets/main-548e3279.css">
   </head>
   <body>
     <header class="header">
@@ -16,19 +17,19 @@
     <nav class="nav">
       <ul class="nav-list">
         <li class="nav-item">
-          <a href="./index.html" class="nav-link">Home</a>
+          <a href="/index.html" class="nav-link">Home</a>
         </li>
 
         <li class="nav-item">
-          <a href="./hotel.html" class="nav-link">Hotel</a>
+          <a href="/hotel.html" class="nav-link">Hotel</a>
         </li>
 
         <li class="nav-item">
-          <a href="./restaurant.html" class="nav-link">Restaurant</a>
+          <a href="/restaurant.html" class="nav-link">Restaurant</a>
         </li>
 
         <li class="nav-item">
-          <a href="./room.html" class="nav-link">Room</a>
+          <a href="/room.html" class="nav-link">Room</a>
         </li>
       </ul>
     </nav>
@@ -50,15 +51,120 @@
 </section>
 
       <section>
-  <div class="container">
-    <h2>Section Triple Room</h2>
+  <div class="container triple-room-container">
+    <div class="triple-room-photo">
+      <ul class="triple-room-list">
+        <li class="triple-room-item">
+          <img
+          src="../../img/hotel/mob/triple-room-pic1-1x.jpg"
+            srcset="
+              ../../img/hotel/mob/triple-room-pic1-1x.jpg,
+              ../../img/hotel/mob/triple-room-pic1-2x.jpg
+            "
+            alt="room"
+            width="335"
+            height="468"
+          >
+        </li>
+        <li class="triple-room-item">
+          <img
+          src="../../img/hotel/mob/triple-room-pic2-1x.jpg"
+            srcset="
+              ../../img/hotel/mob/triple-room-pic2-1x.jpg,
+              ../../img/hotel/mob/triple-room-pic2-2x.jpg
+            "
+            alt="bathroom"
+            width="158"
+            height="149"
+          >
+        </li>
+        <li class="triple-room-item">
+          <img
+          src="../../img/hotel/mob/triple-room-pic3-1x.jpg"
+            srcset="
+              ../../img/hotel/mob/triple-room-pic3-1x.jpg,
+              ../../img/hotel/mob/triple-room-pic3-1x.jpg
+            "
+            alt="kitchen"
+            width="157"
+            height="149"
+          >
+        </li>
+      </ul>
+    </div>
+    <h2 class="triple-room-title">Triple Room</h2>
+    <div class="triple-room-description">
+      <p class="triple-room-suptitle">
+        Escape to our spacious Triple Room, perfect for families or groups.
+        Enjoy comfort with three beds, seating area, stunning views, flat-screen
+        TVs, Wi-Fi, and mini-fridge.
+      </p>
+      <p class="triple-room-suptitle">
+        Rejuvenate in the en-suite bathroom with plush towels and toiletries.
+        Book now for a memorable stay.
+      </p>
+    </div>
+    <div class="triple-room-button">
+      <form action="../room/"><button class="triple-room-btn" type="button">More details</button></form>
+      <button class="triple-room-btn" type="button">View prices</button>
+    </div>
   </div>
 </section>
 
       <section>
-  <civ class="container">
-    <h2>Section Four-seater Room</h2>
-  </civ>
+  <div class="container four-seater-room-container">
+    <div class="four-seater-room-photo">
+      <ul class="four-seater-room-list">
+        <li class="four-seater-room-item">
+          <img
+            src="../../img/hotel/mob/four-room-pic1-1x.jpg"
+            alt="room"
+            srcset="
+              ../../img/hotel/mob/four-room-pic1-1x.jpg,
+              ../../img/hotel/mob/four-room-pic1-2x.jpg
+            "
+            width="335"
+            height="468"
+          >
+        </li>
+        <li class="four-seater-room-item">
+          <img
+            src="../../img/hotel/mob/four-room-pic2-1x.jpg"
+            alt="bathroom"
+            srcset="
+              ../../img/hotel/mob/four-room-pic2-1x.jpg,
+              ../../img/hotel/mob/four-room-pic2-2x.jpg
+            "
+            width="157"
+            height="158"
+          >
+        </li>
+        <li class="four-seater-room-item">
+          <img
+            src="../../img/hotel/mob/four-room-pic3-1x.jpg"
+            alt="kitchen"
+            srcset="
+              ../../img/hotel/mob/four-room-pic3-1x.jpg,
+              ../../img/hotel/mob/four-room-pic3-2x.jpg
+            "
+            width="158"
+            height="158"
+          >
+        </li>
+      </ul>
+    </div>
+    <h2 class="four-seater-room-title">Four-seater Room</h2>
+    <p class="four-seater-room-suptitle">
+      Our 4-person room is perfect for small groups, offering comfort and
+      convenience with 4 comfortable beds, ample storage, flat-screen TV,
+      mini-fridge, coffee maker, desk and chair, air-conditioning, heating, and
+      soundproof walls. Book now for a memorable stay.
+    </p>
+    <div class="four-seater-room-button">
+      <form action="../room/"><button class="four-seater-room-btn" type="button">More details</button></form>
+      <button class="four-seater-room-btn" type="button">View prices</button>
+    </div>
+  </div>
 </section>
 
     </main>
@@ -74,8 +180,11 @@
 </div>
 
     <div class="container">
-  <h2>prices per room</h2>
+  <!-- <h2>prices per room</h2> -->
 </div>
 
+
+    <!-- Base js -->
+    
   </body>
 </html>
