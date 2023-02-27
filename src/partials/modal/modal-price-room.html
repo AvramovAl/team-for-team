@@ -1,3 +1,27 @@
-<div class="container">
-  <!-- <h2>prices per room</h2> -->
+<div class="backdrop-price is-hidden" price-modal>
+  <div class="modal-price">
+    <button class="modal-price-btn-close" type="button" price-modal-close>
+      <svg class="modal-price-icon" width="14" height="14">
+        <use href="./img/icons.svg#icon-modal-close"></use>
+      </svg>
+    </button>
+    <p class="modal-price-title">prices per room</p>
+    <form class="modal-price-form" action="#">
+      <label class="modal-price-label" for="user-number-nights">double suite</label>
+      <select name="user-number-nights" id="user-number-nights">
+        <option value="1" class="modal-price-option">1</option>
+        <option value="2" class="modal-price-option">2</option>
+        <option value="3" class="modal-price-option">3</option>
+        <option value="4" class="modal-price-option">4</option>
+      </select>
+      <p class="modal-price-text">number of nights</p>
+
+      <select name="user-check-in-date" id="user-check-in-date">
+        <option value="1" class="modal-price-option" type="date">25/04/2023</option>
+      </select>
+      <p class="modal-price-text">check-in date</p>
+
+      <button class="modal-btn" type="submit">make a reservation</button>
+    </form>
+  </div>
 </div>
