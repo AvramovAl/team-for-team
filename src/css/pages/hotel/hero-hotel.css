@@ -15,13 +15,13 @@
 
 
 @media screen and (min-width: 375px) {
-  .container {
+  .hotel-hero-container {
     width: 375px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .container {
+  .hotel-hero-container {
     width: 768px;
     padding-left: 32px;
     padding-right: 32px;
@@ -31,7 +31,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .container {
+  .hotel-hero-container {
     width: 1440px;
     padding-top: 48px;
     padding-bottom: 48px;
@@ -51,12 +51,14 @@
 @media screen and (min-width: 768px) {
   .hero-hotel-title {
     font-size: 80px;
+    margin-bottom: 32px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .hero-hotel-title {
     font-size: 90px;
+    padding-top: 204px;
   }
 }
 
@@ -105,7 +107,6 @@
   border: 0.8px solid #121212;
   border-radius: 32px;
   background-color: transparent;
-  cursor: pointer;
 }
 /* 
 .hotel-hero-btn:is(:hover, :focus) {
@@ -142,10 +143,19 @@
   line-height: 1.29;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+  display: block;
 }
 
-@media screen and (max-width: 374px) {
+/* @media screen and (max-width: 374px) {
   .hotel-hero-content {
     max-width: 85vw;
   }
+} */
+
+@media screen and (min-width: 768px) {
+  .hotel-hero-content {
+    max-width: 360px;
+  }
 }
+
+
