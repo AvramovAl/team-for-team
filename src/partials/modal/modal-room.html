@@ -1,3 +1,45 @@
-<div class="container">
-  <h2>BOOK A room</h2>
+<div class="backdrop-room is-hidden" room-modal>
+  <div class="modal-room">
+    <button class="modal-room-btn-close" type="button" room-modal-close>
+      <svg class="modal-room-icon" width="14" height="14">
+        <use href="./img/icons.svg#icon-modal-close"></use>
+      </svg>
+    </button>
+    <p class="modal-room-title">book <i>a room</i></p>
+    <form class="modal-room-form" action="#">
+      <label class="modal-room-label" for="room-user-name">your name</label>
+      <input type="text" id="room-user-name" name="room-user-name" />
+      <p class="modal-room-text">who should book a table for?</p>
+      <label class="modal-room-label" for="room-user-phone">phone number</label>
+      <input
+        type="tel"
+        id="user-phone"
+        name="user-phone"
+        value="+38 ()"
+      />
+      <p class="modal-room-text">phone number</p>
+
+      <label class="modal-room-label" for="user-choose-day">choose a day</label>
+      <select name="user-choose-day" id="user-choose-day">
+        <option value="today" class="modal-room-option">today</option>
+      </select>
+      <p class="modal-room-text">check-in date</p>
+
+      <label class="modal-room-label" for="user-choose-date">choose a date</label>
+      <select name="user-choose-date" id="user-choose-date">
+        <option value="25-04-2023" class="modal-room-option" type="date">25/04/2023</option>
+      </select>
+      <p class="modal-room-text">check-in date</p>
+
+      <label class="modal-room-label" for="user-choose-room">choose a category</label>
+      <select name="user-choose-room" id="user-choose-room">
+        <option value="double-suite" class="modal-room-option">double suite</option>
+        <option value="triple-room" class="modal-room-option">triple room</option>
+        <option value="four-seater-room" class="modal-room-option">four-seater room</option>
+      </select>
+      <p class="modal-room-text">number category</p>
+
+      <button class="modal-btn" type="submit">make a reservation</button>
+    </form>
+  </div>
 </div>

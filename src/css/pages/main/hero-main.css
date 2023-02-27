@@ -5,21 +5,36 @@
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #121212;
+<<<<<<< HEAD
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, #121212 98.51%), url(../img/main/mob/hero-1x.jpg);
+=======
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 70.73%,
+      #121212 98.51%
+    ),
+    url(/img/main/mob/hero-1x.jpg);
+>>>>>>> main
   background-repeat: no-repeat;
   background-size: 335px 439px;
   background-position-x: center;
   background-position-y: 40px;
 }
 
+<<<<<<< HEAD
 .hero-main-wrap{
   position:absolute;
+=======
+.hero-main-wrap {
+  position: absolute;
+>>>>>>> main
   left: 0;
   right: 0;
   top: 389px;
 }
 
 @media (min-device-pixel-ratio: 2),
+<<<<<<< HEAD
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
   .hero-main {
@@ -28,11 +43,27 @@
 }
 
 .hero-title{
+=======
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-main {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 70.73%,
+        #121212 98.51%
+      ),
+      url(/img/main/mob/hero-2x.jpg);
+  }
+}
+
+.hero-title {
+>>>>>>> main
   margin-bottom: 24px;
   text-align: center;
   font-family: 'DM Sans', sans-serif;
   font-weight: 400;
   font-size: 80px;
+<<<<<<< HEAD
   line-height: 1.0;
   letter-spacing: -0.02em;
   text-transform: uppercase;
@@ -40,6 +71,15 @@
 }
 
 .hero-main-btn{
+=======
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #f7f7f7;
+}
+
+.hero-main-btn {
+>>>>>>> main
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,10 +87,17 @@
   margin-bottom: 66px;
 }
 
+<<<<<<< HEAD
 .book-btn-main{
   padding: 8px 18px;
   background-color: transparent;
   border: 0.8px solid #F7F7F7;
+=======
+.book-btn-main {
+  padding: 8px 18px;
+  background-color: transparent;
+  border: 0.8px solid #f7f7f7;
+>>>>>>> main
   border-radius: 32px;
   font-family: 'DM Sans', sans-serif;
   font-weight: 400;
@@ -58,27 +105,39 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  color: #F7F7F7;
+  color: #f7f7f7;
 }
 
+<<<<<<< HEAD
 .desc-wrap{
+=======
+.desc-wrap {
+>>>>>>> main
   /* width: 335px; */
   margin-left: auto;
   margin-right: auto;
 }
 
+<<<<<<< HEAD
 .desc-wrap :not(:last-child){
   margin-bottom: 32px;
 }
 
 .hero-main-desc{
+=======
+.desc-wrap :not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.hero-main-desc {
+>>>>>>> main
   font-family: 'DM Sans', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #F7F7F7;
+  color: #f7f7f7;
 }
 
 /* === TABLET === */
@@ -88,6 +147,7 @@
     height: 946px; /* 791 */
     padding-top: 50px; /* 40 */
     padding-bottom: 38px; /* 40 */
+<<<<<<< HEAD
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, #121212 98.51%), url(../img/main/tab/hero-1x.jpg);
     background-size: 542px 710px; /*335px 439px*/
     background-position-y: 50px; /* 40 */
@@ -116,12 +176,58 @@
   }
 
   .book-btn-main{
+=======
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 70.73%,
+        #121212 98.51%
+      ),
+      url(/img/main/tab/hero-1x.jpg);
+    background-size: 542px 710px; /*335px 439px*/
+    background-position-y: 50px; /* 40 */
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-main {
+      background-image: linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0) 70.73%,
+          #121212 98.51%
+        ),
+        url(/img/main/tab/hero-2x.jpg);
+    }
+  }
+
+  .hero-main-wrap {
+    top: 525px;
+  }
+
+  .hero-title {
+    margin-bottom: 32px; /* 24 */
+    font-size: 150px; /* 80 */
+  }
+
+  .hero-main-book {
+    padding-bottom: 38px; /* 40 */
+  }
+
+  .hero-main-btn {
+    margin-bottom: 86px; /* 66 */
+  }
+
+  .book-btn-main {
+>>>>>>> main
     padding: 8px 24px; /* 8 18*/
     background-color: transparent; /* black */
     line-height: 1.71; /* 1.29 */
   }
 
+<<<<<<< HEAD
   .desc-wrap{
+=======
+  .desc-wrap {
+>>>>>>> main
     display: flex;
   }
 
@@ -129,32 +235,57 @@
     margin-bottom: 0px;
   }
 
+<<<<<<< HEAD
   .desc-one{
     width: 369px;
   }
 
   .desc-two{
+=======
+  .desc-one {
+    width: 369px;
+  }
+
+  .desc-two {
+>>>>>>> main
     width: 337px;
   }
 }
 
 /* === DESKTOP === */
 
+<<<<<<< HEAD
 @media screen and (min-width: 1440px){
   .hero-main {
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, rgba(18, 18, 18, 0.8) 100%), url(../img/main/desk/hero-1x.jpg);
+=======
+@media screen and (min-width: 1440px) {
+  .hero-main {
+    height: 770px;
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 70.73%,
+        rgba(18, 18, 18, 0.8) 100%
+      ),
+      url(/img/main/desk/hero-1x.jpg);
+>>>>>>> main
     background-size: contain;
     background-position-x: 100%;
     background-position-y: 0%;
   }
 
+<<<<<<< HEAD
   .hero-main-wrap{
+=======
+  .hero-main-wrap {
+>>>>>>> main
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
   }
   @media (min-device-pixel-ratio: 2),
+<<<<<<< HEAD
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
     .hero-main {
@@ -171,23 +302,58 @@
   }
 
   .hero-main-btn{
+=======
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-main {
+      background-image: linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0) 70.73%,
+          rgba(18, 18, 18, 0.8) 100%
+        ),
+        url(/img/main/desk/hero-2x.jpg);
+    }
+  }
+
+  .hero-title {
+    margin-bottom: 0px;
+    font-size: 180px;
+    position: absolute;
+    top: 196px;
+    left: 32px;
+  }
+
+  .hero-main-btn {
+>>>>>>> main
     position: absolute;
     bottom: 78px;
     right: 94px;
     margin-bottom: 0px;
   }
 
+<<<<<<< HEAD
   .book-btn-main{
+=======
+  .book-btn-main {
+>>>>>>> main
     padding: 9px 24px;
     font-size: 18px;
     line-height: 1.33;
   }
 
+<<<<<<< HEAD
   .desc-wrap{
+=======
+  .desc-wrap {
+>>>>>>> main
     position: absolute;
     bottom: 48px;
     /* width: 335px; */
     margin-left: auto;
     margin-right: auto;
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> main
