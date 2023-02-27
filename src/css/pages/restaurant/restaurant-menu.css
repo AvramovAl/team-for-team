@@ -73,7 +73,7 @@
 
 .menu-weight {
     margin-bottom: 14px;
-    color: var(--menu-grams-color);
+    color: #D8D7D7;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: -0.02em;
@@ -94,6 +94,7 @@
     height: 40px;
     border: 0.8px solid var(--background-color);
     border-radius: 32px;
+    font-size: 14px;
     line-height: 1.71;
     letter-spacing: -0.02em;
     text-transform: uppercase;
@@ -101,9 +102,29 @@
     background-color: transparent;
 }
 
+.menu-btn-last {
+display: none;
+        margin-left: 0;
+        margin-top: 56px;
+        padding: 8px 24px;
+        height: 40px;
+        border: 0.8px solid var(--background-color);
+        border-radius: 32px;
+        font-size: 18px;
+        line-height: 1.33;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        color: var(--background-color);
+        background-color: transparent;
+    }
+
 .menu-parts {
     display: none;
     max-width: 515px;
+}
+
+.menu-parts-last {
+display: none;
 }
 
 /* tablet */
@@ -126,7 +147,7 @@
     }
 
     .menu {
-        max-width: 515px;
+       width: 515px;
         margin: 0 auto;
     }
 
@@ -163,7 +184,6 @@
     padding: 100px 136px;
 }
 .restaurant-title {
-    text-align: center;
 font-size: 40px;
 line-height: 1.1px;
 }
@@ -179,15 +199,36 @@ line-height: 1.1px;
 }
 
 .menu-btn {
-    display: none;
+display: none;
+}
+
+.menu-btn-last {
+    display: block;
 }
 
 .menu-parts {
     display: block;
-
+    width: 515px;
 }
 
 .item-description {
     max-width: 345px;
 }
+.menu-parts-last{
+    width: 515px;
+    display: block;
+}
+
+.menu-title-last {
+    margin-top: 28px;
+    margin-bottom: 32px;
+    font-style: italic;
+    font-weight: 700;
+        font-size: 24px;
+        line-height: 1;
+        text-transform: uppercase;
+}
+
+
+
 }
