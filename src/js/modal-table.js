@@ -1,14 +1,16 @@
-(() => {
-  const refs = {
-    openModalBtn: document.querySelector('[table-modal-open]'),
-    closeModalBtn: document.querySelector('[table-modal-close]'),
-    modal: document.querySelector('[table-modal]'),
-  };
+// Получаем элементы кнопки открытия модального окна, самого модального окна и кнопки закрытия модального окна
+var openModalBtns = document.querySelectorAll(".open-modal-table");
+var modal = document.querySelector(".backdrop-table");
+var closeModalBtn = document.querySelector(".close-modal-table");
 
-  refs.openModalBtn.addEventListener('click', toggleModal);
-  refs.closeModalBtn.addEventListener('click', toggleModal);
+// Обработчик события для кнопки открытия модального окна
+openModalBtns.forEach(function(openModalBtn) {
+  openModalBtn.addEventListener("click", function() {
+    modal.classList.remove("is-hidden");
+  });
+});
 
-  function toggleModal() {
-    refs.modal.classList.toggle('is-hidden');
-  }
-})();
+// При клике на кнопку закрытия модального окна, скрываем модальное окно
+closeModalBtn.addEventListener("click", function() {
+  modal.classList.add("is-hidden");
+});
