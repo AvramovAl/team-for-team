@@ -6,7 +6,7 @@
   height: 100%;
   opacity: 1;
   overflow: auto;
-  background-color: var(--modal-background-color);
+  background-color: var(--modal-backdrop-color);
   transition: opacity var(--modal-tra), visibility var(--modal-tra);
 }
 
@@ -30,13 +30,7 @@
   background-color: var(--modal-background-color);
   border-radius: 4px;
   padding: 24px 16px;
-  /* transition: transform var(--header-tra); */
-}
-
-.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
+  transition: transform var(--modal-tra);
 }
 
 .modal-price-btn-close {

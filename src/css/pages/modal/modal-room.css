@@ -6,7 +6,7 @@
   height: 100%;
   opacity: 1;
   overflow: auto;
-  background-color: var(--modal-background-color);
+  background-color: var(--modal-backdrop-color);
   transition: opacity var(--modal-tra), visibility var(--modal-tra);
 }
 
@@ -29,14 +29,8 @@
   min-height: 576px;
   background-color: var(--modal-background-color);
   border-radius: 4px;
-  padding: 24px 16px;
-  /* transition: transform var(--header-tra); */
-}
-
-.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
+  padding: 14px 14px 40px 24px;
+  transition: transform var(--modal-tra);
 }
 
 .modal-room-btn-close {
@@ -50,6 +44,33 @@
   padding: 0;
   line-height: 0;
   position: absolute;
-  top: 2px;
-  left: 20px;
+  top: 14px;
+  right: 14px;
 }
+
+.modal-room-icon {
+  stroke: var(--modal-color);
+}
+
+@media screen and (max-width: 767px) {
+  .modal-room-icon {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+.modal-room-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.36;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--modal-color);
+}
+
+@media screen and (min-width: 375px) {
+.modal-room {
+  width: 375px;
+}  
+}
+
