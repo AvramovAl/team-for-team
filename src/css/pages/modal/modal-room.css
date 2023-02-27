@@ -1,3 +1,9 @@
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 .backdrop-room.is-hidden .modal-room {
   transform: translate(-50%, -50%) scaleY(0);
 }
