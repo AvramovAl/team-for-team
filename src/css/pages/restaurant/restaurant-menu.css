@@ -67,6 +67,14 @@
     letter-spacing: 0.18em;
 }
 
+.description-part {
+    max-width: 325px;
+    color: rgba(216, 215, 215, 0.5);
+        font-size: 12px;
+        line-height: 1.4;
+        letter-spacing: 0.18em;
+}
+
 .menu-subbox {
     text-align: right;
 }
@@ -120,11 +128,22 @@ display: none;
 
 .menu-parts {
     display: none;
-    max-width: 515px;
 }
 
 .menu-parts-last {
 display: none;
+}
+
+.menu-last {
+    margin-bottom: 0;
+        font-weight: 500;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+}
+.menu-last::before {
+    content: "• ";
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 /* tablet */
@@ -183,10 +202,6 @@ display: none;
 .restaurant-section {
     padding: 100px 136px;
 }
-.restaurant-title {
-font-size: 40px;
-line-height: 1.1px;
-}
 
 .menu-container {
     display: flex;
@@ -196,6 +211,7 @@ line-height: 1.1px;
 
 .menu {
     margin: 0;
+    display: none;
 }
 
 .menu-btn {
