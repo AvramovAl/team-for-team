@@ -1,3 +1,15 @@
+.backdrop-room {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  overflow: auto;
+  background-color: var(--modal-background-color);
+  transition: opacity var(--modal-tra), visibility var(--modal-tra);
+}
+
 .is-hidden {
   opacity: 0;
   visibility: hidden;
@@ -20,6 +32,13 @@
   padding: 24px 16px;
   /* transition: transform var(--header-tra); */
 }
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 .modal-room-btn-close {
   width: 28px;
   height: 28px;
