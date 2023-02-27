@@ -48,6 +48,10 @@
   margin-bottom: 32px;
 }
 
+.main__imgrest_desk {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .main-restaurant-description {
     margin-left: 32px;
@@ -64,8 +68,14 @@
   }
 }
 
-.button__main_resttab {
-  display: hidden;
+/* .button__main_resttab {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .button__main_resttab {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -74,7 +84,7 @@
     margin-left: auto;
     gap: 14px;
   }
-}
+} */
 
 .button__rest_main {
   padding: 8px 18px;
@@ -113,7 +123,9 @@
 
 @media screen and (min-width: 1440px) {
   .button__rest_position {
-    display: none;
+    position: relative;
+    bottom: 503px;
+    left: 550px;
   }
 }
 
@@ -139,8 +151,14 @@
 
 @media screen and (min-width: 768px) {
   .slick-next::before {
-    top: 140px;
-    right: 670px;
+    top: 200px;
+    right: 650px;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .slick-next::before {
+    top: 220px;
   }
 }
 
@@ -166,13 +184,14 @@
 
 @media screen and (min-width: 768px) {
   .slick-prev::before {
-    top: 140px;
+    top: 200px;
     left: 38px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .slick-prev::before {
+    top: 220px;
     left: 700px;
   }
 }
