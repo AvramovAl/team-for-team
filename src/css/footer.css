@@ -23,7 +23,7 @@
 .logo-footer {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   /* identical to box height, or 120% */
 
   letter-spacing: 0.18em;
@@ -33,7 +33,6 @@
 }
 
 .logo-footer-text {
-  font-weight: 400;
   font-size: 8px;
   line-height: 1.25;
   letter-spacing: 0.18em;
