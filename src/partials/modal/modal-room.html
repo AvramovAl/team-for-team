@@ -1,3 +1,34 @@
-<div class="container">
-  <h2>BOOK A room</h2>
+<div class="backdrop-room is-hidden" room-modal>
+  <div class="modal-room">
+    <button class="modal-room-btn-close" type="button" room-modal-close>
+      <svg class="modal-room-icon" width="14" height="14">
+        <use href="./img/icons.svg#icon-modal-close"></use>
+      </svg>
+    </button>
+    <p class="modal-room-title">book <i>a table</i></p>
+    <form class="modal-room-form" action="#">
+      <label class="modal-room-label" for="user-name">your name</label>
+      <input type="text" id="user-name" name="user-name">
+      <p class="modal-room-text">who should book a table for?</p>
+      <label class="modal-room-label" for="user-amount">number of people</label>
+      <select name="user-amount" id="user-amount">
+        <option value="1" class="modal-room-option">number of people</option>
+        <option value="2" class="modal-room-option">1</option>
+        <option value="3" class="modal-room-option">2</option>
+        <option value="4" class="modal-room-option">3</option>
+        <option value="5" class="modal-room-option">4</option>
+      </select>
+      <label class="modal-room-label" for="user-date">date to book</label>
+      <select name="user-date" id="user-date">
+        <option value="1" class="modal-room-option">today</option>
+        <option value="2" class="modal-room-option">tomorrow</option>
+        <option value="3" class="modal-room-option">day after tomorrow</option>
+      </select>
+      <p class="modal-room-text">what date to book?</p>
+      <label class="modal-room-label" for="user-phone">phone number</label>
+      <input type="tel" id="user-phone" name="user-phone" placeholder="+38 ()">
+      <p class="modal-room-text">phone number</p>
+      <button class="modal-btn" type="submit">make a reservation</button>
+    </form>
+  </div>
 </div>
