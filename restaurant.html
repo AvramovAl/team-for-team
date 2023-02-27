@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant</title>
     
-    <script type="module" crossorigin src="/team-for-team/assets/slick-f0db4d2e.js"></script>
-    <link rel="stylesheet" href="/team-for-team/assets/main-2b858bf4.css">
+    <script type="module" crossorigin src="/team-for-team/assets/slick-98463e0c.js"></script>
+    <link rel="stylesheet" href="/team-for-team/assets/main-dea5630c.css">
   </head>
   <body>
     <header class="header header-other">
@@ -35,7 +35,7 @@
       type="button"
     >
       <svg class="mob-menu-icon mob-icon-other" width="24" height="16">
-        <use href="/team-for-team/assets/icons-64639ab5.svg#icon-header-menu-open"></use>
+        <use href="/team-for-team/assets/icons-d2d01d28.svg#icon-header-menu-open"></use>
       </svg>
     </button>
     <div class="header-content">
@@ -54,7 +54,7 @@
                 width="24"
                 height="24"
               >
-                <use href="/team-for-team/assets/icons-64639ab5.svg#icon-instagram"></use>
+                <use href="/team-for-team/assets/icons-d2d01d28.svg#icon-instagram"></use>
               </svg>
             </a>
           </li>
@@ -65,7 +65,7 @@
                 width="24"
                 height="24"
               >
-                <use href="/team-for-team/assets/icons-64639ab5.svg#icon-facebook"></use>
+                <use href="/team-for-team/assets/icons-d2d01d28.svg#icon-facebook"></use>
               </svg>
             </a>
           </li>
@@ -76,7 +76,7 @@
                 width="24"
                 height="24"
               >
-                <use href="/team-for-team/assets/icons-64639ab5.svg#icon-twitter"></use>
+                <use href="/team-for-team/assets/icons-d2d01d28.svg#icon-twitter"></use>
               </svg>
             </a>
           </li>
@@ -96,7 +96,7 @@
             width="16"
             height="16"
           >
-            <use href="/team-for-team/assets/icons-64639ab5.svg#icon-header-menu-close"></use>
+            <use href="/team-for-team/assets/icons-d2d01d28.svg#icon-header-menu-close"></use>
           </svg>
         </button>
         <div class="header-content">
@@ -115,7 +115,7 @@
                     width="24"
                     height="24"
                   >
-                    <use href="/team-for-team/assets/icons-64639ab5.svg#icon-instagram"></use>
+                    <use href="/team-for-team/assets/icons-d2d01d28.svg#icon-instagram"></use>
                   </svg>
                 </a>
               </li>
@@ -126,7 +126,7 @@
                     width="24"
                     height="24"
                   >
-                    <use href="/team-for-team/assets/icons-64639ab5.svg#icon-facebook"></use>
+                    <use href="/team-for-team/assets/icons-d2d01d28.svg#icon-facebook"></use>
                   </svg>
                 </a>
               </li>
@@ -137,7 +137,7 @@
                     width="24"
                     height="24"
                   >
-                    <use href="/team-for-team/assets/icons-64639ab5.svg#icon-twitter"></use>
+                    <use href="/team-for-team/assets/icons-d2d01d28.svg#icon-twitter"></use>
                   </svg>
                 </a>
               </li>
@@ -177,7 +177,7 @@
                 width="20"
                 height="20"
               >
-                <use href="/team-for-team/assets/icons-64639ab5.svg#icon-instagram-mob"></use>
+                <use href="/team-for-team/assets/icons-d2d01d28.svg#icon-instagram-mob"></use>
               </svg>
             </a>
           </li>
@@ -188,7 +188,7 @@
                 width="20"
                 height="20"
               >
-                <use href="/team-for-team/assets/icons-64639ab5.svg#icon-facebook-mob"></use>
+                <use href="/team-for-team/assets/icons-d2d01d28.svg#icon-facebook-mob"></use>
               </svg>
             </a>
           </li>
@@ -199,7 +199,7 @@
                 width="20"
                 height="20"
               >
-                <use href="/team-for-team/assets/icons-64639ab5.svg#icon-twitter-mob"></use>
+                <use href="/team-for-team/assets/icons-d2d01d28.svg#icon-twitter-mob"></use>
               </svg>
             </a>
           </li>
@@ -455,7 +455,7 @@
   </div>
   </li>
   </ul>
-  <button type="button" class="menu-btn">book a table</button>
+  <button type="button" class="menu-btn" table-modal-open>book a table</button>
   </div>
   </div>
 </section>
@@ -476,21 +476,21 @@
           <li class="footer-soc-item">
             <a href="#" class="footer-soc-link">
               <svg class="footer-soc-icon">
-                <use href="/team-for-team/assets/icons-64639ab5.svg#icon-instagram"></use>
+                <use href="/team-for-team/assets/icons-d2d01d28.svg#icon-instagram"></use>
               </svg>
             </a>
           </li>
           <li class="footer-soc-item">
             <a href="#" class="footer-soc-link">
               <svg class="footer-soc-icon">
-                <use href="/team-for-team/assets/icons-64639ab5.svg#icon-facebook"></use>
+                <use href="/team-for-team/assets/icons-d2d01d28.svg#icon-facebook"></use>
               </svg>
             </a>
           </li>
           <li class="footer-soc-item">
             <a href="#" class="footer-soc-link">
               <svg class="footer-soc-icon">
-                <use href="/team-for-team/assets/icons-64639ab5.svg#icon-twitter"></use>
+                <use href="/team-for-team/assets/icons-d2d01d28.svg#icon-twitter"></use>
               </svg>
             </a>
           </li>
@@ -505,8 +505,45 @@
   </div>
 </footer>
 
-    <div class="container">
-  <h2>BOOK A TABLE</h2>
+    <div class="backdrop-table is-hidden" table-modal>
+  <div class="modal-table">
+    <button class="modal-table-btn-close" type="button" table-modal-close>
+      <svg class="modal-table-icon" width="14" height="14">
+        <use href="/team-for-team/assets/icons-d2d01d28.svg#icon-modal-close"></use>
+      </svg>
+    </button>
+    <p class="modal-table-title">book <i>a table</i></p>
+    <form class="modal-table-form" action="#">
+      <label class="modal-table-label" for="table-user-name">your name</label>
+      <input type="text" id="table-user-name" name="table-user-name" />
+      <p class="modal-table-text">who should book a table for?</p>
+      <label class="modal-table-label" for="table-user-amount">number of people</label>
+      <select name="table-user-amount" id="table-user-amount">
+        <option value="number-of-people" class="modal-table-option">number of people</option>
+        <option value="1" class="modal-table-option">1</option>
+        <option value="2" class="modal-table-option">2</option>
+        <option value="3" class="modal-table-option">3</option>
+        <option value="4" class="modal-table-option">4</option>
+        <option value="5" class="modal-table-option">5</option>
+      </select>
+      <label class="modal-table-label" for="table-user-date">date to book</label>
+      <select name="table-user-date" id="table-user-date">
+        <option value="today" class="modal-table-option">today</option>
+        <option value="tomorrow" class="modal-table-option">tomorrow</option>
+        <option value="day-after-tomorrow" class="modal-table-option">day after tomorrow</option>
+      </select>
+      <p class="modal-table-text">what date to book?</p>
+      <label class="modal-table-label" for="table-user-phone">phone number</label>
+      <input
+        type="tel"
+        id="table-user-phone"
+        name="table-user-phone"
+        value="+38 ()"
+      />
+      <p class="modal-table-text">phone number</p>
+      <button class="modal-btn" type="submit">make a reservation</button>
+    </form>
+  </div>
 </div>
 
 
