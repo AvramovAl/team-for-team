@@ -27,5 +27,14 @@
   --header-border-index: 0.5px solid rgba(247, 247, 247, 0.2);
   --header-tra: 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67);
   --header-border-main: 0.5px solid rgba(247, 247, 247, 0.2);
+
+  /* Modal color */
+
+  --modal-color: #f7f7f7;
+  --modal-comment-color: #d8d7d7;
+  --modal-border-select: 1.8px solid #f7f7f7;
+  --modal-border-button: 0.8px solid #f7f7f7;
+
+  /* Room page color */
   --room-amenities-text-color: #f7f7f7;
 }
