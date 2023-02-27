@@ -4,15 +4,16 @@ $('.main-restaurant-slider').slick({
   speed: 1300,
   variablewidth: true,
   slidesToShow: 4,
-  slidesToScroll: 4,
+  slidesToScroll: 2,
   responsive: [
     {
       breakpoint: 1440,
       settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        infinite: false,
+        dots: false,
+        variablewidth: true,
       },
     },
     {
