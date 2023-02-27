@@ -37,12 +37,7 @@
 }
 
 .room-amenities-pic {
-    margin-top: 64px;
-    margin-bottom: 32px;
-    /* display: block; */
     position: relative;
-    margin-right: 0;
-    left: 80px;
 }
 
 /* .room-amenities-pic-bathroom{
@@ -53,7 +48,16 @@
 .room-amenities-pic-accessories {
     position: absolute;
     top: 144px;
-    left: -76px;
+    left: 0px;
+}
+
+.room-amenities-down-pos {
+    padding-top: 64px;
+}
+
+
+.bathroom {
+    margin-left: auto;
 }
 
 .room-amenities-btn {
