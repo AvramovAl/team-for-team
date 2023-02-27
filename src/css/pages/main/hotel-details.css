@@ -1,0 +1,28 @@
+.conteiner-main-hotel{
+    background-color: #121212;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.title-main-hotel{
+    font-family: DM Sans;
+font-size: 40px;
+font-weight: 500;
+line-height: 1.0;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: #F6F6F6;
+margin-bottom: 32px;
+}
+
+.text-main-hotel{
+font-family: DM Sans;
+font-size: 14px;
+font-weight: 500;
+line-height: 1.29;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: #F6F6F6;
+margin-bottom: 32px;
+}
+
