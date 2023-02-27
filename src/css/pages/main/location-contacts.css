@@ -9,6 +9,10 @@
   padding-bottom: 32px;
 }
 
+.address-list {
+  margin-bottom: 64px;
+}
+
 .address-text {
   font-style: normal;
   font-weight: 400;
@@ -28,5 +32,18 @@
   line-height: 1.28;
   letter-spacing: -0.02em;
   text-transform: uppercase;
+  color: var(--black-color);
+
+  margin-bottom: 12px;
+}
+
+.address-item {
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+
   color: var(--black-color);
 }
