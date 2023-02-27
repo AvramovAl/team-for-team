@@ -1,11 +1,11 @@
 .conteiner-main-hotel{
     background-color: #121212;
-    margin-top: 32px;
-    margin-bottom: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .title-main-hotel{
-    font-family: DM Sans;
+    font-family: DM Sans, sans-serif;
 font-size: 40px;
 font-weight: 500;
 line-height: 1.0;
@@ -16,7 +16,9 @@ margin-bottom: 32px;
 }
 
 .text-main-hotel{
-font-family: DM Sans;
+    display: block;
+    max-width: 335px;
+font-family: DM Sans, sans-serif;
 font-size: 14px;
 font-weight: 500;
 line-height: 1.29;
@@ -26,3 +28,24 @@ color: #F6F6F6;
 margin-bottom: 32px;
 }
 
+.main-hotel-img1{
+    width: 100%;
+    max-height: 417px;
+    margin-bottom: 27px;
+}
+
+.main-hotel-img2,
+.main-hotel-img3{
+    width: calc((100% - 20) / 2);
+    max-height: 128px;
+}
+
+.main-hotel-img4,
+.main-hotel-img5{
+    display: none;
+}
+
+.gallery-item2{
+    display: flex;
+    gap: 20px;
+}
