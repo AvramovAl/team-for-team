@@ -74,6 +74,8 @@
     column-gap: 32px;
   }
   .triple-room-item:last-child {
+    position: absolute;
+    left: 51%;
     align-self:flex-end;
   }
   .third-photo{
@@ -114,6 +116,11 @@
     column-gap: 32px;
     justify-content: center;
     align-items: center;
+  }
+  .triple-room-item:last-child {
+    align-self:center;
+    position: relative;
+    left: 0;
   }
   .third-photo {
     order: -1;
