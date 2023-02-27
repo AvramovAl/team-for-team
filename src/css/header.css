@@ -324,6 +324,34 @@
     text-transform: uppercase;
   }
 
+  /* Current Navigation active style */
+
+  .current-other,
+  .current-index {
+    display: inline-block;
+    position: relative;
+  }
+
+  .current-other:after,
+  .current-index:after {
+    content: '';
+    height: 4px;
+    width: 4px;
+    border-radius: 2px;
+    position: absolute;
+    left: 50%;
+    bottom: -40%;
+    transform: translateX(-50%);
+  }
+
+  .current-index:after {
+    background-color: var(--header-color-index);
+  }
+
+  .current-other:after {
+    background-color: var(--header-color);
+  }
+
   /* Header Logo style */
 
   .logo {
