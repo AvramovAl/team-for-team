@@ -5,29 +5,22 @@
         <use href="./img/icons.svg#icon-modal-close"></use>
       </svg>
     </button>
-    <p class="modal-price-title">book <i>a table</i></p>
+    <p class="modal-price-title">prices per room</p>
     <form class="modal-price-form" action="#">
-      <label class="modal-price-label" for="user-name">your name</label>
-      <input type="text" id="user-name" name="user-name">
-      <p class="modal-price-text">who should book a table for?</p>
-      <label class="modal-price-label" for="user-amount">number of people</label>
-      <select name="user-amount" id="user-amount">
-        <option value="1" class="modal-price-option">number of people</option>
-        <option value="2" class="modal-price-option">1</option>
-        <option value="3" class="modal-price-option">2</option>
-        <option value="4" class="modal-price-option">3</option>
-        <option value="5" class="modal-price-option">4</option>
+      <label class="modal-price-label" for="user-number-nights">double suite</label>
+      <select name="user-number-nights" id="user-number-nights">
+        <option value="1" class="modal-price-option">1</option>
+        <option value="2" class="modal-price-option">2</option>
+        <option value="3" class="modal-price-option">3</option>
+        <option value="4" class="modal-price-option">4</option>
       </select>
-      <label class="modal-price-label" for="user-date">date to book</label>
-      <select name="user-date" id="user-date">
-        <option value="1" class="modal-price-option">today</option>
-        <option value="2" class="modal-price-option">tomorrow</option>
-        <option value="3" class="modal-price-option">day after tomorrow</option>
+      <p class="modal-price-text">number of nights</p>
+
+      <select name="user-check-in-date" id="user-check-in-date">
+        <option value="1" class="modal-price-option" type="date">25/04/2023</option>
       </select>
-      <p class="modal-price-text">what date to book?</p>
-      <label class="modal-price-label" for="user-phone">phone number</label>
-      <input type="tel" id="user-phone" name="user-phone" placeholder="+38 ()">
-      <p class="modal-price-text">phone number</p>
+      <p class="modal-price-text">check-in date</p>
+
       <button class="modal-btn" type="submit">make a reservation</button>
     </form>
   </div>
