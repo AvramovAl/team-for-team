@@ -1,43 +1,43 @@
 .room-amenities-section {
-    background-color: var(--black-color);
-    padding-top: 40px;
-    padding-bottom: 64px;
+  background-color: var(--black-color);
+  padding-top: 40px;
+  padding-bottom: 64px;
 }
 
 .amenities {
-    color: var(--room-amenities-text-color);
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
-    gap: 40px;
+  color: var(--room-amenities-text-color);
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  gap: 40px;
 }
 
 .room-amenities-list {
-    list-style: disc;
+  list-style: disc;
 
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
 }
 
 .room-amenities-title {
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 32px;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
 
-    margin-bottom: 28px;
+  margin-bottom: 28px;
 }
 
 .room-amenities-list-position {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .room-amenities-pic {
-    position: relative;
+  position: relative;
 }
 
 /* .room-amenities-pic-bathroom{
@@ -46,131 +46,126 @@
 } */
 
 .room-amenities-pic-accessories {
-    position: absolute;
-    top: 144px;
-    left: 0px;
+  position: absolute;
+  top: 144px;
+  left: 0px;
 }
 
 .room-amenities-down-pos {
-    padding-top: 64px;
+  padding-top: 64px;
 }
 
-
 .room-amenities-pic-bathroom {
-    margin-left: auto;
+  margin-left: auto;
 }
 
 .room-amenities-btn {
-    min-width: 175px;
-    display: block;
-    margin: 0 auto;
-
-    padding: 8px 18px;
-
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-
-    background-color: transparent;
-    color: var(--room-amenities-text-color);
-    border: 0.8px solid var(--room-amenities-text-color);
-    border-radius: 32px;
+  min-width: 175px;
+  display: block;
+  margin: 0 auto;
+  padding: 8px 18px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: var(--room-amenities-text-color);
+  border: 0.8px solid var(--room-amenities-text-color);
+  border-radius: 32px;
 }
 
-
+.room-amenities-btn:hover,
+.room-amenities-btn:focus {
+  color: var(--black-color);
+}
 
 /* === TABLET === */
 @media screen and (min-width: 768px) {
-    .room-amenities-section {
-        padding-top: 80px;
-        padding-bottom: 80px;
-    }
+  .room-amenities-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
 
-    .room-amenities-list {
-        font-size: 18px;
-        line-height: 24px;
-    }
+  .room-amenities-list {
+    font-size: 18px;
+    line-height: 24px;
+  }
 
-    .room-amenities-title{
-        font-size: 40px;
-        line-height: 44px;
+  .room-amenities-title {
+    font-size: 40px;
+    line-height: 44px;
 
-        margin-bottom: 40px;
-    }
+    margin-bottom: 40px;
+  }
 
-    .room-amenities-list-position {
-        padding-left: 30px;
-    }
+  .room-amenities-list-position {
+    padding-left: 30px;
+  }
 
-    .room-amenities-pic{
-        position: relative;
-    }
+  .room-amenities-pic {
+    position: relative;
+  }
 
-    .room-amenities-pic-accessories {
-        position: absolute;
-        top: 157px;
-        left: 0px;
-    }
+  .room-amenities-pic-accessories {
+    position: absolute;
+    top: 157px;
+    left: 0px;
+  }
 
-    .room-amenities-down-pos {
-        padding-top: 122px;
-    }
+  .room-amenities-down-pos {
+    padding-top: 122px;
+  }
 
-    .room-amenities-btn{
-        position: absolute;
-        /* left: 32px; */
-        /* bottom: -114px; */
+  .room-amenities-btn {
+    position: absolute;
+    /* left: 32px; */
+    /* bottom: -114px; */
 
-        min-width: 143px;
-        padding: 8px 24px;
+    min-width: 143px;
+    padding: 8px 24px;
 
-        line-height: 24px;
-    }
+    line-height: 24px;
+  }
 }
 
 /* === DESKTOP === */
 @media screen and (min-width: 1440px) {
-
-    .room-amenities-section {
+  .room-amenities-section {
     padding-top: 94px;
     padding-bottom: 616px;
     position: relative;
-}
+  }
 
-.amenities{
+  .amenities {
     flex-direction: row;
     flex-wrap: wrap;
     row-gap: 100px;
     column-gap: 70px;
-}
+  }
 
-.room-amenities-list{
+  .room-amenities-list {
     width: 633px;
-}
+  }
 
-.room-amenities-title{
+  .room-amenities-title {
     font-size: 40px;
     line-height: 44px;
-}
+  }
 
-/* .room-amenities-down-pos{
+  /* .room-amenities-down-pos{
     position: relative;
 } */
 
-/* .room-amenities-pic {
+  /* .room-amenities-pic {
     position: absolute;
 } */
 
-.room-amenities-pic-bathroom {
+  .room-amenities-pic-bathroom {
     position: absolute;
     /* bottom: 100px;
     right: 0px; */
+  }
 
-}
-
-.room-amenities-pic-accessories{
-position: absolute;
-}
+  .room-amenities-pic-accessories {
+    position: absolute;
+  }
 }
