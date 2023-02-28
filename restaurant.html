@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant</title>
     
-    <script type="module" crossorigin src="/team-for-team/assets/slick-7e5e2da7.js"></script>
-    <link rel="stylesheet" href="/team-for-team/assets/main-6a761ea5.css">
+    <script type="module" crossorigin src="/team-for-team/assets/slick-fc9610d2.js"></script>
+    <link rel="stylesheet" href="/team-for-team/assets/main-03586375.css">
   </head>
   <body>
     <header class="header header-other">
@@ -215,7 +215,7 @@
   <div class="container">
     <h1 class="title">Restaurant</h1>
   <div class="button-hero">
-    <button type="button" class="button-shape-hero open-modal-table">book a table</button>
+    <button type="button" class="button-shape-hero" data-table-open>book a table</button>
     <button type="button" class="button-shape-hero">View a menu</button>
   </div>
   <div class="photo-hero-list list">
@@ -558,7 +558,7 @@
         </div>
       </li>
     </ul>
-    <button type="button" class="menu-btn-last" table-modal-open>book a table</button>
+    <button type="button" class="menu-btn-last" data-table-open2>book a table</button>
   </div>
 
 <div class="menu-parts-last">
@@ -684,9 +684,9 @@
   </div>
 </footer>
 
-    <div class="backdrop-table is-hidden">
+    <div class="backdrop-table is-hidden" data-table>
   <div class="modal-table">
-    <button class="modal-table-btn-close close-modal-table" type="button">
+    <button class="modal-table-btn-close" type="button" data-table-close>
       <svg class="modal-table-icon" width="14" height="14">
         <use href="/team-for-team/assets/icons-d2d01d28.svg#icon-modal-close"></use>
       </svg>
@@ -729,5 +729,6 @@
     <!-- Base js -->
     
     <script src="./js/menu-active.js"></script>
+    <script src="./js/modal-restaurant.js"></script>
   </body>
 </html>

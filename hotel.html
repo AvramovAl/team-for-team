@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hotel</title>
     
-    <script type="module" crossorigin src="/team-for-team/assets/slick-7e5e2da7.js"></script>
-    <link rel="stylesheet" href="/team-for-team/assets/main-6a761ea5.css">
+    <script type="module" crossorigin src="/team-for-team/assets/slick-fc9610d2.js"></script>
+    <link rel="stylesheet" href="/team-for-team/assets/main-03586375.css">
   </head>
   <body>
     <header class="header header-other">
@@ -216,8 +216,8 @@
     <div class="hotel-hero-wrap">
       <h1 class="hero-hotel-title">hotel</h1>
       <div class="hotel-hero-btn-wrap">
-        <button type="button" class="hotel-hero-btn open-modal-room">book a room</button>
-        <button type="button" class="hotel-hero-btn open-modal-price">view prices</button>
+        <button type="button" class="hotel-hero-btn" data-room-open>book a room</button>
+        <button type="button" class="hotel-hero-btn" data-price-open>view prices</button>
       </div>
     </div>
     <p class="hotel-hero-content">
@@ -399,8 +399,8 @@
       </div>
     </div>
     <div class="hotel-luxery-btn-wrap">
-      <button type="button" class="hotel-luxury-btn"></button>
-      <button type="button" class="hotel-luxury-btn"></button>
+      <button type="button" class="hotel-luxury-btn">More details</button>
+      <button type="button" class="hotel-luxury-btn" data-price-open2>View prices</button>
     </div>
   </div>
 </section>
@@ -505,7 +505,7 @@
           <button class="triple-room-btn" type="button">More details</button>
         </form>
         <form action="/src/index.html">
-          <button class="triple-room-btn open-modal-price" type="button">View prices</button>
+          <button class="triple-room-btn" type="button" data-price-open3>View prices</button>
         </form>
       </div>
     </div>
@@ -604,6 +604,7 @@
           </button>
         </form>
         <form action="/src/index.html">
+          <button class="four-seater-room-btn open-modal-price" type="button" data-price-open4>
           <button class="four-seater-room-btn open-modal-price" type="button">
             View prices
           </button>
@@ -675,9 +676,9 @@
   </div>
 </footer>
 
-    <div class="backdrop-room is-hidden">
+    <div class="backdrop-room is-hidden" data-room>
   <div class="modal-room">
-    <button class="modal-room-btn-close close-modal-room" type="button">
+    <button class="modal-room-btn-close" type="button" data-room-close>
       <svg class="modal-room-icon" width="14" height="14">
         <use href="/team-for-team/assets/icons-d2d01d28.svg#icon-modal-close"></use>
       </svg>
@@ -721,9 +722,9 @@
   </div>
 </div>
 
-    <div class="backdrop-price is-hidden">
+    <div class="backdrop-price is-hidden" data-price>
   <div class="modal-price">
-    <button class="modal-price-btn-close close-modal-price" type="button">
+    <button class="modal-price-btn-close" type="button" data-price-close>
       <svg class="modal-price-icon" width="14" height="14">
         <use href="/team-for-team/assets/icons-d2d01d28.svg#icon-modal-close"></use>
       </svg>
@@ -752,5 +753,6 @@
     <!-- Base js -->
     
     <script src="./js/menu-active.js"></script>
+    <script src="./js/modal-hotel.js"></script>
   </body>
 </html>
