@@ -1,23 +1,7 @@
 /* ------------------MOBILE------------------- */
 
 .hotel-hero {
-  background-color: #f6f6f6;
-  padding-top: 40px;
-  padding-bottom: 64px;
-}
-
-@media screen and (min-width: 768px) {
-  .hotel-hero {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .hotel-hero {
-    padding-top: 48px;
-    padding-bottom: 48px;
-  }
+  background-color: #F6F6F6;
 }
 
 .hotel-hero-container {
@@ -31,30 +15,8 @@
   position: relative;
 }
 
-/* .hotel-hero-wrap {
+.hotel-hero-wrap {
   margin-bottom: 569px;
-} */
-
-/* Був конфлікт, поправ як що потрібно */
-
-@media screen and (min-width: 375px) {
-  .container {
-    width: 375px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .container {
-    width: 1440px;
-  }
 }
 
 .hero-hotel-title {
@@ -66,6 +28,7 @@
   margin-top: 0;
   margin-bottom: 24px;
 }
+
 
 .hotel-hero-btn-wrap {
   display: flex;
@@ -90,7 +53,9 @@
   background-color: transparent;
 }
 
+
 .hotel-hero-btn:is(:hover, :focus) {
+  
 }
 
 .hotel-hero-slider {
@@ -110,11 +75,13 @@
   height: 429px;
 }
 
+
 .hotel-hero-picture {
   display: block;
   height: 100%;
   max-width: 100%;
 }
+
 
 .hotel-hero-arrow-wrap {
   position: absolute;
@@ -127,6 +94,7 @@
   text-transform: uppercase;
   display: block;
 }
+
 
 @media screen and (min-width: 375px) {
   .hotel-hero-container {
@@ -147,7 +115,7 @@
 
   .hotel-hero-wrap {
     margin-bottom: 642px;
-  }
+  }  
 
   .hero-hotel-title {
     font-size: 80px;
@@ -175,7 +143,9 @@
   }
 }
 
+
 /* ------------------DESKTOP------------------- */
+
 
 @media screen and (min-width: 1440px) {
   .hotel-hero-container {
@@ -186,7 +156,7 @@
 
   .hotel-hero-wrap {
     margin-bottom: 204px;
-  }
+  }  
 
   .hero-hotel-title {
     font-size: 90px;
@@ -202,3 +172,5 @@
     height: 580px;
   }
 }
+
+
