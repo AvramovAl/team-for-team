@@ -47,13 +47,20 @@
 .hotel-luxery-content-wrap {
 }
 
+.hotel-luxury-content {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
 .hotel-luxury-content:not(:last-child) {
   margin-bottom: 24px;
 }
 
 .hotel-luxery-btn-wrap {
-    display: flex;
-    gap: 12px;
+  display: flex;
+  gap: 12px;
 }
 
 .hotel-luxury-btn {
@@ -71,4 +78,77 @@
   border: 0.8px solid #121212;
   border-radius: 32px;
   background-color: transparent;
+}
+
+@media screen and (min-width: 375px) {
+  .hotel-luxury-container {
+    width: 375px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hotel-luxury-container {
+    width: 786px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .hotel-luxury-list {
+    margin-bottom: 40px;
+  }
+
+  .hotel-luxery-wrap {
+    margin-bottom: 40px;
+  }
+
+  .hotel-luxury-title {
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #121212;
+  }
+
+  .hotel-luxery-content-wrap {
+    display: flex;
+    gap: 32px;
+  }
+
+  .hotel-luxury-content {
+    font-size: 18px;
+    line-height: 1.33;
+    flex-basis: calc((100% - 32px) / 2);
+  }
+
+  .hotel-luxury-content:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  .hotel-luxery-btn-wrap {
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hotel-luxury-container {
+    width: 1440px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .hotel-luxury-list {
+    margin-bottom: 50px;
+  }
+
+  .hotel-luxery-main-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .hotel-luxury-title {
+    margin-bottom: 40px;
+  }
 }
