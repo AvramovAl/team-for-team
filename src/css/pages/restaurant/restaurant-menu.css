@@ -48,6 +48,7 @@
 
 .menu-item {
     margin-bottom: 8px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 1.29;
     letter-spacing: -0.02em;
@@ -171,6 +172,7 @@ display: none;
     }
 
     .menu-item {
+        font-size: 18px;
         line-height: 1.33;
     }
 
@@ -201,6 +203,11 @@ display: none;
 @media screen and (min-width: 1440px) {
 .restaurant-section {
     padding: 100px 136px;
+}
+
+.restaurant-title {
+    padding-right: 260px;
+    margin-bottom: 100px;
 }
 
 .menu-container {
