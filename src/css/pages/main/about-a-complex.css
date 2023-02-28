@@ -1,156 +1,156 @@
 /* === MOBILE === */
 
-.display-none{
-    display: none;
+.display-none {
+  display: none;
 }
 
 .content-wrap {
-    position: relative;
+  position: relative;
 }
 
 .guest-feedback-1 {
-    position: absolute;
-    top: 420px;
-    left: 123px;
-    padding: 12px 12px;
-    width: 212px;
-    height: 61px;
-    background: #121212;
-    box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
-    border-radius: 6px;
-    background-image: url(../img/main/about-complex-rating1-1x.png);
-    background-repeat: no-repeat;
-    background-size: 41px 41px;
-    background-position: 14px;
+  position: absolute;
+  top: 420px;
+  left: 123px;
+  padding: 12px 12px;
+  width: 212px;
+  height: 61px;
+  background: #121212;
+  box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  background-image: url(/img/main/about-complex-rating1-1x.png);
+  background-repeat: no-repeat;
+  background-size: 41px 41px;
+  background-position: 14px;
 }
 
-@media (min-device-pixel-ratio: 2), 
-(min-resolution: 192dpi), 
-(min-resolution: 2dppx) {
-    .guest-feedback-1{
-        background-image: url(../img/main/about-complex-rating1-2x.png);
-    }
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .guest-feedback-1 {
+    background-image: url(/img/main/about-complex-rating1-2x.png);
+  }
 }
 
-.guest-name{
-    margin-left: 53px;
-    margin-bottom: 7px;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.0;
-    color: #F7F7F7;
+.guest-name {
+  margin-left: 53px;
+  margin-bottom: 7px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  color: #f7f7f7;
 }
 
-.guest-rating{
-    margin-left: 53px;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.33;
-    color: #575757;
+.guest-rating {
+  margin-left: 53px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #575757;
 }
 
-.rating{
-    font-family: 'DM Sans', sans-serif ;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.33;
-    color: #F7F7F7;
+.rating {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #f7f7f7;
 }
 
 .about-desc-one {
-    margin-bottom: 64px;
+  margin-bottom: 64px;
 }
-.about-desc-head{
-    margin-bottom: 18px;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: #484848;
-}
-
-.about-desc-text{
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: #121212;
+.about-desc-head {
+  margin-bottom: 18px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #484848;
 }
 
-.wrapper-about{
-    padding-top: 71px;
-    padding-bottom: 64px;
+.about-desc-text {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #121212;
+}
+
+.wrapper-about {
+  padding-top: 71px;
+  padding-bottom: 64px;
 }
 
 .about-main-img-1 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .about-main-img-2 {
-    margin-bottom: 32px;
+  margin-bottom: 32px;
 }
 
-.about-desc-text:not(:last-child){
-    margin-bottom: 14px;
+.about-desc-text:not(:last-child) {
+  margin-bottom: 14px;
 }
 
-.about-desc-two{
-    margin-top: 54px;
-    margin-bottom: 40px;
+.about-desc-two {
+  margin-top: 54px;
+  margin-bottom: 40px;
 }
 
 .guest-feedback-2 {
-    position: absolute;
-    top: 272px;
-    left: 0px;
-    padding: 12px 12px;
-    width: 212px;
-    height: 61px;
-    background: #121212;
-    box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
-    border-radius: 6px;
-    background-image: url(../img/main/about-complex-rating2-1x.png);
-    background-repeat: no-repeat;
-    background-size: 41px 41px;
-    background-position: 14px;
+  position: absolute;
+  top: 272px;
+  left: 0px;
+  padding: 12px 12px;
+  width: 212px;
+  height: 61px;
+  background: #121212;
+  box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  background-image: url(/img/main/about-complex-rating2-1x.png);
+  background-repeat: no-repeat;
+  background-size: 41px 41px;
+  background-position: 14px;
 }
 
-@media (min-device-pixel-ratio: 2), 
-(min-resolution: 192dpi), 
-(min-resolution: 2dppx) {
-    .guest-feedback-2{
-        background-image: url(../img/main/about-complex-rating2-2x.png);
-    }
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .guest-feedback-2 {
+    background-image: url(/img/main/about-complex-rating2-2x.png);
+  }
 }
 
 .about-desc-head-2 {
-    margin-bottom: 18px;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: #484848;
+  margin-bottom: 18px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #484848;
 }
 
 .about-desc-text-2 {
-    width: 263px;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: #121212;
+  width: 263px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #121212;
 }
 
 /* === TABLET === */
 
-@media screen and (min-width: 768px) {
-}
+/* @media screen and (min-width: 768px) {
+} */

@@ -80,6 +80,10 @@
   background-color: transparent;
 }
 
+.hotel-luxury-btn:is(:hover, :focus) {
+  color: #f7f7f7;
+}
+
 @media screen and (min-width: 375px) {
   .hotel-luxury-container {
     width: 375px;
