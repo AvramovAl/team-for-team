@@ -3,7 +3,7 @@ $('.main-restaurant-slider').slick({
   infinite: false,
   speed: 1300,
   variablewidth: false,
-  slidesToShow: 4,
+  slidesToShow: 5,
   slidesToScroll: 2,
   // prevArrow: $('.slider-1:before')
   responsive: [
