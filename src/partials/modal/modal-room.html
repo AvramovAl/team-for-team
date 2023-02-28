@@ -7,39 +7,71 @@
     </button>
     <p class="modal-room-title">book <i>a room</i></p>
     <form class="modal-room-form" action="#">
-      <label class="modal-room-label" for="room-user-name">your name</label>
-      <input type="text" id="room-user-name" name="room-user-name" />
-      <p class="modal-room-text">who should book a table for?</p>
-      <label class="modal-room-label" for="room-user-phone">phone number</label>
-      <input
-        type="tel"
-        id="user-phone"
-        name="user-phone"
-        value="+38 ()"
-      />
-      <p class="modal-room-text">phone number</p>
-
-      <label class="modal-room-label" for="user-choose-day">choose a day</label>
-      <select name="user-choose-day" id="user-choose-day">
-        <option value="today" class="modal-room-option">today</option>
-      </select>
-      <p class="modal-room-text">check-in date</p>
-
-      <label class="modal-room-label" for="user-choose-date">choose a date</label>
-      <select name="user-choose-date" id="user-choose-date">
-        <option value="25-04-2023" class="modal-room-option" type="date">25/04/2023</option>
-      </select>
-      <p class="modal-room-text">check-in date</p>
-
-      <label class="modal-room-label" for="user-choose-room">choose a category</label>
-      <select name="user-choose-room" id="user-choose-room">
-        <option value="double-suite" class="modal-room-option">double suite</option>
-        <option value="triple-room" class="modal-room-option">triple room</option>
-        <option value="four-seater-room" class="modal-room-option">four-seater room</option>
-      </select>
-      <p class="modal-room-text">number category</p>
-
-      <button class="modal-btn" type="submit">make a reservation</button>
+      <div class="modal-room-form-section">
+        <div class="modal-room-field">
+          <input
+            class="modal-room-input"
+            type="text"
+            id="room-user-name"
+            name="room-user-name"
+            placeholder="your name"
+          />
+          <p class="modal-room-text">who should book a table for?</p>
+        </div>
+        <div class="modal-room-field">
+          <input
+            type="tel"
+            class="modal-room-input"
+            id="user-phone"
+            name="user-phone"
+            value="+38 ()"
+          />
+          <p class="modal-room-text">phone number</p>
+        </div>
+        <div class="modal-room-field">
+          <select
+            class="modal-room-input"
+            name="user-choose-day"
+            id="user-choose-day"
+          >
+            <option value="today" class="modal-room-option" selected>today</option>
+            <option value="today" class="modal-room-option">tomorrow</option>
+            <option value="today" class="modal-room-option">day after tomorrow</option>
+          </select>
+          <p class="modal-room-text">check-in date</p>
+        </div>
+        <div class="modal-room-field">
+          <select
+            class="modal-room-input"
+            name="user-choose-date"
+            id="user-choose-date"
+          >
+            <option value="" class="modal-room-option" type="date" selected>
+              25/04/2023
+            </option>
+          </select>
+          <p class="modal-room-text">check-out date</p>
+        </div>
+        <div class="modal-room-field">
+          <select
+            class="modal-room-input"
+            name="user-choose-room"
+            id="user-choose-room"
+          >
+            <option value="double-suite" class="modal-room-option" selected>
+              double suite
+            </option>
+            <option value="triple-room" class="modal-room-option">
+              triple room
+            </option>
+            <option value="four-seater-room" class="modal-room-option">
+              four-seater room
+            </option>
+          </select>
+          <p class="modal-room-text">number category</p>
+        </div>
+      </div>
+      <button class="modal-room-btn" type="submit">make a reservation</button>
     </form>
   </div>
 </div>
