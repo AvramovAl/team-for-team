@@ -326,14 +326,14 @@
 
   /* Current Navigation active style */
 
-  .current-other,
-  .current-index {
+  .current-index, 
+  .current-other {
     display: inline-block;
     position: relative;
   }
 
-  .current-other:after,
-  .current-index:after {
+  .current-index:after, 
+  .current-other:after {
     content: '';
     height: 4px;
     width: 4px;
