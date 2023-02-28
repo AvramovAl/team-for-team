@@ -1,39 +1,14 @@
-.container-location {
-  padding-bottom: 64px;
-}
-
-.location-title {
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 1;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  color: var(--black-color);
-
-  margin-bottom: 32px;
-}
-
 .address-text {
+  font-family: 'DM Sans';
   font-style: normal;
+  font-weight: 400;
   font-size: 18px;
-  line-height: 1.33;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  color: #000000;
+  line-height: 1.3;
+  /* or 133% */
 
-  padding-bottom: 28px;
-}
-
-.address-call {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.28;
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: var(--black-color);
-
-  margin-bottom: 12px;
 }
 
 .address-item {
@@ -46,18 +21,194 @@
   color: var(--black-color);
 }
 
-@media screen and (min-width: 768px) {
+.map-container iframe {
+  box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.12);
+}
+
+@media screen and (max-width: 767px) {
+  .address-call {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--black-color);
+  }
+
+  .location-title {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--black-color);
+
+    margin-bottom: 32px;
+  }
+
+  .section-location {
+    padding-bottom: 64px;
+    padding-top: 80px;
+  }
+
+  .address-text {
+    margin-bottom: 28px;
+  }
+
+  .address-call {
+    margin-bottom: 12px;
+  }
+
+  .map-container {
+    margin-bottom: 32px;
+  }
+
+  .map-mobile {
+    max-width: 335px;
+    height: 384px;
+    filter: grayscale(100%);
+    width: 100%;
+    display: block;
+  }
+
+  .map-tablet {
+    display: none;
+  }
+
+  .map-desktop {
+    display: none;
+  }
+}
+
+.map {
+  filter: grayscale(100%);
+  width: 100%;
+  display: block;
+  max-width: 704px;
+  height: 576px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .address-call {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--black-color);
+    margin-bottom: 12px;
+  }
+
+  .location-title {
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--black-color);
+  }
+
   .address-complex {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
-  .address-text {
-    padding-bottom: 0;
+  .map-container {
+    margin-bottom: 30px;
   }
 
-  .container-location {
+  .location-title {
+    margin-bottom: 40px;
+  }
+
+  .section-location {
     padding-bottom: 80px;
+    padding-top: 80px;
+  }
+
+  .map-tablet {
+    filter: grayscale(100%);
+    width: 100%;
+    max-width: 704px;
+    height: 576px;
+    display: block;
+  }
+
+  .map-mobile {
+    display: none;
+  }
+
+  .map-desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .address-call {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--black-color);
+    margin-right: 12px;
+  }
+
+  .location-title {
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--black-color);
+  }
+
+  .section-location {
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+
+  .map-container-desktop {
+    display: flex;
+    gap: 32px;
+  }
+
+  .wrapper-adress {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .address-complex {
+    display: flex;
+    gap: 70px;
+  }
+
+  .address-wrap {
+    display: flex;
+  }
+
+  .map-desktop {
+    filter: grayscale(100%);
+    width: 100%;
+    max-width: 640px;
+    height: 524px;
+    display: block;
+    box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.12);
+  }
+
+  .map-mobile {
+    display: none;
+  }
+
+  .map-tablet {
+    display: none;
+  }
+
+  .address-contact {
+    margin-bottom: 4px;
   }
 }
