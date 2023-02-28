@@ -27,7 +27,6 @@
           <li>Fresh towels daily</li>
           <li>Deluxe bathrobes (in some room categories)</li>
         </div>
-        
       </ul>
 
       <ul class="room-amenities-list">
@@ -61,66 +60,80 @@
           <li>High-speed Wi-Fi</li>
           <li>iPod docking station</li>
           <li>Speaker system</li>
-          <li>Electrical outlets for charging devices.</li> 
+          <li>Electrical outlets for charging devices.</li>
         </div>
       </ul>
     </div>
 
     <!-- Картинки -->
-    <div class="room-amenities-pic">
-      <!-- marging left auto pos rel -->
-      <picture>
-        <source
-          srcset="
-            /img/room/desk/amenities-pic1-1x.jpg 1x,
-            /img/room/desk/amenities-pic1-2x.jpg 2x
-          "
-          media="(min-width: 1440px)"
-        />
-        <source
-          srcset="
-            /img/room/tab/amenities-pic1-1x.jpg 1x,
-            /img/room/tab/amenities-pic1-2x.jpg 2x
-          "
-          media="(min-width: 768px)"
-        />
-        <source
-          srcset="
-            /img/room/mob/amenities-pic1-1x.jpg 1x,
-            /img/room/mob/amenities-pic1-2x.jpg 2x
-          "
-          media="(max-width: 767px)"
-        />
-        <img src="/img/room/mob/amenities-pic1-1x.jpg" alt="bath room" />
-      </picture>
+    <div class="room-amenities-down-pos">
+      <div class="room-amenities-pic">
+        <!-- marging left auto pos rel -->
+        <picture>
+          <source
+            srcset="
+              /img/room/desk/amenities-pic1-1x.jpg 1x,
+              /img/room/desk/amenities-pic1-2x.jpg 2x
+            "
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="
+              /img/room/tab/amenities-pic1-1x.jpg 1x,
+              /img/room/tab/amenities-pic1-2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              /img/room/mob/amenities-pic1-1x.jpg 1x,
+              /img/room/mob/amenities-pic1-2x.jpg 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <img
+            class="bathroom"
+            src="/img/room/mob/amenities-pic1-1x.jpg"
+            alt="bath room"
+          />
+        </picture>
 
-      <picture class="room-amenities-pic-accessories">
-        <source
-          srcset="
-            /img/room/desk/amenities-pic2-1x.jpg 1x,
-            /img/room/desk/amenities-pic2-2x.jpg 2x
-          "
-          media="(min-width: 1440px)"
-        />
-        <source
-          srcset="
-            /img/room/tab/amenities-pic2-1x.jpg 1x,
-            /img/room/tab/amenities-pic2-2x.jpg 2x
-          "
-          media="(min-width: 768px)"
-        />
-        <source
-          srcset="
-            /img/room/mob/amenities-pic2-1x.jpg 1x,
-            /img/room/mob/amenities-pic2-2x.jpg 2x
-          "
-          media="(max-width: 767px)"
-        />
-        <img src="/img/room/mob/amenities-pic2-1x.jpg" alt="bath room" />
-      </picture>
-      <!-- second photo pos abs -->
+        <picture>
+          <source
+            srcset="
+              /img/room/desk/amenities-pic2-1x.jpg 1x,
+              /img/room/desk/amenities-pic2-2x.jpg 2x
+            "
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="
+              /img/room/tab/amenities-pic2-1x.jpg 1x,
+              /img/room/tab/amenities-pic2-2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              /img/room/mob/amenities-pic2-1x.jpg 1x,
+              /img/room/mob/amenities-pic2-2x.jpg 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <img
+            class="room-amenities-pic-accessories"
+            src="/img/room/mob/amenities-pic2-1x.jpg"
+            alt="bath room"
+          />
+        </picture>
+      </div>
+      <button type="“button”" class="“room-amenities-btn”" room-modal-open>
+        Book a room
+      </button>
     </div>
 
-    <button type="button" class="room-amenities-btn" room-modal-open>Book a room</button>
+    <button type="button" class="room-amenities-btn open-modal-room">
+      Book a room
+    </button>
   </div>
 </section>
