@@ -60,7 +60,7 @@
                   /img/hotel/mob/triple-room-pic2-1x.jpg 1x,
                   /img/hotel/mob/triple-room-pic2-2x.jpg 2x
                 "
-                media="(min-width: 375px)"
+                media="(max-width: 767px)"
                 width="158"
                 height="149"
               />
@@ -121,12 +121,8 @@
         </div>
       </div>
       <div class="triple-room-button">
-        <form action="/src/room.html">
-          <button class="triple-room-btn" type="button">More details</button>
-        </form>
-        <form action="/src/index.html">
-          <button class="triple-room-btn" type="button">View prices</button>
-        </form>
+        <a class="triple-room-btn" href="/src/room.html">More details</a>
+        <button class="triple-room-btn" type="button" data-price-open3>View prices</button>
       </div>
     </div>
   </div>
