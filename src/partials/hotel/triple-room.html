@@ -1,60 +1,133 @@
 <section>
   <div class="container triple-room-container">
     <div class="triple-room-photo">
-      <ul class="triple-room-list">
-        <li class="triple-room-item">
-          <img
-          src="../../img/hotel/mob/triple-room-pic1-1x.jpg"
-            srcset="
-              ../../img/hotel/mob/triple-room-pic1-1x.jpg,
-              ../../img/hotel/mob/triple-room-pic1-2x.jpg
-            "
-            alt="room"
-            width="335"
-            height="468"
-          >
-        </li>
-        <li class="triple-room-item">
-          <img
-          src="../../img/hotel/mob/triple-room-pic2-1x.jpg"
-            srcset="
-              ../../img/hotel/mob/triple-room-pic2-1x.jpg,
-              ../../img/hotel/mob/triple-room-pic2-2x.jpg
-            "
-            alt="bathroom"
-            width="158"
-            height="149"
-          >
-        </li>
-        <li class="triple-room-item">
-          <img
-          src="../../img/hotel/mob/triple-room-pic3-1x.jpg"
-            srcset="
-              ../../img/hotel/mob/triple-room-pic3-1x.jpg,
-              ../../img/hotel/mob/triple-room-pic3-1x.jpg
-            "
-            alt="kitchen"
-            width="157"
-            height="149"
-          >
-        </li>
-      </ul>
+      <div class="triple-room-location">
+        <ul class="triple-room-list">
+          <li class="triple-room-item">
+            <picture>
+              <source
+                srcset="
+                  /img/hotel/desk/triple-room-pic1-1x.jpg 1x,
+                  /img/hotel/desk/triple-room-pic1-2x.jpg 2x
+                "
+                media="(min-width: 1440px)"
+                width="539"
+                height="762"
+              />
+              <source
+                srcset="
+                  /img/hotel/tab/triple-room-pic1-1x.jpg 1x,
+                  /img/hotel/tab/triple-room-pic1-2x.jpg 2x
+                "
+                media="(min-width: 768px)"
+                width="331"
+                height="468"
+              />
+              <source
+                srcset="
+                  /img/hotel/mob/triple-room-pic1-1x.jpg 1x,
+                  /img/hotel/mob/triple-room-pic1-2x.jpg 2x
+                "
+                media="(max-width: 767px)"
+                width="335"
+                height="468"
+              />
+              <img src="/img/hotel/mob/triple-room-pic1-1x.jpg" alt="room" />
+            </picture>
+          </li>
+          <li class="triple-room-item">
+            <picture>
+              <source
+                srcset="
+                  /img/hotel/desk/triple-room-pic2-1x.jpg 1x,
+                  /img/hotel/desk/triple-room-pic2-2x.jpg 2x
+                "
+                media="(min-width: 1440px)"
+                width="387"
+                height="510"
+              />
+              <source
+                srcset="
+                  /img/hotel/tab/triple-room-pic2-1x.jpg 1x,
+                  /img/hotel/tab/triple-room-pic2-2x.jpg 2x
+                "
+                media="(min-width: 768px)"
+                width="223"
+                height="261"
+              />
+              <source
+                srcset="
+                  /img/hotel/mob/triple-room-pic2-1x.jpg 1x,
+                  /img/hotel/mob/triple-room-pic2-2x.jpg 2x
+                "
+                media="(max-width: 767px)"
+                width="158"
+                height="149"
+              />
+              <img
+                src="/img/hotel/mob/triple-room-pic2-1x.jpg"
+                alt="bathroom"
+              />
+            </picture>
+          </li>
+          <li class="triple-room-item third-photo">
+            <picture>
+              <source
+                srcset="
+                  /img/hotel/desk/triple-room-pic3-1x.jpg 1x,
+                  /img/hotel/desk/triple-room-pic3-2x.jpg 2x
+                "
+                media="(min-width: 1440px)"
+                width="386"
+                height="395"
+              />
+              <source
+                srcset="
+                  /img/hotel/tab/triple-room-pic3-1x.jpg 1x,
+                  /img/hotel/tab/triple-room-pic3-2x.jpg 2x
+                "
+                media="(min-width: 768px)"
+                width="341"
+                height="175"
+              />
+              <source
+                srcset="
+                  /img/hotel/mob/triple-room-pic3-1x.jpg 1x,
+                  /img/hotel/mob/triple-room-pic3-2x.jpg 2x
+                "
+                media="(max-width: 767px)"
+                width="157"
+                height="149"
+              />
+              <img src="/img/hotel/mob/triple-room-pic3-1x.jpg" alt="kitchen" />
+            </picture>
+          </li>
+        </ul>
+      </div>
     </div>
-    <h2 class="triple-room-title">Triple Room</h2>
-    <div class="triple-room-description">
-      <p class="triple-room-suptitle">
-        Escape to our spacious Triple Room, perfect for families or groups.
-        Enjoy comfort with three beds, seating area, stunning views, flat-screen
-        TVs, Wi-Fi, and mini-fridge.
-      </p>
-      <p class="triple-room-suptitle">
-        Rejuvenate in the en-suite bathroom with plush towels and toiletries.
-        Book now for a memorable stay.
-      </p>
-    </div>
-    <div class="triple-room-button">
-      <form action="../room/"><button class="triple-room-btn" type="button">More details</button></form>
-      <button class="triple-room-btn" type="button">View prices</button>
+    <div class="triple-room-content">
+      <div>
+        <h2 class="triple-room-title">Triple Room</h2>
+        <div class="triple-room-description">
+          <p class="triple-room-suptitle">
+            Escape to our spacious Triple Room, perfect for families or groups.
+            Enjoy comfort with three beds, seating area, stunning views,
+            flat-screen TVs, Wi-Fi, and mini-fridge.
+          </p>
+          <p class="triple-room-suptitle">
+            Rejuvenate in the en-suite bathroom with plush towels and
+            toiletries. Book now for a memorable stay.
+          </p>
+        </div>
+      </div>
+      <div class="triple-room-button">
+        <form action="/src/room.html">
+          <button class="triple-room-btn" type="button">More details</button>
+        </form>
+        <form action="/src/index.html">
+          <button class="triple-room-btn" type="button" data-price-open3>View prices</button>
+        </form>
+      </div>
     </div>
   </div>
 </section>

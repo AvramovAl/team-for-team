@@ -31,12 +31,13 @@
   text-transform: uppercase;
   font-size: 14px;
   line-height: 1.29;
-  letter-spacing: -0.08em;
+  letter-spacing: -0.02em;
   color: var(--black-color);
 }
 .triple-room-button {
   display: flex;
   gap: 12px;
+  min-width: 295px;
 }
 .triple-room-btn {
   font-family: 'DM Sans', sans-serif;
@@ -50,4 +51,93 @@
   border: 0.8px solid #121212;
   border-radius: 32px;
   background-color: transparent;
+  min-width: 140px;
+  height: 40px;
+}
+
+/* ----TABLET VERSION----- */
+@media screen and (min-width: 768px) {
+  .triple-room-container {
+    padding-bottom: 80px;
+  }
+  .triple-room-photo {
+    margin-bottom: 40px;
+  }
+  /* .triple-room-location{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 32px;
+  } */
+  .triple-room-list {
+    row-gap: 32px;
+    flex-wrap: nowrap;
+    column-gap: 32px;
+  }
+  .triple-room-item:last-child {
+    position: absolute;
+    left: 51%;
+    align-self:flex-end;
+  }
+  .third-photo{
+
+  }
+  .triple-room-title {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+  .triple-room-description {
+    flex-wrap: nowrap;
+    gap: 32px;
+    margin-bottom: 40px;
+  }
+  .triple-room-suptitle {
+    font-size: 18px;
+    line-height: 1.33;
+    flex-basis: calc((100% - 32px) / 2);
+  }
+  .triple-room-button {
+    gap: 14px;
+  }
+  .triple-room-btn {
+    padding: 8px 24px;
+    line-height: 1.71;
+  }
+}
+
+/* -----DESKTOP VERSION------ */
+@media screen and (min-width: 1440px) {
+  .triple-room-container {
+    padding-bottom: 100px;
+  }
+  .triple-room-photo {
+    margin-bottom: 50px;
+  }
+  .triple-room-list {
+    column-gap: 32px;
+    justify-content: center;
+    align-items: center;
+  }
+  .triple-room-item:last-child {
+    align-self:center;
+    position: relative;
+    left: 0;
+  }
+  .third-photo {
+    order: -1;
+  }
+  .triple-room-content {
+    display: flex;
+    gap: 358px;
+    flex-direction: row-reverse;
+  }
+  .triple-room-title {
+    margin-bottom: 40px;
+  }
+  .triple-room-description {
+    margin-bottom: 0;
+  }
+  .triple-room-btn {
+    padding: 9px 24px;
+    letter-spacing: -0.08em;
+  }
 }

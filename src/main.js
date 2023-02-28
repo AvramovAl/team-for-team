@@ -1,4 +1,10 @@
-import './js/modal';
+import './js/menu-active-index';
+import './js/menu-active-1';
+import './js/menu-active-2';
+import './js/menu-active-3';
+import './js/modal-price';
+import './js/modal-room';
+import './js/modal-table';
 import './js/mobile-menu';
 import './js/main-restaurant-slick';
 import './js/room-hero-slider';

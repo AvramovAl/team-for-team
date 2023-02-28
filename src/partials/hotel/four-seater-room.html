@@ -3,53 +3,126 @@
     <div class="four-seater-room-photo">
       <ul class="four-seater-room-list">
         <li class="four-seater-room-item">
-          <img
-            src="../../img/hotel/mob/four-room-pic1-1x.jpg"
-            alt="room"
-            srcset="
-              ../../img/hotel/mob/four-room-pic1-1x.jpg,
-              ../../img/hotel/mob/four-room-pic1-2x.jpg
-            "
-            width="335"
-            height="468"
-          >
+          <picture>
+            <source
+              srcset="
+                /img/hotel/desk/four-room-pic1-1x.jpg 1x,
+                /img/hotel/desk/four-room-pic1-2x.jpg 2x
+              "
+              media="(min-width: 1440px)"
+              width="539"
+              height="762"
+            />
+            <source
+              srcset="
+                /img/hotel/tab/four-room-pic1-1x.jpg 1x,
+                /img/hotel/tab/four-room-pic1-2x.jpg 2x
+              "
+              media="(min-width: 768px)"
+              width="331"
+              height="468"
+            />
+            <source
+              srcset="
+                /img/hotel/mob/four-room-pic1-1x.jpg 1x,
+                /img/hotel/mob/four-room-pic1-2x.jpg 2x
+              "
+              media="(max-width: 767px)"
+              width="335"
+              height="468"
+            />
+            <img src="/img/hotel/mob/four-room-pic1-1x.jpg" alt="room" />
+          </picture>
         </li>
         <li class="four-seater-room-item">
-          <img
-            src="../../img/hotel/mob/four-room-pic2-1x.jpg"
-            alt="bathroom"
-            srcset="
-              ../../img/hotel/mob/four-room-pic2-1x.jpg,
-              ../../img/hotel/mob/four-room-pic2-2x.jpg
-            "
-            width="157"
-            height="158"
-          >
+          <picture>
+            <source
+              srcset="
+                /img/hotel/desk/four-room-pic2-1x.jpg 1x,
+                /img/hotel/desk/four-room-pic2-2x.jpg 2x
+              "
+              media="(min-width: 1440px)"
+              width="387"
+              height="510"
+            />
+            <source
+              srcset="
+                /img/hotel/tab/four-room-pic2-1x.jpg 1x,
+                /img/hotel/tab/four-room-pic2-2x.jpg 2x
+              "
+              media="(min-width: 768px)"
+              width="223"
+              height="261"
+            />
+            <source
+              srcset="
+                /img/hotel/mob/four-room-pic2-1x.jpg 1x,
+                /img/hotel/mob/four-room-pic2-2x.jpg 2x
+              "
+              media="(max-width: 767px)"
+              width="156"
+              height="158"
+            />
+            <img src="/img/hotel/mob/four-room-pic2-1x.jpg" alt="bathroom" />
+          </picture>
         </li>
-        <li class="four-seater-room-item">
-          <img
-            src="../../img/hotel/mob/four-room-pic3-1x.jpg"
-            alt="kitchen"
-            srcset="
-              ../../img/hotel/mob/four-room-pic3-1x.jpg,
-              ../../img/hotel/mob/four-room-pic3-2x.jpg
-            "
-            width="158"
-            height="158"
-          >
+        <li class="four-seater-room-item third-photo">
+          <picture>
+            <source
+              srcset="
+                /img/hotel/desk/four-room-pic3-1x.jpg 1x,
+                /img/hotel/desk/four-room-pic3-2x.jpg 2x
+              "
+              media="(min-width: 1440px)"
+              width="386"
+              height="395"
+            />
+            <source
+              srcset="
+                /img/hotel/tab/four-room-pic3-1x.jpg 1x,
+                /img/hotel/tab/four-room-pic3-2x.jpg 2x
+              "
+              media="(min-width: 768px)"
+              width="341"
+              height="175"
+            />
+            <source
+              srcset="
+                /img/hotel/mob/four-room-pic3-1x.jpg 1x,
+                /img/hotel/mob/four-room-pic3-2x.jpg 2x
+              "
+              media="(max-width: 767px)"
+              width="156"
+              height="158"
+            />
+            <img src="/img/hotel/mob/four-room-pic3-1x.jpg" alt="kitchen" />
+          </picture>
         </li>
       </ul>
     </div>
-    <h2 class="four-seater-room-title">Four-seater Room</h2>
-    <p class="four-seater-room-suptitle">
-      Our 4-person room is perfect for small groups, offering comfort and
-      convenience with 4 comfortable beds, ample storage, flat-screen TV,
-      mini-fridge, coffee maker, desk and chair, air-conditioning, heating, and
-      soundproof walls. Book now for a memorable stay.
-    </p>
-    <div class="four-seater-room-button">
-      <form action="../room/"><button class="four-seater-room-btn" type="button">More details</button></form>
-      <button class="four-seater-room-btn" type="button">View prices</button>
+    <div class="four-seater-room-content">
+      <div class="four-seater-room-description">
+        <h2 class="four-seater-room-title">Four-seater Room</h2>
+        <p class="four-seater-room-suptitle">
+          Our 4-person room is perfect for small groups, offering comfort and
+          convenience with 4 comfortable beds, ample storage, flat-screen TV,
+          mini-fridge, coffee maker, desk and chair, air-conditioning, heating,
+          and soundproof walls. Book now for a memorable stay.
+        </p>
+      </div>
+      <div class="four-seater-room-button">
+        <form action="/src/room.html">
+          <button class="four-seater-room-btn" type="button">
+            More details
+          </button>
+        </form>
+        <form action="/src/index.html">
+          <button class="four-seater-room-btn open-modal-price" type="button" data-price-open4>
+          <button class="four-seater-room-btn open-modal-price" type="button">
+            View prices
+          </button>
+        </form>
+      </div>
     </div>
   </div>
 </section>
