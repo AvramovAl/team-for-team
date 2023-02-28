@@ -8,7 +8,7 @@
     <title>Hotel</title>
     
     <script type="module" crossorigin src="/team-for-team/assets/slick-182bff42.js"></script>
-    <link rel="stylesheet" href="/team-for-team/assets/main-2695cfb8.css">
+    <link rel="stylesheet" href="/team-for-team/assets/main-28d7b624.css">
   </head>
   <body>
     <header class="header header-other">
@@ -357,7 +357,7 @@
       </div>
       <div class="hotel-luxery-btn-wrap">
         <button type="button" class="hotel-luxury-btn"></button>
-        <button type="button" class="hotel-luxury-btn"></button>
+        <button type="button" class="hotel-luxury-btn" data-price-open2></button>
       </div>
    </div>
   </div>
@@ -553,7 +553,7 @@
       </div>
       <div class="four-seater-room-button">
         <a class="four-seater-room-btn" href="/src/room.html">More details</a>
-        <button class="four-seater-room-btn open-modal-price" type="button" data-price-open4>
+        <button class="four-seater-room-btn" type="button" data-price-open4>
           View prices
         </button>
       </div>
@@ -632,39 +632,71 @@
     </button>
     <p class="modal-room-title">book <i>a room</i></p>
     <form class="modal-room-form" action="#">
-      <label class="modal-room-label" for="room-user-name">your name</label>
-      <input type="text" id="room-user-name" name="room-user-name" />
-      <p class="modal-room-text">who should book a table for?</p>
-      <label class="modal-room-label" for="room-user-phone">phone number</label>
-      <input
-        type="tel"
-        id="user-phone"
-        name="user-phone"
-        value="+38 ()"
-      />
-      <p class="modal-room-text">phone number</p>
-
-      <label class="modal-room-label" for="user-choose-day">choose a day</label>
-      <select name="user-choose-day" id="user-choose-day">
-        <option value="today" class="modal-room-option">today</option>
-      </select>
-      <p class="modal-room-text">check-in date</p>
-
-      <label class="modal-room-label" for="user-choose-date">choose a date</label>
-      <select name="user-choose-date" id="user-choose-date">
-        <option value="25-04-2023" class="modal-room-option" type="date">25/04/2023</option>
-      </select>
-      <p class="modal-room-text">check-in date</p>
-
-      <label class="modal-room-label" for="user-choose-room">choose a category</label>
-      <select name="user-choose-room" id="user-choose-room">
-        <option value="double-suite" class="modal-room-option">double suite</option>
-        <option value="triple-room" class="modal-room-option">triple room</option>
-        <option value="four-seater-room" class="modal-room-option">four-seater room</option>
-      </select>
-      <p class="modal-room-text">number category</p>
-
-      <button class="modal-btn" type="submit">make a reservation</button>
+      <div class="modal-room-form-section">
+        <div class="modal-room-field">
+          <input
+            class="modal-room-input"
+            type="text"
+            id="room-user-name"
+            name="room-user-name"
+            placeholder="your name"
+          />
+          <p class="modal-room-text">who should book a table for?</p>
+        </div>
+        <div class="modal-room-field">
+          <input
+            type="tel"
+            class="modal-room-input"
+            id="user-phone"
+            name="user-phone"
+            value="+38 ()"
+          />
+          <p class="modal-room-text">phone number</p>
+        </div>
+        <div class="modal-room-field">
+          <select
+            class="modal-room-input"
+            name="user-choose-day"
+            id="user-choose-day"
+          >
+            <option value="today" class="modal-room-option" selected>today</option>
+            <option value="today" class="modal-room-option">tomorrow</option>
+            <option value="today" class="modal-room-option">day after tomorrow</option>
+          </select>
+          <p class="modal-room-text">check-in date</p>
+        </div>
+        <div class="modal-room-field">
+          <select
+            class="modal-room-input"
+            name="user-choose-date"
+            id="user-choose-date"
+          >
+            <option value="" class="modal-room-option" type="date" selected>
+              25/04/2023
+            </option>
+          </select>
+          <p class="modal-room-text">check-out date</p>
+        </div>
+        <div class="modal-room-field">
+          <select
+            class="modal-room-input"
+            name="user-choose-room"
+            id="user-choose-room"
+          >
+            <option value="double-suite" class="modal-room-option" selected>
+              double suite
+            </option>
+            <option value="triple-room" class="modal-room-option">
+              triple room
+            </option>
+            <option value="four-seater-room" class="modal-room-option">
+              four-seater room
+            </option>
+          </select>
+          <p class="modal-room-text">number category</p>
+        </div>
+      </div>
+      <button class="modal-room-btn" type="submit">make a reservation</button>
     </form>
   </div>
 </div>
@@ -676,26 +708,47 @@
         <use href="/team-for-team/assets/icons-d2d01d28.svg#icon-modal-close"></use>
       </svg>
     </button>
-    <p class="modal-price-title">prices per room</p>
+    <p class="modal-price-title">prices per <i>room</i></p>
+    <p class="modal-price-subtitle">double suite</p>
     <form class="modal-price-form" action="#">
-      <label class="modal-price-label" for="user-number-nights">double suite</label>
-      <select name="user-number-nights" id="user-number-nights">
-        <option value="1" class="modal-price-option">1</option>
-        <option value="2" class="modal-price-option">2</option>
-        <option value="3" class="modal-price-option">3</option>
-        <option value="4" class="modal-price-option">4</option>
-      </select>
-      <p class="modal-price-text">number of nights</p>
-
-      <select name="user-check-in-date" id="user-check-in-date">
-        <option value="1" class="modal-price-option" type="date">25/04/2023</option>
-      </select>
-      <p class="modal-price-text">check-in date</p>
-
-      <button class="modal-btn" type="submit">make a reservation</button>
+      <div class="modal-price-form-section">
+        <div class="modal-price-field">
+          <select
+            class="modal-price-input"
+            name="user-number-nights"
+            id="user-number-nights"
+          >
+            <option value="1" class="modal-price-option">1</option>
+            <option value="2" class="modal-price-option">2</option>
+            <option value="3" class="modal-price-option">3</option>
+            <option value="4" class="modal-price-option">4</option>
+          </select>
+          <p class="modal-price-text">number of nights</p>
+        </div>
+        <div class="modal-price-field modal-price-currency">
+          <input class="modal-price-input" type="number" value="1000">
+          <p class="modal-price-text">uah</p>
+        </div>
+        <div class="modal-price-date">
+          <div class="modal-price-field">
+            <select
+              class="modal-price-input"
+              name="user-check-in-date"
+              id="user-check-in-date"
+            >
+              <option value="1" class="modal-price-option" type="date">
+                25/04/2023
+              </option>
+            </select>
+            <p class="modal-price-text">check-in date</p>
+          </div>
+        </div>
+      </div>
+      <button class="modal-price-btn" type="submit">make a reservation</button>
     </form>
   </div>
 </div>
+
 
     <!-- Base js -->
     

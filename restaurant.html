@@ -8,7 +8,7 @@
     <title>Restaurant</title>
     
     <script type="module" crossorigin src="/team-for-team/assets/slick-182bff42.js"></script>
-    <link rel="stylesheet" href="/team-for-team/assets/main-2695cfb8.css">
+    <link rel="stylesheet" href="/team-for-team/assets/main-28d7b624.css">
   </head>
   <body>
     <header class="header header-other">
@@ -751,34 +751,49 @@
     </button>
     <p class="modal-table-title">book <i>a table</i></p>
     <form class="modal-table-form" action="#">
-      <label class="modal-table-label" for="table-user-name">your name</label>
-      <input type="text" id="table-user-name" name="table-user-name" />
-      <p class="modal-table-text">who should book a table for?</p>
-      <label class="modal-table-label" for="table-user-amount">number of people</label>
-      <select name="table-user-amount" id="table-user-amount">
-        <option value="number-of-people" class="modal-table-option">number of people</option>
-        <option value="1" class="modal-table-option">1</option>
-        <option value="2" class="modal-table-option">2</option>
-        <option value="3" class="modal-table-option">3</option>
-        <option value="4" class="modal-table-option">4</option>
-        <option value="5" class="modal-table-option">5</option>
-      </select>
-      <label class="modal-table-label" for="table-user-date">date to book</label>
-      <select name="table-user-date" id="table-user-date">
-        <option value="today" class="modal-table-option">today</option>
-        <option value="tomorrow" class="modal-table-option">tomorrow</option>
-        <option value="day-after-tomorrow" class="modal-table-option">day after tomorrow</option>
-      </select>
-      <p class="modal-table-text">what date to book?</p>
-      <label class="modal-table-label" for="table-user-phone">phone number</label>
-      <input
-        type="tel"
-        id="table-user-phone"
-        name="table-user-phone"
-        value="+38 ()"
-      />
-      <p class="modal-table-text">phone number</p>
-      <button class="modal-btn" type="submit">make a reservation</button>
+      <div class="modal-table-form-section">
+        <div class="modal-table-field">
+          <input class="modal-table-input table-input-name"
+            type="text"
+            id="table-user-name"
+            name="table-user-name"
+            placeholder="your name"
+          />
+          <p class="modal-table-text">who should book a table for?</p>
+        </div>
+        <div class="modal-table-field">
+          <select name="table-user-amount" id="table-user-amount" class="modal-table-input">
+            <option value="" class="modal-table-option option-table-hidden" disabled selected>
+              number of people
+            </option>
+            <option value="1" class="modal-table-option">1</option>
+            <option value="2" class="modal-table-option">2</option>
+            <option value="3" class="modal-table-option">3</option>
+            <option value="4" class="modal-table-option">4</option>
+            <option value="5" class="modal-table-option">5</option>
+          </select>
+        </div>
+        <div class="modal-table-field">
+          <select name="table-user-date" id="table-user-date" class="modal-table-input">
+            <option value="today" class="modal-table-option" selected>today</option>
+            <option value="tomorrow" class="modal-table-option">tomorrow</option>
+            <option value="day-after-tomorrow" class="modal-table-option">
+              day after tomorrow
+            </option>
+          </select>
+          <p class="modal-table-text">what date to book?</p>
+        </div>
+        <div class="modal-table-field">
+          <input class="modal-table-input"
+            type="tel"
+            id="table-user-phone"
+            name="table-user-phone"
+            value="+38 ()"
+          />
+          <p class="modal-table-text">phone number</p>
+        </div>
+      </div>
+      <button class="modal-table-btn" type="submit">make a reservation</button>
     </form>
   </div>
 </div>
