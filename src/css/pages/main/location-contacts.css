@@ -1,3 +1,7 @@
+.container-location {
+  padding-bottom: 64px;
+}
+
 .location-title {
   font-weight: 500;
   font-size: 40px;
@@ -6,11 +10,7 @@
   text-transform: uppercase;
   color: var(--black-color);
 
-  padding-bottom: 32px;
-}
-
-.address-list {
-  margin-bottom: 64px;
+  margin-bottom: 32px;
 }
 
 .address-text {
@@ -44,4 +44,20 @@
   letter-spacing: -0.02em;
 
   color: var(--black-color);
+}
+
+@media screen and (min-width: 768px) {
+  .address-complex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .address-text {
+    padding-bottom: 0;
+  }
+
+  .container-location {
+    padding-bottom: 80px;
+  }
 }
