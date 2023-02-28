@@ -2,17 +2,19 @@ $('.main-restaurant-slider').slick({
   dots: false,
   infinite: false,
   speed: 1300,
-  variablewidth: true,
+  variablewidth: false,
   slidesToShow: 4,
-  slidesToScroll: 4,
+  slidesToScroll: 2,
+  // prevArrow: $('.slider-1:before')
   responsive: [
     {
       breakpoint: 1440,
       settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        infinite: false,
+        dots: false,
+        variablewidth: false,
       },
     },
     {

@@ -1,24 +1,197 @@
-<header class="header">
-  <div class="container">
-    <h2>Section Header</h2>
-    <nav class="nav">
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a href="./index.html" class="nav-link">Home</a>
-        </li>
+<header class="header header-other">
+  <div class="container header-container header-desktop">
+    <div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="./hotel.html" class="nav-link">Hotel</a>
+          </li>
+          <li class="nav-item">
+            <a href="./restaurant.html" class="nav-link">Restaurant</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <button
+      class="mob-menu-btn-open js-open-menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+      type="button"
+    >
+      <svg class="mob-menu-icon mob-icon-other" width="24" height="16">
+        <use href="./img/icons.svg#icon-header-menu-open"></use>
+      </svg>
+    </button>
+    <div class="header-content">
+      <div class="logo">
+        <a href="./index.html" class="logo-link link mob-color-other">
+          <p class="logo-top">mimino</p>
+          <p class="logo-bottom">restaurant-hotel complex</p>
+        </a>
+      </div>
+      <div>
+        <ul class="header-soc-list">
+          <li class="header-soc-item">
+            <a href="#" class="header-soc-link">
+              <svg
+                class="header-soc-icon mob-icon-other"
+                width="24"
+                height="24"
+              >
+                <use href="./img/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="header-soc-item">
+            <a href="#" class="header-soc-link">
+              <svg
+                class="header-soc-icon mob-icon-other"
+                width="24"
+                height="24"
+              >
+                <use href="./img/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="header-soc-item">
+            <a href="#" class="header-soc-link">
+              <svg
+                class="header-soc-icon mob-icon-other"
+                width="24"
+                height="24"
+              >
+                <use href="./img/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-        <li class="nav-item">
-          <a href="./hotel.html" class="nav-link">Hotel</a>
-        </li>
+  <!-- Mobile navigation menu -->
 
-        <li class="nav-item">
-          <a href="./restaurant.html" class="nav-link">Restaurant</a>
-        </li>
-
-        <li class="nav-item">
-          <a href="./room.html" class="nav-link">Room</a>
-        </li>
-      </ul>
-    </nav>
+  <div class="mob-menu js-menu-container mob-background-other" id="mobile-menu">
+    <div class="header mob-border-other mob-background-other">
+      <div class="container header-container">
+        <button class="mob-menu-btn-close js-close-menu" type="button">
+          <svg
+            class="mob-menu-btn-close-icon mob-icon-other"
+            width="16"
+            height="16"
+          >
+            <use href="./img/icons.svg#icon-header-menu-close"></use>
+          </svg>
+        </button>
+        <div class="header-content">
+          <div class="logo">
+            <a href="./index.html" class="logo-link link mob-color-other">
+              <p class="logo-top">mimino</p>
+              <p class="logo-bottom">restaurant-hotel complex</p>
+            </a>
+          </div>
+          <div>
+            <ul class="header-soc-list">
+              <li class="header-soc-item">
+                <a href="#" class="header-soc-link">
+                  <svg
+                    class="header-soc-icon mob-icon-other"
+                    width="24"
+                    height="24"
+                  >
+                    <use href="./img/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="header-soc-item">
+                <a href="#" class="header-soc-link">
+                  <svg
+                    class="header-soc-icon mob-icon-other"
+                    width="24"
+                    height="24"
+                  >
+                    <use href="./img/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="header-soc-item">
+                <a href="#" class="header-soc-link">
+                  <svg
+                    class="header-soc-icon mob-icon-other"
+                    width="24"
+                    height="24"
+                  >
+                    <use href="./img/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mob-menu-content container">
+      <div>
+        <nav>
+          <ul class="mob-menu-list">
+            <li class="mob-menu-item">
+              <a href="./index.html" class="mob-menu-link mob-color-other"
+                >home</a
+              >
+            </li>
+            <li class="mob-menu-item">
+              <a href="./hotel.html" class="mob-menu-link mob-color-other"
+                >hotel</a
+              >
+            </li>
+            <li class="mob-menu-item">
+              <a href="./restaurant.html" class="mob-menu-link mob-color-other"
+                >restaurant</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div>
+        <ul class="mob-menu-soc-list">
+          <li class="mob-menu-soc-item">
+            <a href="#" class="mob-menu-soc-link">
+              <svg
+                class="mob-menu-soc-icon mob-icon-other"
+                width="20"
+                height="20"
+              >
+                <use href="./img/icons.svg#icon-instagram-mob"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-menu-soc-item">
+            <a href="#" class="mob-menu-soc-link">
+              <svg
+                class="mob-menu-soc-icon mob-icon-other"
+                width="20"
+                height="20"
+              >
+                <use href="./img/icons.svg#icon-facebook-mob"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-menu-soc-item">
+            <a href="#" class="mob-menu-soc-link">
+              <svg
+                class="mob-menu-soc-icon mob-icon-other"
+                width="20"
+                height="20"
+              >
+                <use href="./img/icons.svg#icon-twitter-mob"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </header>
