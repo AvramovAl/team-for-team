@@ -1,16 +1,14 @@
-// Получаем элементы кнопки открытия модального окна, самого модального окна и кнопки закрытия модального окна
-var openModalBtns = document.querySelectorAll(".open-modal-room");
-var modal = document.querySelector(".backdrop-room");
-var closeModalBtn = document.querySelector(".close-modal-room");
+(() => {
+  const price = {
+    openModalBtn: document.querySelector('[data-price-open]'),
+    closeModalBtn: document.querySelector('[data-price-close]'),
+    modal: document.querySelector('[data-price]'),
+  };
 
-// Обработчик события для кнопки открытия модального окна
-openModalBtns.forEach(function(openModalBtn) {
-  openModalBtn.addEventListener("click", function() {
-    modal.classList.remove("is-hidden");
-  });
-});
+  price.openModalBtn.addEventListener('click', toggleModal.bind(null, price));
+  price.closeModalBtn.addEventListener('click', toggleModal.bind(null, price));
 
-// При клике на кнопку закрытия модального окна, скрываем модальное окно
-closeModalBtn.addEventListener("click", function() {
-  modal.classList.add("is-hidden");
-});
+  function toggleModal(modal) {
+    modal.modal.classList.toggle('is-hidden');
+  }
+})();
