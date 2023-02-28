@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hotel</title>
     
-    <script type="module" crossorigin src="/team-for-team/assets/slick-182bff42.js"></script>
+    <script type="module" crossorigin src="/team-for-team/assets/modal-48ddf6be.js"></script>
     <link rel="stylesheet" href="/team-for-team/assets/main-28d7b624.css">
   </head>
   <body>
@@ -216,8 +216,8 @@
     <div class="hotel-hero-wrap">
       <h1 class="hero-hotel-title">hotel</h1>
       <div class="hotel-hero-btn-wrap">
-        <button type="button" class="hotel-hero-btn">book a room</button>
-        <button type="button" class="hotel-hero-btn">view prices</button>
+        <button type="button" class="hotel-hero-btn" data-room-open>book a room</button>
+        <button type="button" class="hotel-hero-btn" data-price-open>view prices</button>
       </div>
     </div>
     <div class="hotel-hero-slider">
@@ -355,9 +355,9 @@
           </p>
         </div>
       </div>
-      <div class="hotel-luxery-btn-wrap">
-        <button type="button" class="hotel-luxury-btn"></button>
-        <button type="button" class="hotel-luxury-btn" data-price-open2></button>
+      <div class=“hotel-luxery-btn-wrap”>
+        <button type=“button” class=“hotel-luxury-btn”></button>
+        <button type=“button” class=“hotel-luxury-btn” data-price-open></button>
       </div>
    </div>
   </div>
@@ -460,7 +460,7 @@
       </div>
       <div class="triple-room-button">
         <a class="triple-room-btn" href="/src/room.html">More details</a>
-        <button class="triple-room-btn" type="button" data-price-open3>View prices</button>
+        <button class="triple-room-btn" type="button" data-price-open>View prices</button>
       </div>
     </div>
   </div>
@@ -553,7 +553,7 @@
       </div>
       <div class="four-seater-room-button">
         <a class="four-seater-room-btn" href="/src/room.html">More details</a>
-        <button class="four-seater-room-btn" type="button" data-price-open4>
+        <button class="four-seater-room-btn" type="button" data-price-open>
           View prices
         </button>
       </div>
@@ -753,6 +753,5 @@
     <!-- Base js -->
     
     <script src="./js/menu-active.js"></script>
-    <script src="./js/modal-hotel.js"></script>
   </body>
 </html>
