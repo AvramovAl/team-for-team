@@ -98,6 +98,7 @@
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: var(--black-color);
+    margin-bottom: 12px;
   }
 
   .location-title {
