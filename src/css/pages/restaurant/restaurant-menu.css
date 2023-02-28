@@ -48,6 +48,7 @@
 
 .menu-item {
     margin-bottom: 8px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 1.29;
     letter-spacing: -0.02em;
@@ -172,6 +173,7 @@ display: none;
 
     .menu-item {
         line-height: 1.33;
+        font-size: 18px;
     }
 
     .item-description {
@@ -203,10 +205,16 @@ display: none;
     padding: 100px 136px;
 }
 
+.restaurant-title {
+    padding-right: 260px;
+    margin-bottom: 100px;
+}
+
 .menu-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 74px;
+    row-gap: 56px;
+    column-gap: 74px;
 }
 
 .menu {
