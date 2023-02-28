@@ -71,6 +71,11 @@
   color: #f7f7f7;
 }
 
+.book-btn-main:hover,
+.book-btn-main:focus {
+  color: var(--black-color);
+}
+
 .desc-wrap {
   margin-left: auto;
   margin-right: auto;
@@ -162,12 +167,11 @@
 /* === DESKTOP === */
 
 @media screen and (min-width: 1440px) {
-  
   .desktop-width {
     width: 1440px;
     margin-left: auto;
     margin-right: auto;
-   }
+  }
 
   .hero-main {
     height: 770px;

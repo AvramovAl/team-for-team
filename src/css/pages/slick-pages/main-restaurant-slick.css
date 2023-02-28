@@ -115,6 +115,11 @@
   color: #121212;
 }
 
+.button__rest_main:hover,
+.button__rest_main:focus {
+  color: #f7f7f7;
+}
+
 @media screen and (min-width: 768px) {
   .button__rest_main {
     padding: 8px 24px;
