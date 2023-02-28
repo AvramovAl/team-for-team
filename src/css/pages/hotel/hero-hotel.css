@@ -1,3 +1,5 @@
+/* ------------------MOBILE------------------- */
+
 .hotel-hero {
   background-color: #F6F6F6;
 }
@@ -93,11 +95,14 @@
   display: block;
 }
 
+
 @media screen and (min-width: 375px) {
   .hotel-hero-container {
     width: 375px;
   }
 }
+
+/* ------------------TABLET------------------- */
 
 @media screen and (min-width: 768px) {
   .hotel-hero-container {
@@ -137,6 +142,10 @@
     letter-spacing: 0.05em;
   }
 }
+
+
+/* ------------------DESKTOP------------------- */
+
 
 @media screen and (min-width: 1440px) {
   .hotel-hero-container {
