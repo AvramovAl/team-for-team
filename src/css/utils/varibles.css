@@ -41,6 +41,9 @@
   --modal-transform-after: translate(-50%, -50%);
   --modal-input-border: 0.8px solid rgba(247, 247, 247, 0.2);
 
+  --modal-close-btn-tra: 300ms ease-in-out;
+  --modal-close-btn-transform: rotate(135deg);
+
   /* Room page color */
   --room-amenities-text-color: #f7f7f7;
 }

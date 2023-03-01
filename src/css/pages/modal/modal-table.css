@@ -52,6 +52,11 @@
   position: absolute;
   top: 14px;
   right: 14px;
+  transition: transform var(--modal-close-btn-tra);
+}
+
+.modal-table-btn-close:is(:hover, :focus) {
+  transform: var(--modal-close-btn-transform);
 }
 
 .modal-table-icon {
