@@ -123,6 +123,7 @@
 .logo-bottom {
   font-size: 6px;
   line-height: 1.33;
+  letter-spacing: 0.18em;
 }
 
 /* Header Social icons style */
@@ -326,13 +327,13 @@
 
   /* Current Navigation active style */
 
-  .current-index, 
+  .current-index,
   .current-other {
     display: inline-block;
     position: relative;
   }
 
-  .current-index:after, 
+  .current-index:after,
   .current-other:after {
     content: '';
     height: 4px;

@@ -88,9 +88,7 @@
   }
 }
 
-
 /* ------------------TABLET------------------- */
-
 
 @media screen and (min-width: 768px) {
   .hotel-luxury-container {
@@ -137,13 +135,11 @@
   }
 
   .hotel-luxery-btn-wrap {
-    margin-left: auto;
+    justify-content: flex-end;
   }
 }
 
-
 /* ------------------DESKTOP------------------- */
-
 
 @media screen and (min-width: 768px) and (max-width: 1439px) {
   .hotel-luxury-list {

@@ -61,6 +61,7 @@
 
 @media screen and (min-width: 768px) {
   .main-restaurant-description {
+    margin-top: 7px;
     margin-left: 32px;
   }
 }

@@ -95,6 +95,9 @@
   color: #f7f7f7;
 }
 
+.italic-text {
+  font-style: italic;
+}
 /* === TABLET === */
 
 @media screen and (min-width: 768px) {
