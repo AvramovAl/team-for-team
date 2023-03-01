@@ -5,23 +5,43 @@
         <use href="./img/icons.svg#icon-modal-close"></use>
       </svg>
     </button>
-    <p class="modal-price-title">prices per room</p>
+    <p class="modal-price-title">prices per <i>room</i></p>
+    <p class="modal-price-subtitle">double suite</p>
     <form class="modal-price-form" action="#">
-      <label class="modal-price-label" for="user-number-nights">double suite</label>
-      <select name="user-number-nights" id="user-number-nights">
-        <option value="1" class="modal-price-option">1</option>
-        <option value="2" class="modal-price-option">2</option>
-        <option value="3" class="modal-price-option">3</option>
-        <option value="4" class="modal-price-option">4</option>
-      </select>
-      <p class="modal-price-text">number of nights</p>
-
-      <select name="user-check-in-date" id="user-check-in-date">
-        <option value="1" class="modal-price-option" type="date">25/04/2023</option>
-      </select>
-      <p class="modal-price-text">check-in date</p>
-
-      <button class="modal-btn" type="submit">make a reservation</button>
+      <div class="modal-price-form-section">
+        <div class="modal-price-field">
+          <select
+            class="modal-price-input"
+            name="user-number-nights"
+            id="user-number-nights"
+          >
+            <option value="1" class="modal-price-option">1</option>
+            <option value="2" class="modal-price-option">2</option>
+            <option value="3" class="modal-price-option">3</option>
+            <option value="4" class="modal-price-option">4</option>
+          </select>
+          <p class="modal-price-text">number of nights</p>
+        </div>
+        <div class="modal-price-field modal-price-currency">
+          <input class="modal-price-input" type="number" value="1000">
+          <p class="modal-price-text">uah</p>
+        </div>
+        <div class="modal-price-date">
+          <div class="modal-price-field">
+            <select
+              class="modal-price-input"
+              name="user-check-in-date"
+              id="user-check-in-date"
+            >
+              <option value="1" class="modal-price-option" type="date">
+                25/04/2023
+              </option>
+            </select>
+            <p class="modal-price-text">check-in date</p>
+          </div>
+        </div>
+      </div>
+      <button class="modal-price-btn" type="submit">make a reservation</button>
     </form>
   </div>
 </div>

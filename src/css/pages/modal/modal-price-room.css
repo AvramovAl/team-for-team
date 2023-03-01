@@ -27,11 +27,17 @@
   left: 50%;
   transform: var(--modal-transform-after);
   width: 85%;
-  min-height: 576px;
+  min-height: 397px;
   background-color: var(--modal-background-color);
   border-radius: 4px;
-  padding: 24px 16px;
+  padding: 24px 24px 40px 24px;
   transition: transform var(--modal-tra);
+}
+
+@media screen and (min-width: 375px) {
+  .modal-price {
+    width: 335px;
+  }
 }
 
 .modal-price-btn-close {
@@ -45,6 +51,178 @@
   padding: 0;
   line-height: 0;
   position: absolute;
-  top: 2px;
-  left: 20px;
+  top: 14px;
+  right: 14px;
+}
+.modal-price-icon {
+  stroke: var(--modal-color);
+}
+
+@media screen and (max-width: 767px) {
+  .modal-price-icon {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+.modal-price-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.36;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--modal-color);
+  margin-bottom: 40px;
+}
+
+.modal-price-subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--modal-color);
+}
+
+.modal-price-form-section {
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .modal-price-field:not(:last-child) {
+    margin-bottom: 32px;
+  }
+}
+
+.modal-price-input {
+  width: 100%;
+  height: 36px;
+  padding-bottom: 18px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--modal-color);
+  background-color: var(--modal-background-color);
+  border: none;
+  border-bottom: var(--modal-input-border);
+}
+
+.modal-price-input::placeholder {
+  color: var(--modal-color);
+}
+
+.modal-price-text {
+  font-size: 8px;
+  line-height: 1.5;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--modal-comment-color);
+  margin-top: 8px;
+}
+
+.modal-price-btn {
+  position: relative;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  font-size: 12px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--modal-color);
+  background-color: var(--modal-background-color);
+  padding: 12px 40px;
+  border: var(--modal-border-button);
+  border-radius: 32px;
+  transition: color var(--modal-tra), background-color var(--modal-tra);
+}
+
+.modal-price-btn:hover,
+.modal-price-btn:focus {
+  color: var(--modal-background-color);
+  background-color: var(--modal-color);
+}
+
+@media screen and (min-width: 375px) {
+  .modal-price {
+    min-height: 528px;
+  }
+
+  .modal-price-title {
+    font-size: 28px;
+  }
+
+  .modal-price-subtitle {
+    font-size: 16px;
+  }
+
+  .modal-price-btn {
+    font-size: 14px;
+    padding: 14px 48px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .modal-price-currency {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .modal-price-date {
+    display: none;
+  }
+
+  .modal-price {
+    width: 628px;
+    min-height: 430px;
+    padding: 32px 32px 60px 32px;
+  }
+
+  .modal-price-btn-close {
+    width: 32px;
+    height: 32px;
+    top: 24px;
+    right: 24px;
+  }
+
+  .modal-price-title {
+    font-size: 36px;
+    line-height: 1.11;
+    margin-bottom: 60px;
+  }
+
+  .modal-price-form-section {
+    margin-top: 32px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+
+  .modal-price-field {
+    height: 56px;
+  }
+
+  .modal-price-input {
+    width: 266px;
+  }
+
+  .modal-price-btn {
+    font-size: 18px;
+    line-height: 1.71;
+    padding: 14px 130px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .modal-price-btn {
+    line-height: 1.33;
+    padding: 14px 133px;
+  }
 }

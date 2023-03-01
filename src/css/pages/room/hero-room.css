@@ -38,21 +38,18 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   text-align: center;
-
   background-color: transparent;
-
+  color: var(--black-color);
   width: 117px;
   height: 34px;
   border: 0.8px solid var(--black-color);
   border-radius: 32px;
-
-  /* padding: 18px 8px; */
   margin-bottom: 40px;
 }
 
 .room-hero-btn:hover,
-.room-hero-btn:after {
-  color: var(--background-color);
+.room-hero-btn:focus {
+  color: #f7f7f7;
 }
 
 .room-hero-btn-text {
