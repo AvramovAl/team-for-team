@@ -4,3 +4,4 @@ import './js/room-hero-slider';
 import './js/slick';
 import './js/modal';
 import './js/menu-active';
+import './js/modal-change/change-modal-price';
