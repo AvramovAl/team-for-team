@@ -1,3 +1,7 @@
+.main__container_rest {
+  margin-bottom: 32px;
+}
+
 @media screen and (min-width: 768px) {
   .main__container_rest {
     display: flex;
@@ -144,8 +148,14 @@
 @media screen and (min-width: 1440px) {
   .button__rest_position {
     position: relative;
-    bottom: 604px;
+    bottom: 645px;
     left: 535px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .slider-item {
+    margin-right: 32px;
   }
 }
 
@@ -153,6 +163,16 @@
   margin-right: 0;
 }
 
+@media (min-width: 1440px) {
+  .main-restaurant-slider {
+    overflow: visible;
+    margin-right: -34px;
+  }
+  .main-restaurant-slider .slick-slide:last-child {
+    margin-right: 0;
+  }
+}
+/* 
 .slick-next {
   z-index: 1;
   outline: none;
@@ -186,12 +206,12 @@
   }
 }
 
-.slick-prev {
+.my-prev-arrow {
   z-index: 1;
   outline: none;
 }
 
-.slick-prev::before {
+.my-prev-arrow::before {
   position: absolute;
   top: 130px;
   left: 38px;
@@ -207,15 +227,84 @@
 }
 
 @media screen and (min-width: 768px) {
-  .slick-prev::before {
+  .my-prev-arrow::before {
     top: 200px;
     left: 38px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .slick-prev::before {
+  .my-prev-arrow::before {
     top: 220px;
     left: 670px;
   }
+} */
+
+.my-prev-arrow {
+  position: relative;
+  top: -60px;
+  left: 8px;
+  color: transparent;
+  background-color: transparent;
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: solid #121212;
+  border-width: 2px 2px 0 0;
+  transform: rotate(-135deg);
+}
+
+@media screen and (min-width: 768px) {
+  .my-prev-arrow {
+    top: -67px;
+    left: 19px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .my-prev-arrow {
+    top: -67px;
+    left: 630px;
+  }
+}
+
+.my-next-arrow {
+  position: relative;
+  top: -60px;
+  left: 33px;
+
+  color: transparent;
+  background-color: transparent;
+
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: solid #121212;
+  border-width: 2px 2px 0 0;
+  transform: rotate(45deg);
+}
+
+@media screen and (min-width: 768px) {
+  .my-next-arrow {
+    top: -67px;
+    left: 60px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .my-next-arrow {
+    top: -67px;
+    left: 680px;
+  }
+}
+
+.gray-arrow {
+  color: #ccc;
+}
+
+.slick-disabled {
+  color: #999;
+  border-color: #999;
 }
