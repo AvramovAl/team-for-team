@@ -4,8 +4,17 @@
     display: none;
 }
 
-.content-wrap {
+.wrapper-about{
+    padding-top: 71px;
+    padding-bottom: 64px;
+}
+
+.content-wrap-1 {
     position: relative;
+}
+
+.about-main-img-1 {
+    margin-bottom: 20px;
 }
 
 .guest-feedback-1 {
@@ -83,15 +92,6 @@
     color: #121212;
 }
 
-.wrapper-about{
-    padding-top: 71px;
-    padding-bottom: 64px;
-}
-
-.about-main-img-1 {
-    margin-bottom: 20px;
-}
-
 .about-main-img-2 {
     margin-bottom: 32px;
 }
@@ -119,6 +119,10 @@
     background-repeat: no-repeat;
     background-size: 41px 41px;
     background-position: 14px;
+}
+
+.content-wrap-2 {
+    position: relative;
 }
 
 @media (min-device-pixel-ratio: 2), 
@@ -153,4 +157,90 @@
 /* === TABLET === */
 
 @media screen and (min-width: 768px) {
+
+    .about-desc-one {
+        width: 472px;
+    }
+
+    .about-desc-text{
+        font-size: 18px;
+        line-height: 1.33;
+    }
+
+    .about-main-img-2{
+        position: absolute;
+        left: 300px;
+        top: 209px;
+    }
+
+    .guest-feedback-1 {
+        left: 370px;
+        top: 176px;
+    }
+
+    .guest-feedback-2{
+        left: 67px;
+        top: 303px;
+    }
+    
+    .about-main-img-3 {
+        margin-left:174px;
+        margin-bottom: 40px;
+    }
+
+    .wrapper-flex{
+        display: flex;
+        flex-direction: row-reverse;
+        column-gap: 32px;
+        margin-right: 143px;
+    }
+
+    .about-desc-two{
+        margin-top:0px;
+    }
+
+}
+
+/* === DESKTOP === */
+
+@media screen and (min-width: 1440px) {
+
+    .content-wrap-1 {
+        display: flex;
+    }
+
+    .img-about-main {
+        max-width: none;
+    }
+
+    .guest-feedback-2 {
+        left: 737px;
+        top: 303px;
+    }
+
+    .content-wrap-2 {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 100px;
+    }
+
+    .wrapper-flex{
+        margin-right: -176px;
+        margin-top: 127px;
+        column-gap: 54px;
+    }
+
+    .about-desc-two {
+        margin-right: 87px;
+    }
+
+    .about-desc-one{
+        width: 473px;
+        margin-left: 364px;
+        margin-top: 199px;
+    }
+
+    .about-main-img-3, .about-main-img-1 {
+        margin-bottom: 0px;
+    }
 }
