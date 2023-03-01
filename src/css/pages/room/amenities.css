@@ -1,6 +1,7 @@
 .room-amenities-section {
   background-color: var(--black-color);
   padding-top: 40px;
+  padding-bottom: 64px;
 }
 
 .amenities {
@@ -38,7 +39,6 @@
 .room-amenities-down-pos {
   position: relative;
   padding-top: 64px;
-  padding-bottom: 64px;
 }
 
 .room-amenities-pic-bathroom {
@@ -80,6 +80,7 @@
 @media screen and (min-width: 768px) {
   .room-amenities-section {
     padding-top: 80px;
+    padding-bottom: 80px;
   }
 
   .room-amenities-list {
@@ -100,7 +101,6 @@
 
   .room-amenities-down-pos {
     padding-top: 122px;
-    padding-bottom: 80px;
   }
 
   .room-amenities-pic-accessories {
@@ -111,7 +111,7 @@
 
   .room-amenities-btn {
     position: absolute;
-    bottom: 194px;
+    bottom: 114px;
     left: 0px;
 
     min-width: 143px;
@@ -125,6 +125,7 @@
 @media screen and (min-width: 1440px) {
   .room-amenities-section {
     padding-top: 94px;
+    padding-bottom: 100px;
   }
 
   .amenities {
@@ -145,7 +146,6 @@
 
   .room-amenities-down-pos {
     padding-top: 0px;
-    padding-bottom: 100px;
     margin-top: -122px;
   }
 
@@ -158,6 +158,6 @@
   .room-amenities-btn {
     position: absolute;
     left: 528px;
-    bottom: 235px;
+    bottom: 135px;
   }
 }

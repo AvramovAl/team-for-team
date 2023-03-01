@@ -1,7 +1,7 @@
 .restaurant-section {
   background-color: var(--black-color);
   padding-top: 40px;
-  padding-bottom: 72px;
+  padding-bottom: 64px;
   color: var(--text-color);
 }
 
@@ -155,7 +155,6 @@
 
 @media screen and (min-width: 768px) {
   .restaurant-section {
-    padding-top: 80px;
     padding-bottom: 80px;
   }
 

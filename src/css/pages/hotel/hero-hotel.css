@@ -164,4 +164,9 @@
   .hotel-hero-item {
     height: 580px;
   }
+
+  .hotel-hero-btn {
+    font-size: 18px;
+    line-height: 1.33;
+  }
 }

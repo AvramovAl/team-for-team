@@ -22,11 +22,11 @@
   margin-bottom: 32px;
 }
 
-.hotel-luxury-picture {
+/* .hotel-luxury-picture {
 }
 
 .hotel-luxery-main-wrap {
-}
+} */
 
 .hotel-luxery-wrap {
   margin-bottom: 28px;
@@ -187,5 +187,10 @@
 
   .hotel-luxury-title {
     margin-bottom: 40px;
+  }
+
+  .hotel-luxury-btn {
+    font-size: 18px;
+    line-height: 1.33;
   }
 }

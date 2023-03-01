@@ -47,20 +47,20 @@
 }
 
 .triple-room-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  color: var(--black-color);
+  color: #121212;
   padding: 8px 18px;
-  border: none;
   border: 0.8px solid #121212;
   border-radius: 32px;
   background-color: transparent;
-  min-width: 140px;
-  height: 40px;
-  text-align: center;
 }
 
 .triple-room-btn:is(:hover, :focus) {
@@ -109,10 +109,6 @@
   .triple-room-button {
     gap: 14px;
   }
-  .triple-room-btn {
-    padding: 8px 24px;
-    line-height: 1.71;
-  }
 }
 
 /* -----DESKTOP VERSION------ */
@@ -147,8 +143,9 @@
   .triple-room-description {
     margin-bottom: 0;
   }
+
   .triple-room-btn {
-    padding: 9px 24px;
-    letter-spacing: -0.08em;
+    font-size: 18px;
+    line-height: 1.33;
   }
 }
