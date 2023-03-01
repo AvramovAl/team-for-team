@@ -85,6 +85,10 @@
   margin-bottom: 40px;
 }
 
+.modal-table-field {
+  height: 56px;
+}
+
 @media screen and (max-width: 767px) {
   .modal-table-field:not(:last-child) {
     margin-bottom: 32px;
@@ -103,11 +107,41 @@
   color: var(--modal-color);
   background-color: var(--modal-background-color);
   border: none;
+  outline: none;
   border-bottom: var(--modal-input-border);
+  transition: border-bottom var(--modal-tra);
+}
+
+.modal-table-input:focus {
+  border-bottom: var(--modal-border-button);
 }
 
 .modal-table-input::placeholder {
   color: var(--modal-color);
+}
+
+.modal-table-select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.modal-table-select::-ms-expand {
+  display: none;
+}
+
+.modal-table-icon-wrap {
+  position: relative;
+  left: 95%;
+  bottom: 19px;
+  transform: translateY(-100%);
+  pointer-events: none;
+}
+
+.modal-table-icon {
+  stroke: #f7f7f7;
 }
 
 .modal-table-text {
@@ -188,12 +222,12 @@ select option.option-table-hidden:before {
     row-gap: 40px;
   }
 
-  .modal-table-field {
-    height: 56px;
-  }
-
   .modal-table-input {
     width: 266px;
+  }
+
+  .modal-table-icon-wrap {
+     bottom: 22px; 
   }
 
   .modal-table-btn {

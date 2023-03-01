@@ -30,19 +30,29 @@
         </div>
         <div class="modal-room-field">
           <select
-            class="modal-room-input"
+            class="modal-room-input modal-room-select"
             name="user-choose-day"
             id="user-choose-day"
           >
-            <option value="today" class="modal-room-option" selected>today</option>
-            <option value="today" class="modal-room-option">tomorrow</option>
-            <option value="today" class="modal-room-option">day after tomorrow</option>
+            <option value="today" class="modal-room-option" selected>
+              today
+            </option>
+            <option value="tomorrow" class="modal-room-option">tomorrow</option>
+            <option value="day-after-tomorrow" class="modal-room-option">
+              day after tomorrow
+            </option>
           </select>
+          
           <p class="modal-room-text">check-in date</p>
+          <div class="modal-room-icon-wrap">
+            <svg class="modal-room-icon" width="10" height="5">
+              <use href="./img/icons.svg#icon-chevron-down"></use>
+            </svg>
+          </div>
         </div>
         <div class="modal-room-field">
           <select
-            class="modal-room-input"
+            class="modal-room-input modal-room-select"
             name="user-choose-date"
             id="user-choose-date"
           >
@@ -50,11 +60,17 @@
               25/04/2023
             </option>
           </select>
+          
           <p class="modal-room-text">check-out date</p>
+          <div class="modal-room-icon-wrap">
+            <svg class="modal-room-icon" width="10" height="5">
+              <use href="./img/icons.svg#icon-chevron-down"></use>
+            </svg>
+          </div>
         </div>
         <div class="modal-room-field">
           <select
-            class="modal-room-input"
+            class="modal-room-input modal-room-select"
             name="user-choose-room"
             id="user-choose-room"
           >
@@ -68,7 +84,13 @@
               four-seater room
             </option>
           </select>
+          
           <p class="modal-room-text">number category</p>
+          <div class="modal-room-icon-wrap">
+            <svg class="modal-room-icon" width="10" height="5">
+              <use href="./img/icons.svg#icon-chevron-down"></use>
+            </svg>
+          </div>
         </div>
       </div>
       <button class="modal-room-btn" type="submit">make a reservation</button>
