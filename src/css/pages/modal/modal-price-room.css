@@ -53,7 +53,13 @@
   position: absolute;
   top: 14px;
   right: 14px;
+  transition: transform var(--modal-close-btn-tra);
 }
+
+.modal-price-btn-close:is(:hover, :focus) {
+  transform: var(--modal-close-btn-transform);
+}
+
 .modal-price-icon {
   stroke: var(--modal-color);
 }
