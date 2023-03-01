@@ -155,6 +155,7 @@
 
 @media screen and (min-width: 768px) {
   .restaurant-section {
+    padding-top: 80px;
     padding-bottom: 80px;
   }
 
@@ -205,17 +206,18 @@
 /* desctop */
 @media screen and (min-width: 1440px) {
   .restaurant-section {
-    padding: 100px 136px;
+    padding-top: 100px;
+    border-bottom: 100px;
   }
 
   .restaurant-title {
-    padding-right: 260px;
     margin-bottom: 100px;
   }
 
   .menu-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     column-gap: 74px;
     row-gap: 56px;
   }
