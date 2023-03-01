@@ -10,11 +10,12 @@
   column-gap: 19px;
   row-gap: 20px;
 }
-.four-seater-room-item {
-}
+/* .four-seater-room-item {
+} */
 .four-seater-room-description {
   margin-bottom: 28px;
 }
+
 .four-seater-room-title {
   font-weight: 700;
   font-size: 32px;
@@ -48,6 +49,11 @@
   border: 0.8px solid #121212;
   border-radius: 32px;
   background-color: transparent;
+  text-align: center;
+}
+
+.four-seater-room-btn:is(:hover, :focus) {
+  color: #f7f7f7;
 }
 
 /* ----TABLET VERSION----- */
@@ -64,8 +70,8 @@
     flex-wrap: nowrap;
     flex-direction: row-reverse;
   }
-  .four-seater-room-item:last-child{
-    align-self:flex-end;
+  .four-seater-room-item:last-child {
+    align-self: flex-end;
     position: absolute;
     right: 51%;
   }
@@ -103,8 +109,8 @@
     align-items: center;
     flex-direction: row;
   }
-  .four-seater-room-item:last-child{
-    align-self:center;
+  .four-seater-room-item:last-child {
+    align-self: center;
     position: relative;
     right: 0;
   }

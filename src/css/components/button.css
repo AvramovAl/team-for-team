@@ -1,0 +1,66 @@
+/* animation-btn */
+/* btn-black */
+/* btn-white */
+/* :is(:hover, :focus) */
+
+.btn-black::after {
+  content: '';
+  background: #ffffff;
+  position: absolute;
+  z-index: -1;
+  padding: 0.85em 0.75em;
+  display: block;
+}
+
+.btn-white::after {
+  content: '';
+  background: var(--black-color);
+  position: absolute;
+  z-index: -1;
+  padding: 0.85em 0.75em;
+  display: block;
+}
+
+.animation-btn {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: color 0.6s;
+}
+
+.animation-btn[class^='slide']::after {
+  transition: all 0.6s;
+}
+
+.animation-btn[class^='slide']:hover::after,
+.animation-btn[class^='slide']:focus::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all 0.6s;
+}
+
+.animation-btn[class^='animation']::after {
+  transition: all 0.6s ease;
+}
+
+.animation-btn[class^='animation']:hover::after,
+.animation-btn[class^='animation']:focus::after {
+  transition: all 0.6s ease-out;
+}
+
+.animation-btn::after {
+  border-radius: 50%;
+  left: -50%;
+  right: -50%;
+  top: -150%;
+  bottom: -150%;
+  line-height: 8.34em;
+  transform: scale(0, 0);
+}
+
+.animation-btn:hover::after,
+.animation-btn:focus::after {
+  transform: scale(1, 1);
+}

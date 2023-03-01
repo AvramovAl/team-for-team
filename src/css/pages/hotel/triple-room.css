@@ -1,17 +1,20 @@
 .triple-room-container {
   padding-bottom: 64px;
 }
+
 .triple-room-photo {
   margin-bottom: 32px;
 }
+
 .triple-room-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 20px;
   row-gap: 20px;
 }
-.triple-room-item {
-}
+
+/* .triple-room-item {
+} */
 .triple-room-title {
   text-transform: uppercase;
   font-weight: 700;
@@ -21,12 +24,14 @@
   color: var(--black-color);
   margin-bottom: 32px;
 }
+
 .triple-room-description {
   display: flex;
   flex-wrap: wrap;
   row-gap: 24px;
   margin-bottom: 28px;
 }
+
 .triple-room-suptitle {
   text-transform: uppercase;
   font-size: 14px;
@@ -34,11 +39,13 @@
   letter-spacing: -0.02em;
   color: var(--black-color);
 }
+
 .triple-room-button {
   display: flex;
   gap: 12px;
   min-width: 295px;
 }
+
 .triple-room-btn {
   font-family: 'DM Sans', sans-serif;
   font-size: 14px;
@@ -53,6 +60,11 @@
   background-color: transparent;
   min-width: 140px;
   height: 40px;
+  text-align: center;
+}
+
+.triple-room-btn:is(:hover, :focus) {
+  color: #f7f7f7;
 }
 
 /* ----TABLET VERSION----- */
@@ -76,10 +88,9 @@
   .triple-room-item:last-child {
     position: absolute;
     left: 51%;
-    align-self:flex-end;
+    align-self: flex-end;
   }
-  .third-photo{
-
+  .third-photo {
   }
   .triple-room-title {
     font-size: 40px;
@@ -118,7 +129,7 @@
     align-items: center;
   }
   .triple-room-item:last-child {
-    align-self:center;
+    align-self: center;
     position: relative;
     left: 0;
   }

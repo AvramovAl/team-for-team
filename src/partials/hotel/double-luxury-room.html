@@ -1,14 +1,16 @@
 <section class="double-luxury-room">
-  <div class="container">
-    <ul class="hotel-luxury-list">
-      <li class="hotel-luxury-item">
-        <picture>
+  <div class="container hotel-luxury-container">
+    <div class="hotel-luxury-list">
+      <div class="hotel-luxury-img">
+        <picture class="hotel-luxury-picture">
           <source
             srcset="
               /img/hotel/desk/double-room-pic1-1x.jpg 1x,
               /img/hotel/desk/double-room-pic1-2x.jpg 2x
             "
             media="(min-width: 1440px)"
+            width="539"
+            height="762"
           />
           <source
             srcset="
@@ -16,6 +18,8 @@
               /img/hotel/tab/double-room-pic1-2x.jpg 2x
             "
             media="(min-width: 768px)"
+            width="331"
+            height="468"
           />
           <source
             srcset="
@@ -23,23 +27,27 @@
               /img/hotel/mob/double-room-pic1-2x.jpg 2x
             "
             media="(min-width: 375px)"
+            width="335"
+            height="468"
           />
           <img
             src="/img/hotel/mob/double-room-pic1-1x.jpg"
             alt="double luxury room"
-            width="250"
-            height="429"
+            width="335"
+            height="468"
           />
         </picture>
-      </li>
-      <li class="hotel-luxury-item">
-        <picture>
+      </div>
+      <div class="hotel-luxury-img">
+        <picture class="hotel-luxury-picture">
           <source
             srcset="
               /img/hotel/desk/double-room-pic2-1x.jpg 1x,
               /img/hotel/desk/double-room-pic2-2x.jpg 2x
             "
             media="(min-width: 1440px)"
+            width="387"
+            height="510"
           />
           <source
             srcset="
@@ -47,6 +55,8 @@
               /img/hotel/tab/double-room-pic2-2x.jpg 2x
             "
             media="(min-width: 768px)"
+            width="223"
+            height="261"
           />
           <source
             srcset="
@@ -54,31 +64,36 @@
               /img/hotel/mob/double-room-pic2-2x.jpg 2x
             "
             media="(min-width: 375px)"
+            width="158"
+            height="149"
           />
           <img
             src="/img/hotel/mob/double-room-pic2-1x.jpg"
             alt="double luxury room"
-            width="250"
-            height="429"
+            width="158"
+            height="149"
           />
         </picture>
-      </li>
-      <li class="hotel-luxury-item">
-        <picture>
+      </div>
+      <div class="hotel-luxury-img">
+        <picture class="hotel-luxury-picture">
           <source
             srcset="
               /img/hotel/desk/double-room-pic3-1x.jpg 1x,
               /img/hotel/desk/double-room-pic3-2x.jpg 2x
             "
             media="(min-width: 1440px)"
+            width="386"
+            height="395"
           />
-
           <source
             srcset="
               /img/hotel/tab/double-room-pic3-1x.jpg 1x,
               /img/hotel/tab/double-room-pic3-2x.jpg 2x
             "
             media="(min-width: 768px)"
+            width="341"
+            height="175"
           />
           <source
             srcset="
@@ -86,34 +101,49 @@
               /img/hotel/mob/double-room-pic3-2x.jpg 2x
             "
             media="(min-width: 375px)"
+            width="158"
+            height="149"
           />
           <img
             src="/img/hotel/mob/double-room-pic3-1x.jpg"
             alt="double luxury room"
-            width="250"
-            height="429"
+            width="158"
+            height="149"
           />
         </picture>
-      </li>
-    </ul>
-    <div class="hotel-luxery-wrap">
-      <h2>double luxury room</h2>
-      <div class="hotel-luxery-content-wrap">
-        <p>
-          experience luxury in our Double Luxury Room at Mimino Hotel. This
-          spacious room features a comfortable bed, private bathroom,
-          flat-screen TV, and high-speed Wi-Fi. Climate control, blackout
-          curtains, and soundproofing ensure a peaceful night's sleep.
-        </p>
-        <p>
-          relax after a busy day at the writing desk or armchair. Book now for a
-          convenient and comfortable stay.
-        </p>
       </div>
     </div>
-    <div class="hotel-luxery-btn-wrap">
-      <button type="button" class="hotel-luxury-btn"></button>
-      <button type="button" class="hotel-luxury-btn"></button>
+    <div class="hotel-luxery-main-wrap">
+      <div class="hotel-luxery-wrap">
+        <h2 class="hotel-luxury-title">double luxury room</h2>
+        <div class="hotel-luxery-content-wrap">
+          <p class="hotel-luxury-content">
+            experience luxury in our Double Luxury Room at Mimino Hotel. This
+            spacious room features a comfortable bed, private bathroom,
+            flat-screen TV, and high-speed Wi-Fi. Climate control, blackout
+            curtains, and soundproofing ensure a peaceful night's sleep.
+          </p>
+          <p class="hotel-luxury-content">
+            relax after a busy day at the writing desk or armchair. Book now for
+            a convenient and comfortable stay.
+          </p>
+        </div>
+      </div>
+      <div class="hotel-luxery-btn-wrap">
+        <button
+          type="“button”"
+          class="“animation-btn"
+          hotel-luxury-btn
+          btn-white”
+        ></button>
+        <button
+          type="“button”"
+          class="“animation-btn"
+          hotel-luxury-btn
+          btn-white”
+          data-price-open
+        ></button>
+      </div>
     </div>
   </div>
 </section>
