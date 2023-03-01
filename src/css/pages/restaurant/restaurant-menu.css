@@ -48,7 +48,7 @@
 
 .menu-item {
   margin-bottom: 8px;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 1.29;
   letter-spacing: -0.02em;
@@ -235,6 +235,7 @@
   .item-description {
     max-width: 345px;
   }
+
   .menu-parts-last {
     width: 515px;
     display: block;
@@ -252,5 +253,7 @@
 
   .menu-btn {
     margin-top: 56px;
+    margin-left: 135px;
   }
+
 }
