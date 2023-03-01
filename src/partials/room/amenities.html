@@ -67,37 +67,35 @@
 
     <!-- Картинки -->
     <div class="room-amenities-down-pos">
-      <div class="room-amenities-pic">
-        <!-- marging left auto pos rel -->
-        <picture>
-          <source
-            srcset="
-              /img/room/desk/amenities-pic1-1x.jpg 1x,
-              /img/room/desk/amenities-pic1-2x.jpg 2x
-            "
-            media="(min-width: 1440px)"
-          />
-          <source
-            srcset="
-              /img/room/tab/amenities-pic1-1x.jpg 1x,
-              /img/room/tab/amenities-pic1-2x.jpg 2x
-            "
-            media="(min-width: 768px)"
-          />
-          <source
-            srcset="
-              /img/room/mob/amenities-pic1-1x.jpg 1x,
-              /img/room/mob/amenities-pic1-2x.jpg 2x
-            "
-            media="(max-width: 767px)"
-          />
-          <img
-            class="room-amenities-pic-bathroom"
-            src="/img/room/mob/amenities-pic1-1x.jpg"
-            alt="bath room"
-          />
-        </picture>
-
+      <picture>
+        <source
+          srcset="
+            /img/room/desk/amenities-pic1-1x.jpg 1x,
+            /img/room/desk/amenities-pic1-2x.jpg 2x
+          "
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="
+            /img/room/tab/amenities-pic1-1x.jpg 1x,
+            /img/room/tab/amenities-pic1-2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            /img/room/mob/amenities-pic1-1x.jpg 1x,
+            /img/room/mob/amenities-pic1-2x.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <img
+          class="room-amenities-pic-bathroom"
+          src="/img/room/mob/amenities-pic1-1x.jpg"
+          alt="bath room"
+        />
+      </picture>
+      <div class="pic-btn">
         <picture>
           <source
             srcset="
@@ -126,14 +124,14 @@
             alt="bath room"
           />
         </picture>
+        <button
+          type="button"
+          class="animation-btn room-amenities-btn btn-black"
+          room-modal-open
+        >
+          Book a room
+        </button>
       </div>
     </div>
-    <button
-      type="button"
-      class="animation-btn room-amenities-btn btn-black"
-      room-modal-open
-    >
-      Book a room
-    </button>
   </div>
 </section>
