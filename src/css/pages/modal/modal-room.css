@@ -85,6 +85,10 @@
   margin-bottom: 40px;
 }
 
+.modal-room-field {
+  height: 56px;
+}
+
 @media screen and (max-width: 767px) {
   .modal-room-field:not(:last-child) {
     margin-bottom: 32px;
@@ -106,8 +110,36 @@
   border-bottom: var(--modal-input-border);
 }
 
+.modal-room-input:focus {
+  border-bottom: var(--modal-border-button);
+}
+
 .modal-room-input::placeholder {
   color: var(--modal-color);
+}
+
+.modal-room-select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.modal-room-select::-ms-expand {
+  display: none;
+}
+
+.modal-room-icon-wrap {
+  position: relative;
+  left: 95%;
+  bottom: 39px;
+  transform: translateY(-100%);
+  pointer-events: none;
+}
+
+.modal-room-icon {
+  stroke: #f7f7f7;
 }
 
 .modal-room-text {
@@ -117,6 +149,10 @@
   text-transform: uppercase;
   color: var(--modal-comment-color);
   margin-top: 8px;
+}
+
+option.option-room-hidden {
+  display: none;
 }
 
 .modal-room-btn {
@@ -179,12 +215,12 @@
     row-gap: 40px;
   }
 
-  .modal-room-field {
-    height: 56px;
-  }
-
   .modal-room-input {
     width: 266px;
+  }
+
+  .modal-room-icon-wrap {
+    bottom: 42px;
   }
 
   .modal-room-btn {

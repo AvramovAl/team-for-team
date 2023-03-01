@@ -95,6 +95,10 @@
   margin-bottom: 40px;
 }
 
+.modal-price-field {
+  height: 56px;
+}
+
 @media screen and (max-width: 767px) {
   .modal-price-field:not(:last-child) {
     margin-bottom: 32px;
@@ -116,8 +120,36 @@
   border-bottom: var(--modal-input-border);
 }
 
+.modal-room-input:focus {
+  border-bottom: var(--modal-border-button);
+}
+
 .modal-price-input::placeholder {
   color: var(--modal-color);
+}
+
+.modal-price-select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.modal-price-select::-ms-expand {
+  display: none;
+}
+
+.modal-price-icon-wrap {
+  position: relative;
+  left: 95%;
+  bottom: 19px;
+  transform: translateY(-100%);
+  pointer-events: none;
+}
+
+.modal-price-icon {
+  stroke: #f7f7f7;
 }
 
 .modal-price-text {
@@ -154,7 +186,7 @@
 
 @media screen and (min-width: 375px) {
   .modal-price {
-    min-height: 528px;
+    min-height: 414px;
   }
 
   .modal-price-title {
@@ -209,10 +241,6 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 32px;
-  }
-
-  .modal-price-field {
-    height: 56px;
   }
 
   .modal-price-input {
