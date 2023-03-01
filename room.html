@@ -21,8 +21,8 @@
     />
     <!-- Base style -->
     
-    <script type="module" crossorigin src="/team-for-team/assets/menu-active-920c101f.js"></script>
-    <link rel="stylesheet" href="/team-for-team/assets/main-e6e3132d.css">
+    <script type="module" crossorigin src="/team-for-team/assets/change-modal-price-16076c99.js"></script>
+    <link rel="stylesheet" href="/team-for-team/assets/main-36d475cd.css">
   </head>
   <body>
     <header class="header header-other">
@@ -464,33 +464,44 @@
       <div class="modal-price-form-section">
         <div class="modal-price-field">
           <select
-            class="modal-price-input"
+            class="modal-price-input modal-price-select"
             name="user-number-nights"
-            id="user-number-nights"
+            id="price-number-nights"
           >
-            <option value="1" class="modal-price-option">1</option>
-            <option value="2" class="modal-price-option">2</option>
-            <option value="3" class="modal-price-option">3</option>
-            <option value="4" class="modal-price-option">4</option>
           </select>
           <p class="modal-price-text">number of nights</p>
+          <div class="modal-room-icon-wrap">
+            <svg class="modal-room-icon" width="10" height="5">
+              <use href="/team-for-team/assets/icons-d2d01d28.svg#icon-chevron-down"></use>
+            </svg>
+          </div>
         </div>
         <div class="modal-price-field modal-price-currency">
-          <input class="modal-price-input" type="number" value="1000">
+          <input id="price-currency-nights" class="modal-price-input" type="text" readonly />
           <p class="modal-price-text">uah</p>
         </div>
         <div class="modal-price-date">
           <div class="modal-price-field">
             <select
-              class="modal-price-input"
+              class="modal-price-input modal-price-select"
               name="user-check-in-date"
               id="user-check-in-date"
             >
-              <option value="1" class="modal-price-option" type="date">
+              <option
+                value="25-04-2023"
+                class="modal-price-option"
+                type="date"
+                selected
+              >
                 25/04/2023
               </option>
             </select>
             <p class="modal-price-text">check-in date</p>
+            <div class="modal-room-icon-wrap">
+              <svg class="modal-room-icon" width="10" height="5">
+                <use href="/team-for-team/assets/icons-d2d01d28.svg#icon-chevron-down"></use>
+              </svg>
+            </div>
           </div>
         </div>
       </div>

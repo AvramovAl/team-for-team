@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant</title>
     
-    <script type="module" crossorigin src="/team-for-team/assets/menu-active-920c101f.js"></script>
-    <link rel="stylesheet" href="/team-for-team/assets/main-e6e3132d.css">
+    <script type="module" crossorigin src="/team-for-team/assets/change-modal-price-16076c99.js"></script>
+    <link rel="stylesheet" href="/team-for-team/assets/main-36d475cd.css">
   </head>
   <body>
     <header class="header header-other">
@@ -814,7 +814,8 @@
     <form class="modal-table-form" action="#">
       <div class="modal-table-form-section">
         <div class="modal-table-field">
-          <input class="modal-table-input table-input-name"
+          <input
+            class="modal-table-input table-input-name"
             type="text"
             id="table-user-name"
             name="table-user-name"
@@ -823,8 +824,17 @@
           <p class="modal-table-text">who should book a table for?</p>
         </div>
         <div class="modal-table-field">
-          <select name="table-user-amount" id="table-user-amount" class="modal-table-input">
-            <option value="" class="modal-table-option option-table-hidden" disabled selected>
+          <select
+            name="table-user-amount"
+            id="table-user-amount"
+            class="modal-table-input modal-table-select"
+          >
+            <option
+              value=""
+              class="modal-table-option option-table-hidden"
+              disabled
+              selected
+            >
               number of people
             </option>
             <option value="1" class="modal-table-option">1</option>
@@ -833,19 +843,36 @@
             <option value="4" class="modal-table-option">4</option>
             <option value="5" class="modal-table-option">5</option>
           </select>
+          <div class="modal-table-icon-wrap">
+            <svg class="modal-table-icon" width="10" height="5">
+              <use href="/team-for-team/assets/icons-d2d01d28.svg#icon-chevron-down"></use>
+            </svg>
+          </div>
         </div>
         <div class="modal-table-field">
-          <select name="table-user-date" id="table-user-date" class="modal-table-input">
+          <select
+            name="table-user-date"
+            id="table-user-date"
+            class="modal-table-input modal-table-select" 
+          >
             <option value="today" class="modal-table-option" selected>today</option>
-            <option value="tomorrow" class="modal-table-option">tomorrow</option>
+            <option value="tomorrow" class="modal-table-option">
+              tomorrow
+            </option>
             <option value="day-after-tomorrow" class="modal-table-option">
               day after tomorrow
             </option>
           </select>
+          <div class="modal-table-icon-wrap">
+            <svg class="modal-table-icon" width="10" height="5">
+              <use href="/team-for-team/assets/icons-d2d01d28.svg#icon-chevron-down"></use>
+            </svg>
+          </div>
           <p class="modal-table-text">what date to book?</p>
         </div>
         <div class="modal-table-field">
-          <input class="modal-table-input"
+          <input
+            class="modal-table-input"
             type="tel"
             id="table-user-phone"
             name="table-user-phone"
