@@ -2,32 +2,29 @@ $('.main-restaurant-slider').slick({
   dots: false,
   infinite: false,
   speed: 1300,
-  variablewidth: false,
-  slidesToShow: 4,
-  slidesToScroll: 2,
-  // prevArrow: $('.slider-1:before')
+  variableWidth: true,
+  // centerPadding: '100px',
+  slidesToShow: 1,
+  slidesToScroll: 1,
   responsive: [
     {
       breakpoint: 1440,
       settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2,
-        infinite: false,
-        dots: false,
-        variablewidth: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
       },
     },
     {
       breakpoint: 768,
       settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2,
+        slidesToShow: 1,
+        slidesToScroll: 1,
       },
     },
     {
       breakpoint: 375,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1,
       },
     },
