@@ -1,0 +1,46 @@
+/* Slick */
+.page-hero-slider img {
+  height: 429px;
+  width: 250px;
+  margin-right: 20px;
+}
+
+.page-hero-slider .slick-arrow.slick-prev::before {
+  top: 250px;
+  right: -240px;
+}
+
+.page-hero-slider .slick-arrow.slick-next::before {
+  top: 249px;
+  right: 55px;
+}
+
+@media screen and (min-width: 768px) {
+  .page-hero-slider img {
+    height: 548px;
+    width: 436px;
+    margin-right: 32px;
+  }
+
+  .page-hero-slider .slick-arrow.slick-prev::before {
+    top: 335px;
+    right: -590px;
+  }
+
+  .page-hero-slider .slick-arrow.slick-next::before {
+    top: 334px;
+    right: 55px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .page-hero-slider .slick-arrow.slick-prev::before {
+    top: 320px;
+    right: -30px;
+  }
+
+  .page-hero-slider .slick-arrow.slick-next::before {
+    top: 319px;
+    right: 640px;
+  }
+}
