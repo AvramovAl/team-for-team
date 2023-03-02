@@ -21,7 +21,7 @@
     />
     <!--  Base style -->
     
-    <script type="module" crossorigin src="/team-for-team/assets/change-modal-price-8423e1f1.js"></script>
+    <script type="module" crossorigin src="/team-for-team/assets/choose-modal-date-78fc46fc.js"></script>
     <link rel="stylesheet" href="/team-for-team/assets/main-f3aa0de4.css">
   </head>
   <body>
@@ -1110,6 +1110,9 @@
             <option value="3" class="modal-table-option">3</option>
             <option value="4" class="modal-table-option">4</option>
             <option value="5" class="modal-table-option">5</option>
+            <option value="6" class="modal-table-option">6</option>
+            <option value="7" class="modal-table-option">7</option>
+            <option value="8" class="modal-table-option">8</option>
           </select>
           <div class="modal-table-icon-wrap">
             <svg class="modal-table-icon" width="10" height="5">
@@ -1118,19 +1121,12 @@
           </div>
         </div>
         <div class="modal-table-field">
-          <select
+          <input
+            type="date"
             name="table-user-date"
             id="table-user-date"
-            class="modal-table-input modal-table-select" 
-          >
-            <option value="today" class="modal-table-option" selected>today</option>
-            <option value="tomorrow" class="modal-table-option">
-              tomorrow
-            </option>
-            <option value="day-after-tomorrow" class="modal-table-option">
-              day after tomorrow
-            </option>
-          </select>
+            class="modal-table-input"
+          />
           <div class="modal-table-icon-wrap">
             <svg class="modal-table-icon" width="10" height="5">
               <use href="/team-for-team/assets/icons-d2d01d28.svg#icon-chevron-down"></use>
@@ -1185,20 +1181,8 @@
           <p class="modal-room-text">phone number</p>
         </div>
         <div class="modal-room-field">
-          <select
-            class="modal-room-input modal-room-select"
-            name="user-choose-day"
-            id="user-choose-day"
-          >
-            <option value="today" class="modal-room-option" selected>
-              today
-            </option>
-            <option value="tomorrow" class="modal-room-option">tomorrow</option>
-            <option value="day-after-tomorrow" class="modal-room-option">
-              day after tomorrow
-            </option>
-          </select>
-          
+          <input type="date" class="modal-room-input" name="room-choose-date-in"
+            id="room-choose-date-in" pattern="\d{2}/\d{2}/\d{4}">
           <p class="modal-room-text">check-in date</p>
           <div class="modal-room-icon-wrap">
             <svg class="modal-room-icon" width="10" height="5">
@@ -1207,16 +1191,8 @@
           </div>
         </div>
         <div class="modal-room-field">
-          <select
-            class="modal-room-input modal-room-select"
-            name="user-choose-date"
-            id="user-choose-date"
-          >
-            <option value="" class="modal-room-option" type="date" selected>
-              25/04/2023
-            </option>
-          </select>
-          
+          <input type="date" class="modal-room-input" name="room-choose-date-out"
+            id="room-choose-date-out" pattern="\d{2}/\d{2}/\d{4}"/>          
           <p class="modal-room-text">check-out date</p>
           <div class="modal-room-icon-wrap">
             <svg class="modal-room-icon" width="10" height="5">

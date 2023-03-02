@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hotel</title>
     
-    <script type="module" crossorigin src="/team-for-team/assets/change-modal-price-8423e1f1.js"></script>
+    <script type="module" crossorigin src="/team-for-team/assets/choose-modal-date-78fc46fc.js"></script>
     <link rel="stylesheet" href="/team-for-team/assets/main-f3aa0de4.css">
   </head>
   <body>
@@ -767,20 +767,8 @@
           <p class="modal-room-text">phone number</p>
         </div>
         <div class="modal-room-field">
-          <select
-            class="modal-room-input modal-room-select"
-            name="user-choose-day"
-            id="user-choose-day"
-          >
-            <option value="today" class="modal-room-option" selected>
-              today
-            </option>
-            <option value="tomorrow" class="modal-room-option">tomorrow</option>
-            <option value="day-after-tomorrow" class="modal-room-option">
-              day after tomorrow
-            </option>
-          </select>
-          
+          <input type="date" class="modal-room-input" name="room-choose-date-in"
+            id="room-choose-date-in" pattern="\d{2}/\d{2}/\d{4}">
           <p class="modal-room-text">check-in date</p>
           <div class="modal-room-icon-wrap">
             <svg class="modal-room-icon" width="10" height="5">
@@ -789,16 +777,8 @@
           </div>
         </div>
         <div class="modal-room-field">
-          <select
-            class="modal-room-input modal-room-select"
-            name="user-choose-date"
-            id="user-choose-date"
-          >
-            <option value="" class="modal-room-option" type="date" selected>
-              25/04/2023
-            </option>
-          </select>
-          
+          <input type="date" class="modal-room-input" name="room-choose-date-out"
+            id="room-choose-date-out" pattern="\d{2}/\d{2}/\d{4}"/>          
           <p class="modal-room-text">check-out date</p>
           <div class="modal-room-icon-wrap">
             <svg class="modal-room-icon" width="10" height="5">
@@ -851,8 +831,7 @@
           <select
             class="modal-price-input modal-price-select"
             name="user-number-nights"
-            id="price-number-nights"
-          >
+            id="price-number-nights">
           </select>
           <p class="modal-price-text">number of nights</p>
           <div class="modal-room-icon-wrap">
@@ -867,20 +846,8 @@
         </div>
         <div class="modal-price-date">
           <div class="modal-price-field">
-            <select
-              class="modal-price-input modal-price-select"
-              name="user-check-in-date"
-              id="user-check-in-date"
-            >
-              <option
-                value="25-04-2023"
-                class="modal-price-option"
-                type="date"
-                selected
-              >
-                25/04/2023
-              </option>
-            </select>
+            <input type="date" class="modal-price-input" name="user-check-in-date"
+              id="user-check-in-date">
             <p class="modal-price-text">check-in date</p>
             <div class="modal-room-icon-wrap">
               <svg class="modal-room-icon" width="10" height="5">
