@@ -1,4 +1,4 @@
-'.main-restaurant-slider'.slick({
+$('.main-restaurant-slider').slick({
   dots: false,
   infinite: false,
   speed: 1300,
