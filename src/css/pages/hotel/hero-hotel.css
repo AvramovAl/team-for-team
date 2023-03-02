@@ -112,6 +112,12 @@
     margin-bottom: 642px;
   }
 
+  .hotel-hero-list {
+    position: relative;
+    display: flex;
+    gap: 32px;
+  }
+
   .hero-hotel-title {
     font-size: 80px;
     margin-bottom: 32px;
