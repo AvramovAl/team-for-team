@@ -37,6 +37,9 @@
             <option value="3" class="modal-table-option">3</option>
             <option value="4" class="modal-table-option">4</option>
             <option value="5" class="modal-table-option">5</option>
+            <option value="6" class="modal-table-option">6</option>
+            <option value="7" class="modal-table-option">7</option>
+            <option value="8" class="modal-table-option">8</option>
           </select>
           <div class="modal-table-icon-wrap">
             <svg class="modal-table-icon" width="10" height="5">
@@ -45,19 +48,13 @@
           </div>
         </div>
         <div class="modal-table-field">
-          <select
+          <input
+            type="date"
             name="table-user-date"
             id="table-user-date"
-            class="modal-table-input modal-table-select" 
-          >
-            <option value="today" class="modal-table-option" selected>today</option>
-            <option value="tomorrow" class="modal-table-option">
-              tomorrow
-            </option>
-            <option value="day-after-tomorrow" class="modal-table-option">
-              day after tomorrow
-            </option>
-          </select>
+            class="modal-table-input"
+            value="2023-03-02"
+          />
           <div class="modal-table-icon-wrap">
             <svg class="modal-table-icon" width="10" height="5">
               <use href="./img/icons.svg#icon-chevron-down"></use>
@@ -71,7 +68,7 @@
             type="tel"
             id="table-user-phone"
             name="table-user-phone"
-            value="+38 ()"
+            placeholder="+38 ()"
           />
           <p class="modal-table-text">phone number</p>
         </div>
