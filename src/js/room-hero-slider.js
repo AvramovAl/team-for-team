@@ -1,30 +1,31 @@
-$('.page-hero-slider').slick({
+$('.room-hero-slider').slick({
   dots: false,
   infinite: false,
   speed: 1300,
-  variableWidth: true,
-  // centerPadding: '100px',
-  slidesToShow: 1,
-  slidesToScroll: 1,
+  variablewidth: true,
+  slidesToShow: 4,
+  slidesToScroll: 4,
   responsive: [
     {
       breakpoint: 1440,
       settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true,
       },
     },
     {
       breakpoint: 768,
       settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
+        slidesToShow: 2,
+        slidesToScroll: 2,
       },
     },
     {
       breakpoint: 375,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 2,
         slidesToScroll: 1,
       },
     },
