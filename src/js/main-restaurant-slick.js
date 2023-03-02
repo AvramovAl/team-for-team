@@ -2,29 +2,32 @@
   dots: false,
   infinite: false,
   speed: 1300,
-  variableWidth: true,
-  // centerPadding: '100px',
-  slidesToShow: 1,
-  slidesToScroll: 1,
+  variablewidth: false,
+  slidesToShow: 4,
+  slidesToScroll: 2,
+  // prevArrow: $('.slider-1:before')
   responsive: [
     {
       breakpoint: 1440,
       settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        infinite: false,
+        dots: false,
+        variablewidth: false,
       },
     },
     {
       breakpoint: 768,
       settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
+        slidesToShow: 2,
+        slidesToScroll: 2,
       },
     },
     {
       breakpoint: 375,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 2,
         slidesToScroll: 1,
       },
     },
