@@ -43,7 +43,6 @@
 .triple-room-button {
   display: flex;
   gap: 12px;
-  min-width: 295px;
 }
 
 .triple-room-btn {
@@ -90,22 +89,27 @@
     left: 51%;
     align-self: flex-end;
   }
-  .third-photo {
-  }
+
+  /* .third-photo {
+  } */
+
   .triple-room-title {
     font-size: 40px;
     line-height: 1.1;
   }
+
   .triple-room-description {
     flex-wrap: nowrap;
     gap: 32px;
     margin-bottom: 40px;
   }
+
   .triple-room-suptitle {
     font-size: 18px;
     line-height: 1.33;
-    flex-basis: calc((100% - 32px) / 2);
+    /* flex-basis: calc((100% - 32px) / 2); */
   }
+
   .triple-room-button {
     gap: 14px;
   }
@@ -136,6 +140,7 @@
     display: flex;
     gap: 358px;
     flex-direction: row-reverse;
+    align-items: flex-start;
   }
   .triple-room-title {
     margin-bottom: 40px;
@@ -147,5 +152,14 @@
   .triple-room-btn {
     font-size: 18px;
     line-height: 1.33;
+    min-width: 166px;
+  }
+
+  .triple-room-suptitle {
+    min-width: 299px;
+  }
+
+  .triple-room-description {
+    gap: 25px;
   }
 }
