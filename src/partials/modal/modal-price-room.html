@@ -13,8 +13,7 @@
           <select
             class="modal-price-input modal-price-select"
             name="user-number-nights"
-            id="price-number-nights"
-          >
+            id="price-number-nights">
           </select>
           <p class="modal-price-text">number of nights</p>
           <div class="modal-room-icon-wrap">
@@ -29,20 +28,8 @@
         </div>
         <div class="modal-price-date">
           <div class="modal-price-field">
-            <select
-              class="modal-price-input modal-price-select"
-              name="user-check-in-date"
-              id="user-check-in-date"
-            >
-              <option
-                value="25-04-2023"
-                class="modal-price-option"
-                type="date"
-                selected
-              >
-                25/04/2023
-              </option>
-            </select>
+            <input type="date" class="modal-price-input" name="user-check-in-date"
+              id="user-check-in-date" value="2023-03-02">
             <p class="modal-price-text">check-in date</p>
             <div class="modal-room-icon-wrap">
               <svg class="modal-room-icon" width="10" height="5">
@@ -52,7 +39,7 @@
           </div>
         </div>
       </div>
-      <button class="modal-price-btn" type="submit">make a reservation</button>
+      <button class="modal-price-btn" type="submit" onclick="submitForm()">make a reservation</button>
     </form>
   </div>
 </div>

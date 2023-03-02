@@ -34,6 +34,11 @@
     modal.closeModalBtns.forEach(btn => {
       btn.addEventListener('click', toggleModal.bind(null, modal));
     });
+
+    const submitBtn = modal.modal.querySelector('[type="submit"]');
+    if (submitBtn) {
+      submitBtn.addEventListener('click', toggleModal.bind(null, modal));
+    }
   }
 
   function toggleModal(modal) {

@@ -24,25 +24,13 @@
             class="modal-room-input"
             id="user-phone"
             name="user-phone"
-            value="+38 ()"
+            placeholder="+38 ()"
           />
           <p class="modal-room-text">phone number</p>
         </div>
         <div class="modal-room-field">
-          <select
-            class="modal-room-input modal-room-select"
-            name="user-choose-day"
-            id="user-choose-day"
-          >
-            <option value="today" class="modal-room-option" selected>
-              today
-            </option>
-            <option value="tomorrow" class="modal-room-option">tomorrow</option>
-            <option value="day-after-tomorrow" class="modal-room-option">
-              day after tomorrow
-            </option>
-          </select>
-          
+          <input type="date" class="modal-room-input" name="room-choose-date-in"
+            id="room-choose-date-in" value="2023-03-02">
           <p class="modal-room-text">check-in date</p>
           <div class="modal-room-icon-wrap">
             <svg class="modal-room-icon" width="10" height="5">
@@ -51,16 +39,8 @@
           </div>
         </div>
         <div class="modal-room-field">
-          <select
-            class="modal-room-input modal-room-select"
-            name="user-choose-date"
-            id="user-choose-date"
-          >
-            <option value="" class="modal-room-option" type="date" selected>
-              25/04/2023
-            </option>
-          </select>
-          
+          <input type="date" class="modal-room-input" name="room-choose-date-out"
+            id="room-choose-date-out" value="2023-03-03"/>          
           <p class="modal-room-text">check-out date</p>
           <div class="modal-room-icon-wrap">
             <svg class="modal-room-icon" width="10" height="5">
@@ -93,7 +73,7 @@
           </div>
         </div>
       </div>
-      <button class="modal-room-btn" type="submit">make a reservation</button>
+      <button class="modal-room-btn" type="submit" onclick="submitForm()">make a reservation</button>
     </form>
   </div>
 </div>
