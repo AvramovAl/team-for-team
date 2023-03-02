@@ -3,6 +3,11 @@ window.addEventListener('load', function () {
   const priceInput = document.getElementById('price-currency-nights');
   const maxDays = 10;
 
+  // Проверяем наличие элементов на странице
+  if (!daysSelect || !priceInput) {
+    return;
+  }
+
   for (let i = 1; i <= maxDays; i++) {
     const option = document.createElement('option');
     option.value = i;
