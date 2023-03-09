@@ -237,7 +237,7 @@
         >
           book a table
         </button>
-        <button type="button" class="animation-btn button-shape-hero btn-white">
+        <button type="button" class="animation-btn button-shape-hero btn-white" onclick="window.location.href='#restaurant-section'">
           View a menu
         </button>
       </div>
@@ -1027,7 +1027,7 @@
       </svg>
     </button>
     <p class="modal-table-title">book <i>a table</i></p>
-    <form class="modal-table-form" action="#">
+    <form class="modal-table-form" action="#" id="form-table">
       <div class="modal-table-form-section">
         <div class="modal-table-field">
           <input
@@ -1035,7 +1035,8 @@
             type="text"
             id="table-user-name"
             name="table-user-name"
-            placeholder="your name"
+            placeholder="your name" 
+            required
           />
           <p class="modal-table-text">who should book a table for?</p>
         </div>
@@ -1043,7 +1044,8 @@
           <select
             name="table-user-amount"
             id="table-user-amount"
-            class="modal-table-input modal-table-select"
+            class="modal-table-input modal-table-select" 
+            required
           >
             <option
               value=""
@@ -1089,12 +1091,13 @@
             type="tel"
             id="table-user-phone"
             name="table-user-phone"
-            placeholder="+38 ()"
+            placeholder="+38 ()" 
+            required
           />
           <p class="modal-table-text">phone number</p>
         </div>
       </div>
-      <button class="modal-table-btn" type="submit" onclick="submitForm()">make a reservation</button>
+      <button class="modal-table-btn" type="submit">make a reservation</button>
     </form>
   </div>
 </div>
@@ -1116,6 +1119,5 @@
 
     <!-- Base js -->
     
-    <script src="./js/menu-active.js"></script>
   </body>
 </html>
