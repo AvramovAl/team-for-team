@@ -6,7 +6,7 @@
       </svg>
     </button>
     <p class="modal-room-title">book <i>a room</i></p>
-    <form class="modal-room-form" action="#">
+    <form class="modal-room-form" action="#" id="form-room">
       <div class="modal-room-form-section">
         <div class="modal-room-field">
           <input
@@ -14,7 +14,8 @@
             type="text"
             id="room-user-name"
             name="room-user-name"
-            placeholder="your name"
+            placeholder="your name" 
+            required
           />
           <p class="modal-room-text">who should book a table for?</p>
         </div>
@@ -30,7 +31,7 @@
         </div>
         <div class="modal-room-field">
           <input type="date" class="modal-room-input" name="room-choose-date-in"
-            id="room-choose-date-in" value="2023-03-02">
+            id="room-choose-date-in" value="2023-03-02" required>
           <p class="modal-room-text">check-in date</p>
           <div class="modal-room-icon-wrap">
             <svg class="modal-room-icon" width="10" height="5">
@@ -73,7 +74,7 @@
           </div>
         </div>
       </div>
-      <button class="modal-room-btn" type="submit" onclick="submitForm()">make a reservation</button>
+      <button class="modal-room-btn" type="submit">make a reservation</button>
     </form>
   </div>
 </div>
