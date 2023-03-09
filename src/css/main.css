@@ -13,6 +13,7 @@
 @import url('./components/container.css');
 @import url('./components/button.css');
 @import url('./utils/slick.css');
+@import url('./pages/slick-pages/hero-slick.css');
 /* Header style */
 @import url('./header.css');
 /* Main style */
