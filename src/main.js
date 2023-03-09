@@ -5,3 +5,4 @@ import './js/menu-slider';
 import './js/modal';
 import './js/menu-active';
 import './js/modal-change/change-modal-price';
+import './js/modal-change/form-modal-required';
